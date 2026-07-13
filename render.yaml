@@ -1,0 +1,28 @@
+# Phase 12.4 — Render deployment configuration
+# Place this in the root of your repository
+
+services:
+  - type: web
+    name: cricketiq-ai-backend
+    runtime: python
+    buildCommand: pip install -r backend/requirements.txt
+    startCommand: cd backend && uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    rootDir: .
+    envVars:
+      - key: MYSQL_USER
+        sync: false
+      - key: MYSQL_PASSWORD
+        sync: false
+      - key: MYSQL_HOST
+        sync: false
+      - key: MYSQL_PORT
+        sync: false
+      - key: MYSQL_DATABASE
+        sync: false
+      - key: GROQ_API_KEY
+        sync: false
+      - key: HF_TOKEN
+        sync: false
+      - key: LOG_LEVEL
+        value: INFO
+    healthCheckPath: /

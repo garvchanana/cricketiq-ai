@@ -1,0 +1,2650 @@
+[
+  {
+    "player_name": "A Ashish Reddy",
+    "canonical_name": "A Ashish Reddy",
+    "role": "Batter",
+    "chunk": "Player: A Ashish Reddy\nRole: Batter\nA Ashish Reddy is classified as a Batter. The player has an overall rating of 289.08 based on batting and bowling analytics.\nA Ashish Reddy has scored 280 IPL runs with a strike rate of 142.86.\nA Ashish Reddy has taken 19 wickets with an economy rate of 8.89.",
+    "retrieval_source": "exact",
+    "overall_rating": 289.08
+  },
+  {
+    "player_name": "A Badoni",
+    "canonical_name": "Ayush Badoni",
+    "role": "Batter",
+    "chunk": "Player: A Badoni\nRole: Batter\nA Badoni is classified as a Batter. The player has an overall rating of 506.58 based on batting and bowling analytics.\nA Badoni has scored 1135 IPL runs with a strike rate of 131.06.\nA Badoni has taken 4 wickets with an economy rate of 9.37.",
+    "retrieval_source": "exact",
+    "overall_rating": 506.58
+  },
+  {
+    "player_name": "A Manohar",
+    "canonical_name": "A Manohar",
+    "role": "Batter",
+    "chunk": "Player: A Manohar\nRole: Batter\nA Manohar is classified as a Batter. The player has an overall rating of 152.85 based on batting and bowling analytics.\nA Manohar has scored 292 IPL runs with a strike rate of 120.16.\nA Manohar has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 152.85
+  },
+  {
+    "player_name": "A Mhatre",
+    "canonical_name": "A Mhatre",
+    "role": "Batter",
+    "chunk": "Player: A Mhatre\nRole: Batter\nA Mhatre is classified as a Batter. The player has an overall rating of 229.32 based on batting and bowling analytics.\nA Mhatre has scored 441 IPL runs with a strike rate of 176.4.\nA Mhatre has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 229.32
+  },
+  {
+    "player_name": "A Mishra",
+    "canonical_name": "Amit Mishra",
+    "role": "Bowler",
+    "chunk": "Player: A Mishra\nRole: Bowler\nA Mishra is classified as a Bowler. The player has an overall rating of 1627.78 based on batting and bowling analytics.\nA Mishra has scored 381 IPL runs with a strike rate of 86.59.\nA Mishra has taken 183 wickets with an economy rate of 7.3.",
+    "retrieval_source": "exact",
+    "overall_rating": 1627.78
+  },
+  {
+    "player_name": "A Raghuvanshi",
+    "canonical_name": "A Raghuvanshi",
+    "role": "Batter",
+    "chunk": "Player: A Raghuvanshi\nRole: Batter\nA Raghuvanshi is classified as a Batter. The player has an overall rating of 396.28 based on batting and bowling analytics.\nA Raghuvanshi has scored 885 IPL runs with a strike rate of 140.92.\nA Raghuvanshi has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 396.28
+  },
+  {
+    "player_name": "A Symonds",
+    "canonical_name": "Andrew Symonds",
+    "role": "All-Rounder",
+    "chunk": "Player: A Symonds\nRole: All-Rounder\nA Symonds is classified as a All-Rounder. The player has an overall rating of 595.59 based on batting and bowling analytics.\nA Symonds has scored 974 IPL runs with a strike rate of 124.71.\nA Symonds has taken 23 wickets with an economy rate of 7.71.",
+    "retrieval_source": "exact",
+    "overall_rating": 595.59
+  },
+  {
+    "player_name": "AA Jhunjhunwala",
+    "canonical_name": "AA Jhunjhunwala",
+    "role": "Batter",
+    "chunk": "Player: AA Jhunjhunwala\nRole: Batter\nAA Jhunjhunwala is classified as a Batter. The player has an overall rating of 106.94 based on batting and bowling analytics.\nAA Jhunjhunwala has scored 217 IPL runs with a strike rate of 99.54.\nAA Jhunjhunwala has taken 1 wickets with an economy rate of 8.86.",
+    "retrieval_source": "exact",
+    "overall_rating": 106.94
+  },
+  {
+    "player_name": "AB Agarkar",
+    "canonical_name": "Ajit Agarkar",
+    "role": "Bowler",
+    "chunk": "Player: AB Agarkar\nRole: Bowler\nAB Agarkar is classified as a Bowler. The player has an overall rating of 351.98 based on batting and bowling analytics.\nAB Agarkar has scored 179 IPL runs with a strike rate of 111.88.\nAB Agarkar has taken 33 wickets with an economy rate of 8.59.",
+    "retrieval_source": "exact",
+    "overall_rating": 351.98
+  },
+  {
+    "player_name": "AB de Villiers",
+    "canonical_name": "AB de Villiers",
+    "role": "Batter",
+    "chunk": "Player: AB de Villiers\nRole: Batter\nAB de Villiers is classified as a Batter. The player has an overall rating of 2116.97 based on batting and bowling analytics.\nAB de Villiers has scored 5181 IPL runs with a strike rate of 148.58.\nAB de Villiers has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 2116.97
+  },
+  {
+    "player_name": "AB McDonald",
+    "canonical_name": "Andrew McDonald",
+    "role": "Batter",
+    "chunk": "Player: AB McDonald\nRole: Batter\nAB McDonald is classified as a Batter. The player has an overall rating of 180.25 based on batting and bowling analytics.\nAB McDonald has scored 123 IPL runs with a strike rate of 119.42.\nAB McDonald has taken 14 wickets with an economy rate of 8.39.",
+    "retrieval_source": "exact",
+    "overall_rating": 180.25
+  },
+  {
+    "player_name": "Abdul Samad",
+    "canonical_name": "Abdul Samad",
+    "role": "Batter",
+    "chunk": "Player: Abdul Samad\nRole: Batter\nAbdul Samad is classified as a Batter. The player has an overall rating of 361.83 based on batting and bowling analytics.\nAbdul Samad has scored 822 IPL runs with a strike rate of 142.96.\nAbdul Samad has taken 2 wickets with an economy rate of 12.93.",
+    "retrieval_source": "exact",
+    "overall_rating": 361.83
+  },
+  {
+    "player_name": "Abhishek Sharma",
+    "canonical_name": "Abhishek Sharma",
+    "role": "Batter",
+    "chunk": "Player: Abhishek Sharma\nRole: Batter\nAbhishek Sharma is classified as a Batter. The player has an overall rating of 1047.53 based on batting and bowling analytics.\nAbhishek Sharma has scored 2323 IPL runs with a strike rate of 160.76.\nAbhishek Sharma has taken 11 wickets with an economy rate of 8.95.",
+    "retrieval_source": "exact",
+    "overall_rating": 1047.53
+  },
+  {
+    "player_name": "Abishek Porel",
+    "canonical_name": "Abishek Porel",
+    "role": "Batter",
+    "chunk": "Player: Abishek Porel\nRole: Batter\nAbishek Porel is classified as a Batter. The player has an overall rating of 341.24 based on batting and bowling analytics.\nAbishek Porel has scored 747 IPL runs with a strike rate of 141.48.\nAbishek Porel has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 341.24
+  },
+  {
+    "player_name": "AC Blizzard",
+    "canonical_name": "AC Blizzard",
+    "role": "Batter",
+    "chunk": "Player: AC Blizzard\nRole: Batter\nAC Blizzard is classified as a Batter. The player has an overall rating of 87.56 based on batting and bowling analytics.\nAC Blizzard has scored 120 IPL runs with a strike rate of 131.87.\nAC Blizzard has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 87.56
+  },
+  {
+    "player_name": "AC Gilchrist",
+    "canonical_name": "Adam Gilchrist",
+    "role": "Batter",
+    "chunk": "Player: AC Gilchrist\nRole: Batter\nAC Gilchrist is classified as a Batter. The player has an overall rating of 875.51 based on batting and bowling analytics.\nAC Gilchrist has scored 2069 IPL runs with a strike rate of 133.05.\nAC Gilchrist has taken 1 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 875.51
+  },
+  {
+    "player_name": "AC Voges",
+    "canonical_name": "Adam Voges",
+    "role": "Batter",
+    "chunk": "Player: AC Voges\nRole: Batter\nAC Voges is classified as a Batter. The player has an overall rating of 102.09 based on batting and bowling analytics.\nAC Voges has scored 181 IPL runs with a strike rate of 126.57.\nAC Voges has taken 1 wickets with an economy rate of 8.14.",
+    "retrieval_source": "exact",
+    "overall_rating": 102.09
+  },
+  {
+    "player_name": "AD Hales",
+    "canonical_name": "Alex Hales",
+    "role": "Batter",
+    "chunk": "Player: AD Hales\nRole: Batter\nAD Hales is classified as a Batter. The player has an overall rating of 96.51 based on batting and bowling analytics.\nAD Hales has scored 148 IPL runs with a strike rate of 124.37.\nAD Hales has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 96.51
+  },
+  {
+    "player_name": "AD Mathews",
+    "canonical_name": "Angelo Mathews",
+    "role": "All-Rounder",
+    "chunk": "Player: AD Mathews\nRole: All-Rounder\nAD Mathews is classified as a All-Rounder. The player has an overall rating of 533.58 based on batting and bowling analytics.\nAD Mathews has scored 724 IPL runs with a strike rate of 120.87.\nAD Mathews has taken 28 wickets with an economy rate of 8.14.",
+    "retrieval_source": "exact",
+    "overall_rating": 533.58
+  },
+  {
+    "player_name": "AD Russell",
+    "canonical_name": "Andre Russell",
+    "role": "All-Rounder",
+    "chunk": "Player: AD Russell\nRole: All-Rounder\nAD Russell is classified as a All-Rounder. The player has an overall rating of 2156.46 based on batting and bowling analytics.\nAD Russell has scored 2655 IPL runs with a strike rate of 163.28.\nAD Russell has taken 133 wickets with an economy rate of 9.26.",
+    "retrieval_source": "exact",
+    "overall_rating": 2156.46
+  },
+  {
+    "player_name": "AJ Finch",
+    "canonical_name": "Aaron Finch",
+    "role": "Batter",
+    "chunk": "Player: AJ Finch\nRole: Batter\nAJ Finch is classified as a Batter. The player has an overall rating of 863.53 based on batting and bowling analytics.\nAJ Finch has scored 2092 IPL runs with a strike rate of 123.35.\nAJ Finch has taken 1 wickets with an economy rate of 9.14.",
+    "retrieval_source": "exact",
+    "overall_rating": 863.53
+  },
+  {
+    "player_name": "AK Markram",
+    "canonical_name": "Aiden Markram",
+    "role": "Batter",
+    "chunk": "Player: AK Markram\nRole: Batter\nAK Markram is classified as a Batter. The player has an overall rating of 737.38 based on batting and bowling analytics.\nAK Markram has scored 1671 IPL runs with a strike rate of 132.2.\nAK Markram has taken 6 wickets with an economy rate of 9.34.",
+    "retrieval_source": "exact",
+    "overall_rating": 737.38
+  },
+  {
+    "player_name": "AL Menaria",
+    "canonical_name": "AL Menaria",
+    "role": "Batter",
+    "chunk": "Player: AL Menaria\nRole: Batter\nAL Menaria is classified as a Batter. The player has an overall rating of 201.88 based on batting and bowling analytics.\nAL Menaria has scored 401 IPL runs with a strike rate of 109.26.\nAL Menaria has taken 3 wickets with an economy rate of 7.65.",
+    "retrieval_source": "exact",
+    "overall_rating": 201.88
+  },
+  {
+    "player_name": "AM Nayar",
+    "canonical_name": "Abhishek Nayar",
+    "role": "Batter",
+    "chunk": "Player: AM Nayar\nRole: Batter\nAM Nayar is classified as a Batter. The player has an overall rating of 358.87 based on batting and bowling analytics.\nAM Nayar has scored 672 IPL runs with a strike rate of 114.29.\nAM Nayar has taken 9 wickets with an economy rate of 8.11.",
+    "retrieval_source": "exact",
+    "overall_rating": 358.87
+  },
+  {
+    "player_name": "AM Rahane",
+    "canonical_name": "Ajinkya Rahane",
+    "role": "Batter",
+    "chunk": "Player: AM Rahane\nRole: Batter\nAM Rahane is classified as a Batter. The player has an overall rating of 2156.18 based on batting and bowling analytics.\nAM Rahane has scored 5304 IPL runs with a strike rate of 121.93.\nAM Rahane has taken 1 wickets with an economy rate of 5.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 2156.18
+  },
+  {
+    "player_name": "Aman Hakim Khan",
+    "canonical_name": "Aman Hakim Khan",
+    "role": "Batter",
+    "chunk": "Player: Aman Hakim Khan\nRole: Batter\nAman Hakim Khan is classified as a Batter. The player has an overall rating of 51.65 based on batting and bowling analytics.\nAman Hakim Khan has scored 115 IPL runs with a strike rate of 105.5.\nAman Hakim Khan has taken 0 wickets with an economy rate of 13.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 51.65
+  },
+  {
+    "player_name": "Aniket Verma",
+    "canonical_name": "Aniket Verma",
+    "role": "Batter",
+    "chunk": "Player: Aniket Verma\nRole: Batter\nAniket Verma is classified as a Batter. The player has an overall rating of 172.1 based on batting and bowling analytics.\nAniket Verma has scored 315 IPL runs with a strike rate of 153.66.\nAniket Verma has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 172.1
+  },
+  {
+    "player_name": "Anmolpreet Singh",
+    "canonical_name": "Anmolpreet Singh",
+    "role": "Batter",
+    "chunk": "Player: Anmolpreet Singh\nRole: Batter\nAnmolpreet Singh is classified as a Batter. The player has an overall rating of 91.24 based on batting and bowling analytics.\nAnmolpreet Singh has scored 139 IPL runs with a strike rate of 118.8.\nAnmolpreet Singh has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 91.24
+  },
+  {
+    "player_name": "Anuj Rawat",
+    "canonical_name": "Anuj Rawat",
+    "role": "Batter",
+    "chunk": "Player: Anuj Rawat\nRole: Batter\nAnuj Rawat is classified as a Batter. The player has an overall rating of 161.77 based on batting and bowling analytics.\nAnuj Rawat has scored 318 IPL runs with a strike rate of 115.22.\nAnuj Rawat has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 161.77
+  },
+  {
+    "player_name": "AP Tare",
+    "canonical_name": "Aditya Tare",
+    "role": "Batter",
+    "chunk": "Player: AP Tare\nRole: Batter\nAP Tare is classified as a Batter. The player has an overall rating of 171.28 based on batting and bowling analytics.\nAP Tare has scored 339 IPL runs with a strike rate of 118.95.\nAP Tare has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 171.28
+  },
+  {
+    "player_name": "AR Patel",
+    "canonical_name": "Axar Patel",
+    "role": "All-Rounder",
+    "chunk": "Player: AR Patel\nRole: All-Rounder\nAR Patel is classified as a All-Rounder. The player has an overall rating of 2019.43 based on batting and bowling analytics.\nAR Patel has scored 2050 IPL runs with a strike rate of 127.49.\nAR Patel has taken 147 wickets with an economy rate of 7.41.",
+    "retrieval_source": "exact",
+    "overall_rating": 2019.43
+  },
+  {
+    "player_name": "Arshad Khan",
+    "canonical_name": "Arshad Khan",
+    "role": "Batter",
+    "chunk": "Player: Arshad Khan\nRole: Batter\nArshad Khan is classified as a Batter. The player has an overall rating of 221.97 based on batting and bowling analytics.\nArshad Khan has scored 127 IPL runs with a strike rate of 132.29.\nArshad Khan has taken 19 wickets with an economy rate of 10.26.",
+    "retrieval_source": "exact",
+    "overall_rating": 221.97
+  },
+  {
+    "player_name": "AS Raut",
+    "canonical_name": "AS Raut",
+    "role": "Batter",
+    "chunk": "Player: AS Raut\nRole: Batter\nAS Raut is classified as a Batter. The player has an overall rating of 93.44 based on batting and bowling analytics.\nAS Raut has scored 194 IPL runs with a strike rate of 112.79.\nAS Raut has taken 0 wickets with an economy rate of 9.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 93.44
+  },
+  {
+    "player_name": "Ashutosh Sharma",
+    "canonical_name": "Ashutosh Sharma",
+    "role": "Batter",
+    "chunk": "Player: Ashutosh Sharma\nRole: Batter\nAshutosh Sharma is classified as a Batter. The player has an overall rating of 265.88 based on batting and bowling analytics.\nAshutosh Sharma has scored 546 IPL runs with a strike rate of 158.26.\nAshutosh Sharma has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 265.88
+  },
+  {
+    "player_name": "AT Rayudu",
+    "canonical_name": "Ambati Rayudu",
+    "role": "Batter",
+    "chunk": "Player: AT Rayudu\nRole: Batter\nAT Rayudu is classified as a Batter. The player has an overall rating of 1776.57 based on batting and bowling analytics.\nAT Rayudu has scored 4348 IPL runs with a strike rate of 124.58.\nAT Rayudu has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 1776.57
+  },
+  {
+    "player_name": "Atharva Taide",
+    "canonical_name": "Atharva Taide",
+    "role": "Batter",
+    "chunk": "Player: Atharva Taide\nRole: Batter\nAtharva Taide is classified as a Batter. The player has an overall rating of 97.49 based on batting and bowling analytics.\nAtharva Taide has scored 260 IPL runs with a strike rate of 138.3.\nAtharva Taide has taken 0 wickets with an economy rate of 24.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 97.49
+  },
+  {
+    "player_name": "Azhar Mahmood",
+    "canonical_name": "Azhar Mahmood",
+    "role": "Bowler",
+    "chunk": "Player: Azhar Mahmood\nRole: Bowler\nAzhar Mahmood is classified as a Bowler. The player has an overall rating of 425.27 based on batting and bowling analytics.\nAzhar Mahmood has scored 388 IPL runs with a strike rate of 124.76.\nAzhar Mahmood has taken 31 wickets with an economy rate of 7.68.",
+    "retrieval_source": "exact",
+    "overall_rating": 425.27
+  },
+  {
+    "player_name": "Azmatullah Omarzai",
+    "canonical_name": "Azmatullah Omarzai",
+    "role": "Batter",
+    "chunk": "Player: Azmatullah Omarzai\nRole: Batter\nAzmatullah Omarzai is classified as a Batter. The player has an overall rating of 196.68 based on batting and bowling analytics.\nAzmatullah Omarzai has scored 151 IPL runs with a strike rate of 143.81.\nAzmatullah Omarzai has taken 14 wickets with an economy rate of 9.43.",
+    "retrieval_source": "exact",
+    "overall_rating": 196.68
+  },
+  {
+    "player_name": "B Chipli",
+    "canonical_name": "B Chipli",
+    "role": "Batter",
+    "chunk": "Player: B Chipli\nRole: Batter\nB Chipli is classified as a Batter. The player has an overall rating of 104.81 based on batting and bowling analytics.\nB Chipli has scored 280 IPL runs with a strike rate of 109.38.\nB Chipli has taken 0 wickets with an economy rate of 20.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 104.81
+  },
+  {
+    "player_name": "B Kumar",
+    "canonical_name": "Bhuvneshwar Kumar",
+    "role": "Bowler",
+    "chunk": "Player: B Kumar\nRole: Bowler\nB Kumar is classified as a Bowler. The player has an overall rating of 2065.51 based on batting and bowling analytics.\nB Kumar has scored 354 IPL runs with a strike rate of 90.31.\nB Kumar has taken 239 wickets with an economy rate of 7.59.",
+    "retrieval_source": "exact",
+    "overall_rating": 2065.51
+  },
+  {
+    "player_name": "B Lee",
+    "canonical_name": "Brett Lee",
+    "role": "Bowler",
+    "chunk": "Player: B Lee\nRole: Bowler\nB Lee is classified as a Bowler. The player has an overall rating of 311.31 based on batting and bowling analytics.\nB Lee has scored 124 IPL runs with a strike rate of 121.57.\nB Lee has taken 30 wickets with an economy rate of 7.38.",
+    "retrieval_source": "exact",
+    "overall_rating": 311.31
+  },
+  {
+    "player_name": "B Sai Sudharsan",
+    "canonical_name": "B Sai Sudharsan",
+    "role": "Batter",
+    "chunk": "Player: B Sai Sudharsan\nRole: Batter\nB Sai Sudharsan is classified as a Batter. The player has an overall rating of 1015.23 based on batting and bowling analytics.\nB Sai Sudharsan has scored 2431 IPL runs with a strike rate of 142.75.\nB Sai Sudharsan has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 1015.23
+  },
+  {
+    "player_name": "BA Stokes",
+    "canonical_name": "Ben Stokes",
+    "role": "All-Rounder",
+    "chunk": "Player: BA Stokes\nRole: All-Rounder\nBA Stokes is classified as a All-Rounder. The player has an overall rating of 644.09 based on batting and bowling analytics.\nBA Stokes has scored 935 IPL runs with a strike rate of 130.22.\nBA Stokes has taken 31 wickets with an economy rate of 8.49.",
+    "retrieval_source": "exact",
+    "overall_rating": 644.09
+  },
+  {
+    "player_name": "BB McCullum",
+    "canonical_name": "Brendon McCullum",
+    "role": "Batter",
+    "chunk": "Player: BB McCullum\nRole: Batter\nBB McCullum is classified as a Batter. The player has an overall rating of 1190.86 based on batting and bowling analytics.\nBB McCullum has scored 2882 IPL runs with a strike rate of 126.85.\nBB McCullum has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 1190.86
+  },
+  {
+    "player_name": "BB Samantray",
+    "canonical_name": "BB Samantray",
+    "role": "Batter",
+    "chunk": "Player: BB Samantray\nRole: Batter\nBB Samantray is classified as a Batter. The player has an overall rating of 82.33 based on batting and bowling analytics.\nBB Samantray has scored 125 IPL runs with a strike rate of 107.76.\nBB Samantray has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 82.33
+  },
+  {
+    "player_name": "BCJ Cutting",
+    "canonical_name": "Ben Cutting",
+    "role": "Batter",
+    "chunk": "Player: BCJ Cutting\nRole: Batter\nBCJ Cutting is classified as a Batter. The player has an overall rating of 222.18 based on batting and bowling analytics.\nBCJ Cutting has scored 238 IPL runs with a strike rate of 163.01.\nBCJ Cutting has taken 12 wickets with an economy rate of 8.96.",
+    "retrieval_source": "exact",
+    "overall_rating": 222.18
+  },
+  {
+    "player_name": "Bipul Sharma",
+    "canonical_name": "Bipul Sharma",
+    "role": "Bowler",
+    "chunk": "Player: Bipul Sharma\nRole: Bowler\nBipul Sharma is classified as a Bowler. The player has an overall rating of 280.04 based on batting and bowling analytics.\nBipul Sharma has scored 187 IPL runs with a strike rate of 150.81.\nBipul Sharma has taken 22 wickets with an economy rate of 8.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 280.04
+  },
+  {
+    "player_name": "BJ Hodge",
+    "canonical_name": "Brad Hodge",
+    "role": "Batter",
+    "chunk": "Player: BJ Hodge\nRole: Batter\nBJ Hodge is classified as a Batter. The player has an overall rating of 724.79 based on batting and bowling analytics.\nBJ Hodge has scored 1400 IPL runs with a strike rate of 121.42.\nBJ Hodge has taken 18 wickets with an economy rate of 7.82.",
+    "retrieval_source": "exact",
+    "overall_rating": 724.79
+  },
+  {
+    "player_name": "BJ Rohrer",
+    "canonical_name": "BJ Rohrer",
+    "role": "Batter",
+    "chunk": "Player: BJ Rohrer\nRole: Batter\nBJ Rohrer is classified as a Batter. The player has an overall rating of 96.28 based on batting and bowling analytics.\nBJ Rohrer has scored 193 IPL runs with a strike rate of 132.19.\nBJ Rohrer has taken 0 wickets with an economy rate of 10.29.",
+    "retrieval_source": "exact",
+    "overall_rating": 96.28
+  },
+  {
+    "player_name": "C Connolly",
+    "canonical_name": "C Connolly",
+    "role": "Batter",
+    "chunk": "Player: C Connolly\nRole: Batter\nC Connolly is classified as a Batter. The player has an overall rating of 235.88 based on batting and bowling analytics.\nC Connolly has scored 473 IPL runs with a strike rate of 155.59.\nC Connolly has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 235.88
+  },
+  {
+    "player_name": "C de Grandhomme",
+    "canonical_name": "Colin de Grandhomme",
+    "role": "Batter",
+    "chunk": "Player: C de Grandhomme\nRole: Batter\nC de Grandhomme is classified as a Batter. The player has an overall rating of 200.03 based on batting and bowling analytics.\nC de Grandhomme has scored 303 IPL runs with a strike rate of 132.31.\nC de Grandhomme has taken 7 wickets with an economy rate of 8.43.",
+    "retrieval_source": "exact",
+    "overall_rating": 200.03
+  },
+  {
+    "player_name": "C Green",
+    "canonical_name": "Cameron Green",
+    "role": "All-Rounder",
+    "chunk": "Player: C Green\nRole: All-Rounder\nC Green is classified as a All-Rounder. The player has an overall rating of 652.72 based on batting and bowling analytics.\nC Green has scored 1027 IPL runs with a strike rate of 146.92.\nC Green has taken 27 wickets with an economy rate of 9.08.",
+    "retrieval_source": "exact",
+    "overall_rating": 652.72
+  },
+  {
+    "player_name": "C Munro",
+    "canonical_name": "Colin Munro",
+    "role": "Batter",
+    "chunk": "Player: C Munro\nRole: Batter\nC Munro is classified as a Batter. The player has an overall rating of 92.68 based on batting and bowling analytics.\nC Munro has scored 177 IPL runs with a strike rate of 122.92.\nC Munro has taken 0 wickets with an economy rate of 7.5.",
+    "retrieval_source": "exact",
+    "overall_rating": 92.68
+  },
+  {
+    "player_name": "CA Ingram",
+    "canonical_name": "Colin Ingram",
+    "role": "Batter",
+    "chunk": "Player: CA Ingram\nRole: Batter\nCA Ingram is classified as a Batter. The player has an overall rating of 115.61 based on batting and bowling analytics.\nCA Ingram has scored 205 IPL runs with a strike rate of 112.02.\nCA Ingram has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 115.61
+  },
+  {
+    "player_name": "CA Lynn",
+    "canonical_name": "Chris Lynn",
+    "role": "Batter",
+    "chunk": "Player: CA Lynn\nRole: Batter\nCA Lynn is classified as a Batter. The player has an overall rating of 572.53 based on batting and bowling analytics.\nCA Lynn has scored 1329 IPL runs with a strike rate of 136.45.\nCA Lynn has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 572.53
+  },
+  {
+    "player_name": "CA Pujara",
+    "canonical_name": "Cheteshwar Pujara",
+    "role": "Batter",
+    "chunk": "Player: CA Pujara\nRole: Batter\nCA Pujara is classified as a Batter. The player has an overall rating of 185.03 based on batting and bowling analytics.\nCA Pujara has scored 390 IPL runs with a strike rate of 96.77.\nCA Pujara has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 185.03
+  },
+  {
+    "player_name": "CH Gayle",
+    "canonical_name": "Chris Gayle",
+    "role": "Batter",
+    "chunk": "Player: CH Gayle\nRole: Batter\nCH Gayle is classified as a Batter. The player has an overall rating of 2177.92 based on batting and bowling analytics.\nCH Gayle has scored 4997 IPL runs with a strike rate of 142.12.\nCH Gayle has taken 19 wickets with an economy rate of 7.76.",
+    "retrieval_source": "exact",
+    "overall_rating": 2177.92
+  },
+  {
+    "player_name": "CH Morris",
+    "canonical_name": "Chris Morris",
+    "role": "All-Rounder",
+    "chunk": "Player: CH Morris\nRole: All-Rounder\nCH Morris is classified as a All-Rounder. The player has an overall rating of 1132.25 based on batting and bowling analytics.\nCH Morris has scored 618 IPL runs with a strike rate of 149.64.\nCH Morris has taken 107 wickets with an economy rate of 7.92.",
+    "retrieval_source": "exact",
+    "overall_rating": 1132.25
+  },
+  {
+    "player_name": "CJ Anderson",
+    "canonical_name": "Corey Anderson",
+    "role": "Batter",
+    "chunk": "Player: CJ Anderson\nRole: Batter\nCJ Anderson is classified as a Batter. The player has an overall rating of 344.22 based on batting and bowling analytics.\nCJ Anderson has scored 538 IPL runs with a strike rate of 123.39.\nCJ Anderson has taken 14 wickets with an economy rate of 10.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 344.22
+  },
+  {
+    "player_name": "CL White",
+    "canonical_name": "Cameron White",
+    "role": "Batter",
+    "chunk": "Player: CL White\nRole: Batter\nCL White is classified as a Batter. The player has an overall rating of 411.6 based on batting and bowling analytics.\nCL White has scored 971 IPL runs with a strike rate of 125.45.\nCL White has taken 1 wickets with an economy rate of 11.22.",
+    "retrieval_source": "exact",
+    "overall_rating": 411.6
+  },
+  {
+    "player_name": "CM Gautam",
+    "canonical_name": "CM Gautam",
+    "role": "Batter",
+    "chunk": "Player: CM Gautam\nRole: Batter\nCM Gautam is classified as a Batter. The player has an overall rating of 99.69 based on batting and bowling analytics.\nCM Gautam has scored 169 IPL runs with a strike rate of 106.96.\nCM Gautam has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 99.69
+  },
+  {
+    "player_name": "CR Brathwaite",
+    "canonical_name": "Carlos Brathwaite",
+    "role": "Batter",
+    "chunk": "Player: CR Brathwaite\nRole: Batter\nCR Brathwaite is classified as a Batter. The player has an overall rating of 228.33 based on batting and bowling analytics.\nCR Brathwaite has scored 181 IPL runs with a strike rate of 150.83.\nCR Brathwaite has taken 16 wickets with an economy rate of 8.66.",
+    "retrieval_source": "exact",
+    "overall_rating": 228.33
+  },
+  {
+    "player_name": "D Brevis",
+    "canonical_name": "Dewald Brevis",
+    "role": "Batter",
+    "chunk": "Player: D Brevis\nRole: Batter\nD Brevis is classified as a Batter. The player has an overall rating of 260.48 based on batting and bowling analytics.\nD Brevis has scored 606 IPL runs with a strike rate of 140.28.\nD Brevis has taken 1 wickets with an economy rate of 16.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 260.48
+  },
+  {
+    "player_name": "D Ferreira",
+    "canonical_name": "D Ferreira",
+    "role": "Batter",
+    "chunk": "Player: D Ferreira\nRole: Batter\nD Ferreira is classified as a Batter. The player has an overall rating of 132.23 based on batting and bowling analytics.\nD Ferreira has scored 258 IPL runs with a strike rate of 161.25.\nD Ferreira has taken 1 wickets with an economy rate of 13.67.",
+    "retrieval_source": "exact",
+    "overall_rating": 132.23
+  },
+  {
+    "player_name": "D Padikkal",
+    "canonical_name": "Devdutt Padikkal",
+    "role": "Batter",
+    "chunk": "Player: D Padikkal\nRole: Batter\nD Padikkal is classified as a Batter. The player has an overall rating of 925.4 based on batting and bowling analytics.\nD Padikkal has scored 2218 IPL runs with a strike rate of 127.32.\nD Padikkal has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 925.4
+  },
+  {
+    "player_name": "D Wiese",
+    "canonical_name": "David Wiese",
+    "role": "Batter",
+    "chunk": "Player: D Wiese\nRole: Batter\nD Wiese is classified as a Batter. The player has an overall rating of 220.0 based on batting and bowling analytics.\nD Wiese has scored 148 IPL runs with a strike rate of 140.95.\nD Wiese has taken 17 wickets with an economy rate of 8.74.",
+    "retrieval_source": "exact",
+    "overall_rating": 220.0
+  },
+  {
+    "player_name": "DA Miller",
+    "canonical_name": "David Miller",
+    "role": "Batter",
+    "chunk": "Player: DA Miller\nRole: Batter\nDA Miller is classified as a Batter. The player has an overall rating of 1344.41 based on batting and bowling analytics.\nDA Miller has scored 3260 IPL runs with a strike rate of 134.71.\nDA Miller has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 1344.41
+  },
+  {
+    "player_name": "DA Warner",
+    "canonical_name": "David Warner",
+    "role": "Batter",
+    "chunk": "Player: DA Warner\nRole: Batter\nDA Warner is classified as a Batter. The player has an overall rating of 2655.43 based on batting and bowling analytics.\nDA Warner has scored 6567 IPL runs with a strike rate of 135.43.\nDA Warner has taken 0 wickets with an economy rate of 6.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 2655.43
+  },
+  {
+    "player_name": "DB Das",
+    "canonical_name": "DB Das",
+    "role": "Batter",
+    "chunk": "Player: DB Das\nRole: Batter\nDB Das is classified as a Batter. The player has an overall rating of 155.76 based on batting and bowling analytics.\nDB Das has scored 304 IPL runs with a strike rate of 113.86.\nDB Das has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 155.76
+  },
+  {
+    "player_name": "DB Ravi Teja",
+    "canonical_name": "DB Ravi Teja",
+    "role": "Batter",
+    "chunk": "Player: DB Ravi Teja\nRole: Batter\nDB Ravi Teja is classified as a Batter. The player has an overall rating of 173.95 based on batting and bowling analytics.\nDB Ravi Teja has scored 375 IPL runs with a strike rate of 115.38.\nDB Ravi Teja has taken 1 wickets with an economy rate of 9.33.",
+    "retrieval_source": "exact",
+    "overall_rating": 173.95
+  },
+  {
+    "player_name": "DH Yagnik",
+    "canonical_name": "DH Yagnik",
+    "role": "Batter",
+    "chunk": "Player: DH Yagnik\nRole: Batter\nDH Yagnik is classified as a Batter. The player has an overall rating of 103.92 based on batting and bowling analytics.\nDH Yagnik has scored 170 IPL runs with a strike rate of 119.72.\nDH Yagnik has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 103.92
+  },
+  {
+    "player_name": "Dhruv Jurel",
+    "canonical_name": "Dhruv Jurel",
+    "role": "Batter",
+    "chunk": "Player: Dhruv Jurel\nRole: Batter\nDhruv Jurel is classified as a Batter. The player has an overall rating of 484.18 based on batting and bowling analytics.\nDhruv Jurel has scored 1100 IPL runs with a strike rate of 147.26.\nDhruv Jurel has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 484.18
+  },
+  {
+    "player_name": "DJ Bravo",
+    "canonical_name": "Dwayne Bravo",
+    "role": "All-Rounder",
+    "chunk": "Player: DJ Bravo\nRole: All-Rounder\nDJ Bravo is classified as a All-Rounder. The player has an overall rating of 2301.37 based on batting and bowling analytics.\nDJ Bravo has scored 1560 IPL runs with a strike rate of 125.1.\nDJ Bravo has taken 207 wickets with an economy rate of 8.08.",
+    "retrieval_source": "exact",
+    "overall_rating": 2301.37
+  },
+  {
+    "player_name": "DJ Harris",
+    "canonical_name": "Ryan Harris",
+    "role": "Batter",
+    "chunk": "Player: DJ Harris\nRole: Batter\nDJ Harris is classified as a Batter. The player has an overall rating of 59.39 based on batting and bowling analytics.\nDJ Harris has scored 111 IPL runs with a strike rate of 107.77.\nDJ Harris has taken 0 wickets with an economy rate of 8.67.",
+    "retrieval_source": "exact",
+    "overall_rating": 59.39
+  },
+  {
+    "player_name": "DJ Hooda",
+    "canonical_name": "Deepak Hooda",
+    "role": "Batter",
+    "chunk": "Player: DJ Hooda\nRole: Batter\nDJ Hooda is classified as a Batter. The player has an overall rating of 698.94 based on batting and bowling analytics.\nDJ Hooda has scored 1497 IPL runs with a strike rate of 123.41.\nDJ Hooda has taken 10 wickets with an economy rate of 8.44.",
+    "retrieval_source": "exact",
+    "overall_rating": 698.94
+  },
+  {
+    "player_name": "DJ Hussey",
+    "canonical_name": "David Hussey",
+    "role": "Batter",
+    "chunk": "Player: DJ Hussey\nRole: Batter\nDJ Hussey is classified as a Batter. The player has an overall rating of 626.8 based on batting and bowling analytics.\nDJ Hussey has scored 1322 IPL runs with a strike rate of 120.07.\nDJ Hussey has taken 10 wickets with an economy rate of 9.01.",
+    "retrieval_source": "exact",
+    "overall_rating": 626.8
+  },
+  {
+    "player_name": "DJ Mitchell",
+    "canonical_name": "Daryl Mitchell",
+    "role": "Batter",
+    "chunk": "Player: DJ Mitchell\nRole: Batter\nDJ Mitchell is classified as a Batter. The player has an overall rating of 164.01 based on batting and bowling analytics.\nDJ Mitchell has scored 351 IPL runs with a strike rate of 128.1.\nDJ Mitchell has taken 1 wickets with an economy rate of 11.41.",
+    "retrieval_source": "exact",
+    "overall_rating": 164.01
+  },
+  {
+    "player_name": "DJG Sammy",
+    "canonical_name": "Darren Sammy",
+    "role": "Batter",
+    "chunk": "Player: DJG Sammy\nRole: Batter\nDJG Sammy is classified as a Batter. The player has an overall rating of 247.86 based on batting and bowling analytics.\nDJG Sammy has scored 295 IPL runs with a strike rate of 117.53.\nDJG Sammy has taken 14 wickets with an economy rate of 8.7.",
+    "retrieval_source": "exact",
+    "overall_rating": 247.86
+  },
+  {
+    "player_name": "DJM Short",
+    "canonical_name": "DJM Short",
+    "role": "Batter",
+    "chunk": "Player: DJM Short\nRole: Batter\nDJM Short is classified as a Batter. The player has an overall rating of 72.48 based on batting and bowling analytics.\nDJM Short has scored 115 IPL runs with a strike rate of 112.75.\nDJM Short has taken 1 wickets with an economy rate of 7.67.",
+    "retrieval_source": "exact",
+    "overall_rating": 72.48
+  },
+  {
+    "player_name": "DL Chahar",
+    "canonical_name": "Deepak Chahar",
+    "role": "Bowler",
+    "chunk": "Player: DL Chahar\nRole: Bowler\nDL Chahar is classified as a Bowler. The player has an overall rating of 853.88 based on batting and bowling analytics.\nDL Chahar has scored 134 IPL runs with a strike rate of 134.0.\nDL Chahar has taken 97 wickets with an economy rate of 7.96.",
+    "retrieval_source": "exact",
+    "overall_rating": 853.88
+  },
+  {
+    "player_name": "DL Vettori",
+    "canonical_name": "Daniel Vettori",
+    "role": "Bowler",
+    "chunk": "Player: DL Vettori\nRole: Bowler\nDL Vettori is classified as a Bowler. The player has an overall rating of 337.5 based on batting and bowling analytics.\nDL Vettori has scored 121 IPL runs with a strike rate of 102.54.\nDL Vettori has taken 34 wickets with an economy rate of 6.83.",
+    "retrieval_source": "exact",
+    "overall_rating": 337.5
+  },
+  {
+    "player_name": "DP Conway",
+    "canonical_name": "Devon Conway",
+    "role": "Batter",
+    "chunk": "Player: DP Conway\nRole: Batter\nDP Conway is classified as a Batter. The player has an overall rating of 472.81 based on batting and bowling analytics.\nDP Conway has scored 1080 IPL runs with a strike rate of 136.02.\nDP Conway has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 472.81
+  },
+  {
+    "player_name": "DPMD Jayawardene",
+    "canonical_name": "Mahela Jayawardene",
+    "role": "Batter",
+    "chunk": "Player: DPMD Jayawardene\nRole: Batter\nDPMD Jayawardene is classified as a Batter. The player has an overall rating of 758.84 based on batting and bowling analytics.\nDPMD Jayawardene has scored 1808 IPL runs with a strike rate of 118.79.\nDPMD Jayawardene has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 758.84
+  },
+  {
+    "player_name": "DR Smith",
+    "canonical_name": "DR Smith",
+    "role": "All-Rounder",
+    "chunk": "Player: DR Smith\nRole: All-Rounder\nDR Smith is classified as a All-Rounder. The player has an overall rating of 1191.9 based on batting and bowling analytics.\nDR Smith has scored 2385 IPL runs with a strike rate of 132.28.\nDR Smith has taken 27 wickets with an economy rate of 8.89.",
+    "retrieval_source": "exact",
+    "overall_rating": 1191.9
+  },
+  {
+    "player_name": "DS Kulkarni",
+    "canonical_name": "Dhawal Kulkarni",
+    "role": "Bowler",
+    "chunk": "Player: DS Kulkarni\nRole: Bowler\nDS Kulkarni is classified as a Bowler. The player has an overall rating of 781.13 based on batting and bowling analytics.\nDS Kulkarni has scored 104 IPL runs with a strike rate of 92.04.\nDS Kulkarni has taken 91 wickets with an economy rate of 8.04.",
+    "retrieval_source": "exact",
+    "overall_rating": 781.13
+  },
+  {
+    "player_name": "DT Christian",
+    "canonical_name": "Dan Christian",
+    "role": "Bowler",
+    "chunk": "Player: DT Christian\nRole: Bowler\nDT Christian is classified as a Bowler. The player has an overall rating of 521.96 based on batting and bowling analytics.\nDT Christian has scored 460 IPL runs with a strike rate of 112.75.\nDT Christian has taken 40 wickets with an economy rate of 7.93.",
+    "retrieval_source": "exact",
+    "overall_rating": 521.96
+  },
+  {
+    "player_name": "DW Steyn",
+    "canonical_name": "Dale Steyn",
+    "role": "Bowler",
+    "chunk": "Player: DW Steyn\nRole: Bowler\nDW Steyn is classified as a Bowler. The player has an overall rating of 923.95 based on batting and bowling analytics.\nDW Steyn has scored 167 IPL runs with a strike rate of 102.45.\nDW Steyn has taken 105 wickets with an economy rate of 6.79.",
+    "retrieval_source": "exact",
+    "overall_rating": 923.95
+  },
+  {
+    "player_name": "E Lewis",
+    "canonical_name": "Evin Lewis",
+    "role": "Batter",
+    "chunk": "Player: E Lewis\nRole: Batter\nE Lewis is classified as a Batter. The player has an overall rating of 300.92 based on batting and bowling analytics.\nE Lewis has scored 654 IPL runs with a strike rate of 131.06.\nE Lewis has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 300.92
+  },
+  {
+    "player_name": "EJG Morgan",
+    "canonical_name": "Eoin Morgan",
+    "role": "Batter",
+    "chunk": "Player: EJG Morgan\nRole: Batter\nEJG Morgan is classified as a Batter. The player has an overall rating of 598.12 based on batting and bowling analytics.\nEJG Morgan has scored 1406 IPL runs with a strike rate of 119.05.\nEJG Morgan has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 598.12
+  },
+  {
+    "player_name": "F du Plessis",
+    "canonical_name": "Faf du Plessis",
+    "role": "Batter",
+    "chunk": "Player: F du Plessis\nRole: Batter\nF du Plessis is classified as a Batter. The player has an overall rating of 1916.92 based on batting and bowling analytics.\nF du Plessis has scored 4773 IPL runs with a strike rate of 132.4.\nF du Plessis has taken 0 wickets with an economy rate of 16.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 1916.92
+  },
+  {
+    "player_name": "FH Allen",
+    "canonical_name": "FH Allen",
+    "role": "Batter",
+    "chunk": "Player: FH Allen\nRole: Batter\nFH Allen is classified as a Batter. The player has an overall rating of 195.28 based on batting and bowling analytics.\nFH Allen has scored 329 IPL runs with a strike rate of 212.26.\nFH Allen has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 195.28
+  },
+  {
+    "player_name": "FY Fazal",
+    "canonical_name": "FY Fazal",
+    "role": "Batter",
+    "chunk": "Player: FY Fazal\nRole: Batter\nFY Fazal is classified as a Batter. The player has an overall rating of 91.87 based on batting and bowling analytics.\nFY Fazal has scored 183 IPL runs with a strike rate of 102.23.\nFY Fazal has taken 1 wickets with an economy rate of 10.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 91.87
+  },
+  {
+    "player_name": "G Gambhir",
+    "canonical_name": "Gautam Gambhir",
+    "role": "Batter",
+    "chunk": "Player: G Gambhir\nRole: Batter\nG Gambhir is classified as a Batter. The player has an overall rating of 1722.7 based on batting and bowling analytics.\nG Gambhir has scored 4217 IPL runs with a strike rate of 119.67.\nG Gambhir has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 1722.7
+  },
+  {
+    "player_name": "GC Smith",
+    "canonical_name": "Graeme Smith",
+    "role": "Batter",
+    "chunk": "Player: GC Smith\nRole: Batter\nGC Smith is classified as a Batter. The player has an overall rating of 327.69 based on batting and bowling analytics.\nGC Smith has scored 739 IPL runs with a strike rate of 106.95.\nGC Smith has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 327.69
+  },
+  {
+    "player_name": "GD Phillips",
+    "canonical_name": "Glenn Phillips",
+    "role": "Batter",
+    "chunk": "Player: GD Phillips\nRole: Batter\nGD Phillips is classified as a Batter. The player has an overall rating of 88.68 based on batting and bowling analytics.\nGD Phillips has scored 132 IPL runs with a strike rate of 117.86.\nGD Phillips has taken 2 wickets with an economy rate of 7.74.",
+    "retrieval_source": "exact",
+    "overall_rating": 88.68
+  },
+  {
+    "player_name": "GH Vihari",
+    "canonical_name": "Hanuma Vihari",
+    "role": "Batter",
+    "chunk": "Player: GH Vihari\nRole: Batter\nGH Vihari is classified as a Batter. The player has an overall rating of 133.94 based on batting and bowling analytics.\nGH Vihari has scored 284 IPL runs with a strike rate of 85.8.\nGH Vihari has taken 1 wickets with an economy rate of 6.7.",
+    "retrieval_source": "exact",
+    "overall_rating": 133.94
+  },
+  {
+    "player_name": "GJ Bailey",
+    "canonical_name": "George Bailey",
+    "role": "Batter",
+    "chunk": "Player: GJ Bailey\nRole: Batter\nGJ Bailey is classified as a Batter. The player has an overall rating of 301.23 based on batting and bowling analytics.\nGJ Bailey has scored 663 IPL runs with a strike rate of 120.11.\nGJ Bailey has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 301.23
+  },
+  {
+    "player_name": "GJ Maxwell",
+    "canonical_name": "Glenn Maxwell",
+    "role": "All-Rounder",
+    "chunk": "Player: GJ Maxwell\nRole: All-Rounder\nGJ Maxwell is classified as a All-Rounder. The player has an overall rating of 1516.32 based on batting and bowling analytics.\nGJ Maxwell has scored 2820 IPL runs with a strike rate of 148.73.\nGJ Maxwell has taken 45 wickets with an economy rate of 8.15.",
+    "retrieval_source": "exact",
+    "overall_rating": 1516.32
+  },
+  {
+    "player_name": "Gurkeerat Singh",
+    "canonical_name": "Gurkeerat Singh",
+    "role": "Batter",
+    "chunk": "Player: Gurkeerat Singh\nRole: Batter\nGurkeerat Singh is classified as a Batter. The player has an overall rating of 265.36 based on batting and bowling analytics.\nGurkeerat Singh has scored 511 IPL runs with a strike rate of 117.2.\nGurkeerat Singh has taken 5 wickets with an economy rate of 7.1.",
+    "retrieval_source": "exact",
+    "overall_rating": 265.36
+  },
+  {
+    "player_name": "H Klaasen",
+    "canonical_name": "Heinrich Klaasen",
+    "role": "Batter",
+    "chunk": "Player: H Klaasen\nRole: Batter\nH Klaasen is classified as a Batter. The player has an overall rating of 861.62 based on batting and bowling analytics.\nH Klaasen has scored 2035 IPL runs with a strike rate of 158.74.\nH Klaasen has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 861.62
+  },
+  {
+    "player_name": "Harbhajan Singh",
+    "canonical_name": "Harbhajan Singh",
+    "role": "All-Rounder",
+    "chunk": "Player: Harbhajan Singh\nRole: All-Rounder\nHarbhajan Singh is classified as a All-Rounder. The player has an overall rating of 1646.41 based on batting and bowling analytics.\nHarbhajan Singh has scored 833 IPL runs with a strike rate of 130.97.\nHarbhajan Singh has taken 161 wickets with an economy rate of 7.04.",
+    "retrieval_source": "exact",
+    "overall_rating": 1646.41
+  },
+  {
+    "player_name": "Harpreet Brar",
+    "canonical_name": "Harpreet Brar",
+    "role": "Bowler",
+    "chunk": "Player: Harpreet Brar\nRole: Bowler\nHarpreet Brar is classified as a Bowler. The player has an overall rating of 414.16 based on batting and bowling analytics.\nHarpreet Brar has scored 249 IPL runs with a strike rate of 114.75.\nHarpreet Brar has taken 37 wickets with an economy rate of 7.93.",
+    "retrieval_source": "exact",
+    "overall_rating": 414.16
+  },
+  {
+    "player_name": "Harpreet Singh",
+    "canonical_name": "Harpreet Singh",
+    "role": "Batter",
+    "chunk": "Player: Harpreet Singh\nRole: Batter\nHarpreet Singh is classified as a Batter. The player has an overall rating of 80.21 based on batting and bowling analytics.\nHarpreet Singh has scored 123 IPL runs with a strike rate of 103.36.\nHarpreet Singh has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 80.21
+  },
+  {
+    "player_name": "HC Brook",
+    "canonical_name": "Harry Brook",
+    "role": "Batter",
+    "chunk": "Player: HC Brook\nRole: Batter\nHC Brook is classified as a Batter. The player has an overall rating of 111.85 based on batting and bowling analytics.\nHC Brook has scored 190 IPL runs with a strike rate of 119.5.\nHC Brook has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 111.85
+  },
+  {
+    "player_name": "HH Gibbs",
+    "canonical_name": "Herschelle Gibbs",
+    "role": "Batter",
+    "chunk": "Player: HH Gibbs\nRole: Batter\nHH Gibbs is classified as a Batter. The player has an overall rating of 386.16 based on batting and bowling analytics.\nHH Gibbs has scored 886 IPL runs with a strike rate of 105.85.\nHH Gibbs has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 386.16
+  },
+  {
+    "player_name": "HH Pandya",
+    "canonical_name": "Hardik Pandya",
+    "role": "All-Rounder",
+    "chunk": "Player: HH Pandya\nRole: All-Rounder\nHH Pandya is classified as a All-Rounder. The player has an overall rating of 1899.84 based on batting and bowling analytics.\nHH Pandya has scored 2930 IPL runs with a strike rate of 139.52.\nHH Pandya has taken 88 wickets with an economy rate of 9.01.",
+    "retrieval_source": "exact",
+    "overall_rating": 1899.84
+  },
+  {
+    "player_name": "HM Amla",
+    "canonical_name": "Hashim Amla",
+    "role": "Batter",
+    "chunk": "Player: HM Amla\nRole: Batter\nHM Amla is classified as a Batter. The player has an overall rating of 272.21 based on batting and bowling analytics.\nHM Amla has scored 577 IPL runs with a strike rate of 138.04.\nHM Amla has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 272.21
+  },
+  {
+    "player_name": "HV Patel",
+    "canonical_name": "Harshal Patel",
+    "role": "Bowler",
+    "chunk": "Player: HV Patel\nRole: Bowler\nHV Patel is classified as a Bowler. The player has an overall rating of 1472.42 based on batting and bowling analytics.\nHV Patel has scored 280 IPL runs with a strike rate of 112.0.\nHV Patel has taken 168 wickets with an economy rate of 8.59.",
+    "retrieval_source": "exact",
+    "overall_rating": 1472.42
+  },
+  {
+    "player_name": "IK Pathan",
+    "canonical_name": "Irfan Pathan",
+    "role": "All-Rounder",
+    "chunk": "Player: IK Pathan\nRole: All-Rounder\nIK Pathan is classified as a All-Rounder. The player has an overall rating of 1271.62 based on batting and bowling analytics.\nIK Pathan has scored 1150 IPL runs with a strike rate of 116.75.\nIK Pathan has taken 99 wickets with an economy rate of 7.7.",
+    "retrieval_source": "exact",
+    "overall_rating": 1271.62
+  },
+  {
+    "player_name": "Ishan Kishan",
+    "canonical_name": "Ishan Kishan",
+    "role": "Batter",
+    "chunk": "Player: Ishan Kishan\nRole: Batter\nIshan Kishan is classified as a Batter. The player has an overall rating of 1388.77 based on batting and bowling analytics.\nIshan Kishan has scored 3488 IPL runs with a strike rate of 138.58.\nIshan Kishan has taken 0 wickets with an economy rate of 24.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 1388.77
+  },
+  {
+    "player_name": "J Botha",
+    "canonical_name": "Johan Botha",
+    "role": "Bowler",
+    "chunk": "Player: J Botha\nRole: Bowler\nJ Botha is classified as a Bowler. The player has an overall rating of 399.47 based on batting and bowling analytics.\nJ Botha has scored 409 IPL runs with a strike rate of 112.36.\nJ Botha has taken 27 wickets with an economy rate of 6.92.",
+    "retrieval_source": "exact",
+    "overall_rating": 399.47
+  },
+  {
+    "player_name": "J Fraser-McGurk",
+    "canonical_name": "Jake Fraser-McGurk",
+    "role": "Batter",
+    "chunk": "Player: J Fraser-McGurk\nRole: Batter\nJ Fraser-McGurk is classified as a Batter. The player has an overall rating of 210.9 based on batting and bowling analytics.\nJ Fraser-McGurk has scored 385 IPL runs with a strike rate of 189.66.\nJ Fraser-McGurk has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 210.9
+  },
+  {
+    "player_name": "J Overton",
+    "canonical_name": "J Overton",
+    "role": "Batter",
+    "chunk": "Player: J Overton\nRole: Batter\nJ Overton is classified as a Batter. The player has an overall rating of 199.92 based on batting and bowling analytics.\nJ Overton has scored 151 IPL runs with a strike rate of 154.08.\nJ Overton has taken 14 wickets with an economy rate of 9.35.",
+    "retrieval_source": "exact",
+    "overall_rating": 199.92
+  },
+  {
+    "player_name": "JA Morkel",
+    "canonical_name": "Albie Morkel",
+    "role": "All-Rounder",
+    "chunk": "Player: JA Morkel\nRole: All-Rounder\nJA Morkel is classified as a All-Rounder. The player has an overall rating of 1183.08 based on batting and bowling analytics.\nJA Morkel has scored 975 IPL runs with a strike rate of 136.94.\nJA Morkel has taken 96 wickets with an economy rate of 8.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 1183.08
+  },
+  {
+    "player_name": "JC Archer",
+    "canonical_name": "Jofra Archer",
+    "role": "Bowler",
+    "chunk": "Player: JC Archer\nRole: Bowler\nJC Archer is classified as a Bowler. The player has an overall rating of 802.1 based on batting and bowling analytics.\nJC Archer has scored 283 IPL runs with a strike rate of 136.06.\nJC Archer has taken 83 wickets with an economy rate of 7.96.",
+    "retrieval_source": "exact",
+    "overall_rating": 802.1
+  },
+  {
+    "player_name": "JC Buttler",
+    "canonical_name": "Jos Buttler",
+    "role": "Batter",
+    "chunk": "Player: JC Buttler\nRole: Batter\nJC Buttler is classified as a Batter. The player has an overall rating of 1879.51 based on batting and bowling analytics.\nJC Buttler has scored 4590 IPL runs with a strike rate of 145.02.\nJC Buttler has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 1879.51
+  },
+  {
+    "player_name": "JD Ryder",
+    "canonical_name": "Jesse Ryder",
+    "role": "Batter",
+    "chunk": "Player: JD Ryder\nRole: Batter\nJD Ryder is classified as a Batter. The player has an overall rating of 352.84 based on batting and bowling analytics.\nJD Ryder has scored 604 IPL runs with a strike rate of 129.61.\nJD Ryder has taken 11 wickets with an economy rate of 7.82.",
+    "retrieval_source": "exact",
+    "overall_rating": 352.84
+  },
+  {
+    "player_name": "JD Unadkat",
+    "canonical_name": "Jaydev Unadkat",
+    "role": "Bowler",
+    "chunk": "Player: JD Unadkat\nRole: Bowler\nJD Unadkat is classified as a Bowler. The player has an overall rating of 1097.67 based on batting and bowling analytics.\nJD Unadkat has scored 201 IPL runs with a strike rate of 116.18.\nJD Unadkat has taken 125 wickets with an economy rate of 8.79.",
+    "retrieval_source": "exact",
+    "overall_rating": 1097.67
+  },
+  {
+    "player_name": "JDP Oram",
+    "canonical_name": "Jacob Oram",
+    "role": "Batter",
+    "chunk": "Player: JDP Oram\nRole: Batter\nJDP Oram is classified as a Batter. The player has an overall rating of 157.51 based on batting and bowling analytics.\nJDP Oram has scored 106 IPL runs with a strike rate of 96.36.\nJDP Oram has taken 13 wickets with an economy rate of 8.9.",
+    "retrieval_source": "exact",
+    "overall_rating": 157.51
+  },
+  {
+    "player_name": "JEC Franklin",
+    "canonical_name": "James Franklin",
+    "role": "Batter",
+    "chunk": "Player: JEC Franklin\nRole: Batter\nJEC Franklin is classified as a Batter. The player has an overall rating of 217.13 based on batting and bowling analytics.\nJEC Franklin has scored 327 IPL runs with a strike rate of 105.83.\nJEC Franklin has taken 9 wickets with an economy rate of 8.71.",
+    "retrieval_source": "exact",
+    "overall_rating": 217.13
+  },
+  {
+    "player_name": "JG Bethell",
+    "canonical_name": "JG Bethell",
+    "role": "Batter",
+    "chunk": "Player: JG Bethell\nRole: Batter\nJG Bethell is classified as a Batter. The player has an overall rating of 105.95 based on batting and bowling analytics.\nJG Bethell has scored 163 IPL runs with a strike rate of 135.83.\nJG Bethell has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 105.95
+  },
+  {
+    "player_name": "JH Kallis",
+    "canonical_name": "Jacques Kallis",
+    "role": "All-Rounder",
+    "chunk": "Player: JH Kallis\nRole: All-Rounder\nJH Kallis is classified as a All-Rounder. The player has an overall rating of 1578.92 based on batting and bowling analytics.\nJH Kallis has scored 2427 IPL runs with a strike rate of 105.94.\nJH Kallis has taken 74 wickets with an economy rate of 7.83.",
+    "retrieval_source": "exact",
+    "overall_rating": 1578.92
+  },
+  {
+    "player_name": "JJ Roy",
+    "canonical_name": "Jason Roy",
+    "role": "Batter",
+    "chunk": "Player: JJ Roy\nRole: Batter\nJJ Roy is classified as a Batter. The player has an overall rating of 285.64 based on batting and bowling analytics.\nJJ Roy has scored 614 IPL runs with a strike rate of 133.48.\nJJ Roy has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 285.64
+  },
+  {
+    "player_name": "JM Bairstow",
+    "canonical_name": "Jonny Bairstow",
+    "role": "Batter",
+    "chunk": "Player: JM Bairstow\nRole: Batter\nJM Bairstow is classified as a Batter. The player has an overall rating of 712.12 based on batting and bowling analytics.\nJM Bairstow has scored 1674 IPL runs with a strike rate of 141.74.\nJM Bairstow has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 712.12
+  },
+  {
+    "player_name": "JM Sharma",
+    "canonical_name": "JM Sharma",
+    "role": "Batter",
+    "chunk": "Player: JM Sharma\nRole: Batter\nJM Sharma is classified as a Batter. The player has an overall rating of 476.64 based on batting and bowling analytics.\nJM Sharma has scored 1081 IPL runs with a strike rate of 147.48.\nJM Sharma has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 476.64
+  },
+  {
+    "player_name": "JO Holder",
+    "canonical_name": "Jason Holder",
+    "role": "Bowler",
+    "chunk": "Player: JO Holder\nRole: Bowler\nJO Holder is classified as a Bowler. The player has an overall rating of 722.16 based on batting and bowling analytics.\nJO Holder has scored 317 IPL runs with a strike rate of 120.08.\nJO Holder has taken 72 wickets with an economy rate of 8.33.",
+    "retrieval_source": "exact",
+    "overall_rating": 722.16
+  },
+  {
+    "player_name": "JP Duminy",
+    "canonical_name": "JP Duminy",
+    "role": "All-Rounder",
+    "chunk": "Player: JP Duminy\nRole: All-Rounder\nJP Duminy is classified as a All-Rounder. The player has an overall rating of 1017.33 based on batting and bowling analytics.\nJP Duminy has scored 2029 IPL runs with a strike rate of 120.77.\nJP Duminy has taken 23 wickets with an economy rate of 7.25.",
+    "retrieval_source": "exact",
+    "overall_rating": 1017.33
+  },
+  {
+    "player_name": "JP Faulkner",
+    "canonical_name": "James Faulkner",
+    "role": "All-Rounder",
+    "chunk": "Player: JP Faulkner\nRole: All-Rounder\nJP Faulkner is classified as a All-Rounder. The player has an overall rating of 840.5 based on batting and bowling analytics.\nJP Faulkner has scored 527 IPL runs with a strike rate of 129.8.\nJP Faulkner has taken 76 wickets with an economy rate of 8.62.",
+    "retrieval_source": "exact",
+    "overall_rating": 840.5
+  },
+  {
+    "player_name": "JP Inglis",
+    "canonical_name": "Josh Inglis",
+    "role": "Batter",
+    "chunk": "Player: JP Inglis\nRole: Batter\nJP Inglis is classified as a Batter. The player has an overall rating of 239.37 based on batting and bowling analytics.\nJP Inglis has scored 472 IPL runs with a strike rate of 168.57.\nJP Inglis has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 239.37
+  },
+  {
+    "player_name": "JR Hopes",
+    "canonical_name": "James Hopes",
+    "role": "Batter",
+    "chunk": "Player: JR Hopes\nRole: Batter\nJR Hopes is classified as a Batter. The player has an overall rating of 300.36 based on batting and bowling analytics.\nJR Hopes has scored 417 IPL runs with a strike rate of 132.8.\nJR Hopes has taken 14 wickets with an economy rate of 9.14.",
+    "retrieval_source": "exact",
+    "overall_rating": 300.36
+  },
+  {
+    "player_name": "K Goel",
+    "canonical_name": "K Goel",
+    "role": "Batter",
+    "chunk": "Player: K Goel\nRole: Batter\nK Goel is classified as a Batter. The player has an overall rating of 97.72 based on batting and bowling analytics.\nK Goel has scored 218 IPL runs with a strike rate of 91.21.\nK Goel has taken 0 wickets with an economy rate of 8.42.",
+    "retrieval_source": "exact",
+    "overall_rating": 97.72
+  },
+  {
+    "player_name": "K Gowtham",
+    "canonical_name": "Krishnappa Gowtham",
+    "role": "Bowler",
+    "chunk": "Player: K Gowtham\nRole: Bowler\nK Gowtham is classified as a Bowler. The player has an overall rating of 304.88 based on batting and bowling analytics.\nK Gowtham has scored 247 IPL runs with a strike rate of 155.35.\nK Gowtham has taken 22 wickets with an economy rate of 8.26.",
+    "retrieval_source": "exact",
+    "overall_rating": 304.88
+  },
+  {
+    "player_name": "K Rabada",
+    "canonical_name": "Kagiso Rabada",
+    "role": "Bowler",
+    "chunk": "Player: K Rabada\nRole: Bowler\nK Rabada is classified as a Bowler. The player has an overall rating of 1329.28 based on batting and bowling analytics.\nK Rabada has scored 250 IPL runs with a strike rate of 101.21.\nK Rabada has taken 152 wickets with an economy rate of 8.54.",
+    "retrieval_source": "exact",
+    "overall_rating": 1329.28
+  },
+  {
+    "player_name": "KA Pollard",
+    "canonical_name": "Kieron Pollard",
+    "role": "All-Rounder",
+    "chunk": "Player: KA Pollard\nRole: All-Rounder\nKA Pollard is classified as a All-Rounder. The player has an overall rating of 2048.3 based on batting and bowling analytics.\nKA Pollard has scored 3437 IPL runs with a strike rate of 140.46.\nKA Pollard has taken 81 wickets with an economy rate of 8.32.",
+    "retrieval_source": "exact",
+    "overall_rating": 2048.3
+  },
+  {
+    "player_name": "Kamran Akmal",
+    "canonical_name": "Kamran Akmal",
+    "role": "Batter",
+    "chunk": "Player: Kamran Akmal\nRole: Batter\nKamran Akmal is classified as a Batter. The player has an overall rating of 100.43 based on batting and bowling analytics.\nKamran Akmal has scored 128 IPL runs with a strike rate of 164.1.\nKamran Akmal has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 100.43
+  },
+  {
+    "player_name": "Kartik Sharma",
+    "canonical_name": "Kartik Sharma",
+    "role": "Batter",
+    "chunk": "Player: Kartik Sharma\nRole: Batter\nKartik Sharma is classified as a Batter. The player has an overall rating of 158.23 based on batting and bowling analytics.\nKartik Sharma has scored 295 IPL runs with a strike rate of 134.09.\nKartik Sharma has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 158.23
+  },
+  {
+    "player_name": "KC Sangakkara",
+    "canonical_name": "Kumar Sangakkara",
+    "role": "Batter",
+    "chunk": "Player: KC Sangakkara\nRole: Batter\nKC Sangakkara is classified as a Batter. The player has an overall rating of 710.34 based on batting and bowling analytics.\nKC Sangakkara has scored 1687 IPL runs with a strike rate of 118.47.\nKC Sangakkara has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 710.34
+  },
+  {
+    "player_name": "KD Karthik",
+    "canonical_name": "Dinesh Karthik",
+    "role": "Batter",
+    "chunk": "Player: KD Karthik\nRole: Batter\nKD Karthik is classified as a Batter. The player has an overall rating of 1976.61 based on batting and bowling analytics.\nKD Karthik has scored 4843 IPL runs with a strike rate of 131.35.\nKD Karthik has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 1976.61
+  },
+  {
+    "player_name": "KH Pandya",
+    "canonical_name": "Krunal Pandya",
+    "role": "All-Rounder",
+    "chunk": "Player: KH Pandya\nRole: All-Rounder\nKH Pandya is classified as a All-Rounder. The player has an overall rating of 1638.42 based on batting and bowling analytics.\nKH Pandya has scored 1897 IPL runs with a strike rate of 128.52.\nKH Pandya has taken 107 wickets with an economy rate of 7.47.",
+    "retrieval_source": "exact",
+    "overall_rating": 1638.42
+  },
+  {
+    "player_name": "KK Cooper",
+    "canonical_name": "KK Cooper",
+    "role": "Bowler",
+    "chunk": "Player: KK Cooper\nRole: Bowler\nKK Cooper is classified as a Bowler. The player has an overall rating of 368.33 based on batting and bowling analytics.\nKK Cooper has scored 116 IPL runs with a strike rate of 165.71.\nKK Cooper has taken 36 wickets with an economy rate of 7.89.",
+    "retrieval_source": "exact",
+    "overall_rating": 368.33
+  },
+  {
+    "player_name": "KK Nair",
+    "canonical_name": "Karun Nair",
+    "role": "Batter",
+    "chunk": "Player: KK Nair\nRole: Batter\nKK Nair is classified as a Batter. The player has an overall rating of 723.36 based on batting and bowling analytics.\nKK Nair has scored 1712 IPL runs with a strike rate of 128.53.\nKK Nair has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 723.36
+  },
+  {
+    "player_name": "KL Rahul",
+    "canonical_name": "KL Rahul",
+    "role": "Batter",
+    "chunk": "Player: KL Rahul\nRole: Batter\nKL Rahul is classified as a Batter. The player has an overall rating of 2347.72 based on batting and bowling analytics.\nKL Rahul has scored 5768 IPL runs with a strike rate of 135.08.\nKL Rahul has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 2347.72
+  },
+  {
+    "player_name": "KM Jadhav",
+    "canonical_name": "Kedar Jadhav",
+    "role": "Batter",
+    "chunk": "Player: KM Jadhav\nRole: Batter\nKM Jadhav is classified as a Batter. The player has an overall rating of 519.01 based on batting and bowling analytics.\nKM Jadhav has scored 1208 IPL runs with a strike rate of 119.37.\nKM Jadhav has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 519.01
+  },
+  {
+    "player_name": "KP Pietersen",
+    "canonical_name": "Kevin Pietersen",
+    "role": "Batter",
+    "chunk": "Player: KP Pietersen\nRole: Batter\nKP Pietersen is classified as a Batter. The player has an overall rating of 497.48 based on batting and bowling analytics.\nKP Pietersen has scored 1001 IPL runs with a strike rate of 132.06.\nKP Pietersen has taken 9 wickets with an economy rate of 7.27.",
+    "retrieval_source": "exact",
+    "overall_rating": 497.48
+  },
+  {
+    "player_name": "KR Mayers",
+    "canonical_name": "Kyle Mayers",
+    "role": "Batter",
+    "chunk": "Player: KR Mayers\nRole: Batter\nKR Mayers is classified as a Batter. The player has an overall rating of 177.4 based on batting and bowling analytics.\nKR Mayers has scored 379 IPL runs with a strike rate of 137.32.\nKR Mayers has taken 0 wickets with an economy rate of 7.7.",
+    "retrieval_source": "exact",
+    "overall_rating": 177.4
+  },
+  {
+    "player_name": "KS Bharat",
+    "canonical_name": "KS Bharat",
+    "role": "Batter",
+    "chunk": "Player: KS Bharat\nRole: Batter\nKS Bharat is classified as a Batter. The player has an overall rating of 115.14 based on batting and bowling analytics.\nKS Bharat has scored 199 IPL runs with a strike rate of 118.45.\nKS Bharat has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 115.14
+  },
+  {
+    "player_name": "KS Williamson",
+    "canonical_name": "Kane Williamson",
+    "role": "Batter",
+    "chunk": "Player: KS Williamson\nRole: Batter\nKS Williamson is classified as a Batter. The player has an overall rating of 869.03 based on batting and bowling analytics.\nKS Williamson has scored 2132 IPL runs with a strike rate of 122.95.\nKS Williamson has taken 0 wickets with an economy rate of 10.33.",
+    "retrieval_source": "exact",
+    "overall_rating": 869.03
+  },
+  {
+    "player_name": "Kuldeep Yadav",
+    "canonical_name": "Kuldeep Yadav",
+    "role": "Bowler",
+    "chunk": "Player: Kuldeep Yadav\nRole: Bowler\nKuldeep Yadav is classified as a Bowler. The player has an overall rating of 995.56 based on batting and bowling analytics.\nKuldeep Yadav has scored 210 IPL runs with a strike rate of 79.85.\nKuldeep Yadav has taken 113 wickets with an economy rate of 8.2.",
+    "retrieval_source": "exact",
+    "overall_rating": 995.56
+  },
+  {
+    "player_name": "KV Sharma",
+    "canonical_name": "KV Sharma",
+    "role": "Bowler",
+    "chunk": "Player: KV Sharma\nRole: Bowler\nKV Sharma is classified as a Bowler. The player has an overall rating of 870.34 based on batting and bowling analytics.\nKV Sharma has scored 352 IPL runs with a strike rate of 114.66.\nKV Sharma has taken 89 wickets with an economy rate of 8.43.",
+    "retrieval_source": "exact",
+    "overall_rating": 870.34
+  },
+  {
+    "player_name": "LA Pomersbach",
+    "canonical_name": "Luke Pomersbach",
+    "role": "Batter",
+    "chunk": "Player: LA Pomersbach\nRole: Batter\nLA Pomersbach is classified as a Batter. The player has an overall rating of 156.9 based on batting and bowling analytics.\nLA Pomersbach has scored 302 IPL runs with a strike rate of 120.32.\nLA Pomersbach has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 156.9
+  },
+  {
+    "player_name": "Lalit Yadav",
+    "canonical_name": "Lalit Yadav",
+    "role": "Batter",
+    "chunk": "Player: Lalit Yadav\nRole: Batter\nLalit Yadav is classified as a Batter. The player has an overall rating of 222.84 based on batting and bowling analytics.\nLalit Yadav has scored 305 IPL runs with a strike rate of 101.33.\nLalit Yadav has taken 11 wickets with an economy rate of 8.78.",
+    "retrieval_source": "exact",
+    "overall_rating": 222.84
+  },
+  {
+    "player_name": "LJ Wright",
+    "canonical_name": "Luke Wright",
+    "role": "Batter",
+    "chunk": "Player: LJ Wright\nRole: Batter\nLJ Wright is classified as a Batter. The player has an overall rating of 88.88 based on batting and bowling analytics.\nLJ Wright has scored 106 IPL runs with a strike rate of 168.25.\nLJ Wright has taken 2 wickets with an economy rate of 10.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 88.88
+  },
+  {
+    "player_name": "LMP Simmons",
+    "canonical_name": "Lendl Simmons",
+    "role": "Batter",
+    "chunk": "Player: LMP Simmons\nRole: Batter\nLMP Simmons is classified as a Batter. The player has an overall rating of 453.81 based on batting and bowling analytics.\nLMP Simmons has scored 1079 IPL runs with a strike rate of 122.89.\nLMP Simmons has taken 1 wickets with an economy rate of 11.33.",
+    "retrieval_source": "exact",
+    "overall_rating": 453.81
+  },
+  {
+    "player_name": "LR Shukla",
+    "canonical_name": "Laxmi Ratan Shukla",
+    "role": "Batter",
+    "chunk": "Player: LR Shukla\nRole: Batter\nLR Shukla is classified as a Batter. The player has an overall rating of 315.08 based on batting and bowling analytics.\nLR Shukla has scored 405 IPL runs with a strike rate of 113.13.\nLR Shukla has taken 17 wickets with an economy rate of 8.43.",
+    "retrieval_source": "exact",
+    "overall_rating": 315.08
+  },
+  {
+    "player_name": "LRPL Taylor",
+    "canonical_name": "Ross Taylor",
+    "role": "Batter",
+    "chunk": "Player: LRPL Taylor\nRole: Batter\nLRPL Taylor is classified as a Batter. The player has an overall rating of 420.66 based on batting and bowling analytics.\nLRPL Taylor has scored 1017 IPL runs with a strike rate of 120.07.\nLRPL Taylor has taken 0 wickets with an economy rate of 11.08.",
+    "retrieval_source": "exact",
+    "overall_rating": 420.66
+  },
+  {
+    "player_name": "LS Livingstone",
+    "canonical_name": "Liam Livingstone",
+    "role": "Batter",
+    "chunk": "Player: LS Livingstone\nRole: Batter\nLS Livingstone is classified as a Batter. The player has an overall rating of 556.91 based on batting and bowling analytics.\nLS Livingstone has scored 1066 IPL runs with a strike rate of 147.03.\nLS Livingstone has taken 13 wickets with an economy rate of 8.8.",
+    "retrieval_source": "exact",
+    "overall_rating": 556.91
+  },
+  {
+    "player_name": "M Jansen",
+    "canonical_name": "Marco Jansen",
+    "role": "Bowler",
+    "chunk": "Player: M Jansen\nRole: Bowler\nM Jansen is classified as a Bowler. The player has an overall rating of 449.17 based on batting and bowling analytics.\nM Jansen has scored 192 IPL runs with a strike rate of 103.23.\nM Jansen has taken 45 wickets with an economy rate of 9.3.",
+    "retrieval_source": "exact",
+    "overall_rating": 449.17
+  },
+  {
+    "player_name": "M Kaif",
+    "canonical_name": "Mohammad Kaif",
+    "role": "Batter",
+    "chunk": "Player: M Kaif\nRole: Batter\nM Kaif is classified as a Batter. The player has an overall rating of 133.72 based on batting and bowling analytics.\nM Kaif has scored 259 IPL runs with a strike rate of 100.39.\nM Kaif has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 133.72
+  },
+  {
+    "player_name": "M Kartik",
+    "canonical_name": "Murali Kartik",
+    "role": "Bowler",
+    "chunk": "Player: M Kartik\nRole: Bowler\nM Kartik is classified as a Bowler. The player has an overall rating of 373.9 based on batting and bowling analytics.\nM Kartik has scored 113 IPL runs with a strike rate of 103.67.\nM Kartik has taken 39 wickets with an economy rate of 7.2.",
+    "retrieval_source": "exact",
+    "overall_rating": 373.9
+  },
+  {
+    "player_name": "M Manhas",
+    "canonical_name": "Mithun Manhas",
+    "role": "Batter",
+    "chunk": "Player: M Manhas\nRole: Batter\nM Manhas is classified as a Batter. The player has an overall rating of 225.33 based on batting and bowling analytics.\nM Manhas has scored 514 IPL runs with a strike rate of 105.76.\nM Manhas has taken 0 wickets with an economy rate of 6.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 225.33
+  },
+  {
+    "player_name": "M Morkel",
+    "canonical_name": "Morne Morkel",
+    "role": "Bowler",
+    "chunk": "Player: M Morkel\nRole: Bowler\nM Morkel is classified as a Bowler. The player has an overall rating of 779.96 based on batting and bowling analytics.\nM Morkel has scored 126 IPL runs with a strike rate of 135.48.\nM Morkel has taken 88 wickets with an economy rate of 7.54.",
+    "retrieval_source": "exact",
+    "overall_rating": 779.96
+  },
+  {
+    "player_name": "M Shahrukh Khan",
+    "canonical_name": "M Shahrukh Khan",
+    "role": "Batter",
+    "chunk": "Player: M Shahrukh Khan\nRole: Batter\nM Shahrukh Khan is classified as a Batter. The player has an overall rating of 340.86 based on batting and bowling analytics.\nM Shahrukh Khan has scored 775 IPL runs with a strike rate of 140.65.\nM Shahrukh Khan has taken 1 wickets with an economy rate of 9.67.",
+    "retrieval_source": "exact",
+    "overall_rating": 340.86
+  },
+  {
+    "player_name": "M Vijay",
+    "canonical_name": "Murali Vijay",
+    "role": "Batter",
+    "chunk": "Player: M Vijay\nRole: Batter\nM Vijay is classified as a Batter. The player has an overall rating of 1067.28 based on batting and bowling analytics.\nM Vijay has scored 2619 IPL runs with a strike rate of 118.61.\nM Vijay has taken 0 wickets with an economy rate of 7.95.",
+    "retrieval_source": "exact",
+    "overall_rating": 1067.28
+  },
+  {
+    "player_name": "M Vohra",
+    "canonical_name": "Manan Vohra",
+    "role": "Batter",
+    "chunk": "Player: M Vohra\nRole: Batter\nM Vohra is classified as a Batter. The player has an overall rating of 470.85 based on batting and bowling analytics.\nM Vohra has scored 1083 IPL runs with a strike rate of 125.49.\nM Vohra has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 470.85
+  },
+  {
+    "player_name": "MA Agarwal",
+    "canonical_name": "Mayank Agarwal",
+    "role": "Batter",
+    "chunk": "Player: MA Agarwal\nRole: Batter\nMA Agarwal is classified as a Batter. The player has an overall rating of 1144.24 based on batting and bowling analytics.\nMA Agarwal has scored 2764 IPL runs with a strike rate of 128.8.\nMA Agarwal has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 1144.24
+  },
+  {
+    "player_name": "MA Starc",
+    "canonical_name": "Mitchell Starc",
+    "role": "Bowler",
+    "chunk": "Player: MA Starc\nRole: Bowler\nMA Starc is classified as a Bowler. The player has an overall rating of 758.47 based on batting and bowling analytics.\nMA Starc has scored 111 IPL runs with a strike rate of 90.98.\nMA Starc has taken 88 wickets with an economy rate of 8.61.",
+    "retrieval_source": "exact",
+    "overall_rating": 758.47
+  },
+  {
+    "player_name": "Mandeep Singh",
+    "canonical_name": "Mandeep Singh",
+    "role": "Batter",
+    "chunk": "Player: Mandeep Singh\nRole: Batter\nMandeep Singh is classified as a Batter. The player has an overall rating of 692.49 based on batting and bowling analytics.\nMandeep Singh has scored 1706 IPL runs with a strike rate of 120.31.\nMandeep Singh has taken 0 wickets with an economy rate of 13.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 692.49
+  },
+  {
+    "player_name": "MC Henriques",
+    "canonical_name": "Moises Henriques",
+    "role": "All-Rounder",
+    "chunk": "Player: MC Henriques\nRole: All-Rounder\nMC Henriques is classified as a All-Rounder. The player has an overall rating of 789.49 based on batting and bowling analytics.\nMC Henriques has scored 1000 IPL runs with a strike rate of 124.84.\nMC Henriques has taken 46 wickets with an economy rate of 7.98.",
+    "retrieval_source": "exact",
+    "overall_rating": 789.49
+  },
+  {
+    "player_name": "MC Juneja",
+    "canonical_name": "MC Juneja",
+    "role": "Batter",
+    "chunk": "Player: MC Juneja\nRole: Batter\nMC Juneja is classified as a Batter. The player has an overall rating of 77.98 based on batting and bowling analytics.\nMC Juneja has scored 125 IPL runs with a strike rate of 93.28.\nMC Juneja has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 77.98
+  },
+  {
+    "player_name": "MD Choudhary",
+    "canonical_name": "Mukesh Choudhary",
+    "role": "Batter",
+    "chunk": "Player: MD Choudhary\nRole: Batter\nMD Choudhary is classified as a Batter. The player has an overall rating of 110.21 based on batting and bowling analytics.\nMD Choudhary has scored 169 IPL runs with a strike rate of 142.02.\nMD Choudhary has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 110.21
+  },
+  {
+    "player_name": "MD Mishra",
+    "canonical_name": "Deepak Mishra",
+    "role": "Batter",
+    "chunk": "Player: MD Mishra\nRole: Batter\nMD Mishra is classified as a Batter. The player has an overall rating of 128.18 based on batting and bowling analytics.\nMD Mishra has scored 237 IPL runs with a strike rate of 111.27.\nMD Mishra has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 128.18
+  },
+  {
+    "player_name": "MEK Hussey",
+    "canonical_name": "Mike Hussey",
+    "role": "Batter",
+    "chunk": "Player: MEK Hussey\nRole: Batter\nMEK Hussey is classified as a Batter. The player has an overall rating of 826.79 based on batting and bowling analytics.\nMEK Hussey has scored 1977 IPL runs with a strike rate of 119.96.\nMEK Hussey has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 826.79
+  },
+  {
+    "player_name": "MF Maharoof",
+    "canonical_name": "Farveez Maharoof",
+    "role": "Bowler",
+    "chunk": "Player: MF Maharoof\nRole: Bowler\nMF Maharoof is classified as a Bowler. The player has an overall rating of 363.14 based on batting and bowling analytics.\nMF Maharoof has scored 177 IPL runs with a strike rate of 142.74.\nMF Maharoof has taken 33 wickets with an economy rate of 7.24.",
+    "retrieval_source": "exact",
+    "overall_rating": 363.14
+  },
+  {
+    "player_name": "MG Johnson",
+    "canonical_name": "Mitchell Johnson",
+    "role": "Bowler",
+    "chunk": "Player: MG Johnson\nRole: Bowler\nMG Johnson is classified as a Bowler. The player has an overall rating of 608.58 based on batting and bowling analytics.\nMG Johnson has scored 167 IPL runs with a strike rate of 99.4.\nMG Johnson has taken 66 wickets with an economy rate of 8.02.",
+    "retrieval_source": "exact",
+    "overall_rating": 608.58
+  },
+  {
+    "player_name": "Misbah-ul-Haq",
+    "canonical_name": "Misbah-ul-Haq",
+    "role": "Batter",
+    "chunk": "Player: Misbah-ul-Haq\nRole: Batter\nMisbah-ul-Haq is classified as a Batter. The player has an overall rating of 89.6 based on batting and bowling analytics.\nMisbah-ul-Haq has scored 117 IPL runs with a strike rate of 142.68.\nMisbah-ul-Haq has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 89.6
+  },
+  {
+    "player_name": "MJ Guptill",
+    "canonical_name": "Martin Guptill",
+    "role": "Batter",
+    "chunk": "Player: MJ Guptill\nRole: Batter\nMJ Guptill is classified as a Batter. The player has an overall rating of 149.67 based on batting and bowling analytics.\nMJ Guptill has scored 271 IPL runs with a strike rate of 137.56.\nMJ Guptill has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 149.67
+  },
+  {
+    "player_name": "MJ Lumb",
+    "canonical_name": "Michael Lumb",
+    "role": "Batter",
+    "chunk": "Player: MJ Lumb\nRole: Batter\nMJ Lumb is classified as a Batter. The player has an overall rating of 153.32 based on batting and bowling analytics.\nMJ Lumb has scored 278 IPL runs with a strike rate of 140.4.\nMJ Lumb has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 153.32
+  },
+  {
+    "player_name": "MJ Santner",
+    "canonical_name": "Mitchell Santner",
+    "role": "Bowler",
+    "chunk": "Player: MJ Santner\nRole: Bowler\nMJ Santner is classified as a Bowler. The player has an overall rating of 318.49 based on batting and bowling analytics.\nMJ Santner has scored 136 IPL runs with a strike rate of 103.03.\nMJ Santner has taken 31 wickets with an economy rate of 7.41.",
+    "retrieval_source": "exact",
+    "overall_rating": 318.49
+  },
+  {
+    "player_name": "MK Lomror",
+    "canonical_name": "Mahipal Lomror",
+    "role": "Batter",
+    "chunk": "Player: MK Lomror\nRole: Batter\nMK Lomror is classified as a Batter. The player has an overall rating of 251.22 based on batting and bowling analytics.\nMK Lomror has scored 527 IPL runs with a strike rate of 135.48.\nMK Lomror has taken 2 wickets with an economy rate of 8.11.",
+    "retrieval_source": "exact",
+    "overall_rating": 251.22
+  },
+  {
+    "player_name": "MK Pandey",
+    "canonical_name": "Manish Pandey",
+    "role": "Batter",
+    "chunk": "Player: MK Pandey\nRole: Batter\nMK Pandey is classified as a Batter. The player has an overall rating of 1633.77 based on batting and bowling analytics.\nMK Pandey has scored 3996 IPL runs with a strike rate of 117.91.\nMK Pandey has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 1633.77
+  },
+  {
+    "player_name": "MK Tiwary",
+    "canonical_name": "Manoj Tiwary",
+    "role": "Batter",
+    "chunk": "Player: MK Tiwary\nRole: Batter\nMK Tiwary is classified as a Batter. The player has an overall rating of 698.01 based on batting and bowling analytics.\nMK Tiwary has scored 1695 IPL runs with a strike rate of 113.83.\nMK Tiwary has taken 1 wickets with an economy rate of 11.07.",
+    "retrieval_source": "exact",
+    "overall_rating": 698.01
+  },
+  {
+    "player_name": "ML Hayden",
+    "canonical_name": "Matthew Hayden",
+    "role": "Batter",
+    "chunk": "Player: ML Hayden\nRole: Batter\nML Hayden is classified as a Batter. The player has an overall rating of 482.38 based on batting and bowling analytics.\nML Hayden has scored 1107 IPL runs with a strike rate of 131.94.\nML Hayden has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 482.38
+  },
+  {
+    "player_name": "MM Ali",
+    "canonical_name": "Moeen Ali",
+    "role": "All-Rounder",
+    "chunk": "Player: MM Ali\nRole: All-Rounder\nMM Ali is classified as a All-Rounder. The player has an overall rating of 860.97 based on batting and bowling analytics.\nMM Ali has scored 1167 IPL runs with a strike rate of 134.91.\nMM Ali has taken 46 wickets with an economy rate of 7.15.",
+    "retrieval_source": "exact",
+    "overall_rating": 860.97
+  },
+  {
+    "player_name": "MM Sharma",
+    "canonical_name": "MM Sharma",
+    "role": "Bowler",
+    "chunk": "Player: MM Sharma\nRole: Bowler\nMM Sharma is classified as a Bowler. The player has an overall rating of 1251.61 based on batting and bowling analytics.\nMM Sharma has scored 125 IPL runs with a strike rate of 89.29.\nMM Sharma has taken 149 wickets with an economy rate of 8.59.",
+    "retrieval_source": "exact",
+    "overall_rating": 1251.61
+  },
+  {
+    "player_name": "MN Samuels",
+    "canonical_name": "Marlon Samuels",
+    "role": "Batter",
+    "chunk": "Player: MN Samuels\nRole: Batter\nMN Samuels is classified as a Batter. The player has an overall rating of 156.54 based on batting and bowling analytics.\nMN Samuels has scored 161 IPL runs with a strike rate of 92.53.\nMN Samuels has taken 10 wickets with an economy rate of 7.81.",
+    "retrieval_source": "exact",
+    "overall_rating": 156.54
+  },
+  {
+    "player_name": "MN van Wyk",
+    "canonical_name": "MN van Wyk",
+    "role": "Batter",
+    "chunk": "Player: MN van Wyk\nRole: Batter\nMN van Wyk is classified as a Batter. The player has an overall rating of 103.91 based on batting and bowling analytics.\nMN van Wyk has scored 167 IPL runs with a strike rate of 123.7.\nMN van Wyk has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 103.91
+  },
+  {
+    "player_name": "Mohammad Nabi",
+    "canonical_name": "Mohammad Nabi",
+    "role": "Batter",
+    "chunk": "Player: Mohammad Nabi\nRole: Batter\nMohammad Nabi is classified as a Batter. The player has an overall rating of 235.53 based on batting and bowling analytics.\nMohammad Nabi has scored 221 IPL runs with a strike rate of 140.76.\nMohammad Nabi has taken 15 wickets with an economy rate of 7.55.",
+    "retrieval_source": "exact",
+    "overall_rating": 235.53
+  },
+  {
+    "player_name": "Mohammed Shami",
+    "canonical_name": "Mohammed Shami",
+    "role": "Bowler",
+    "chunk": "Player: Mohammed Shami\nRole: Bowler\nMohammed Shami is classified as a Bowler. The player has an overall rating of 1338.76 based on batting and bowling analytics.\nMohammed Shami has scored 115 IPL runs with a strike rate of 99.14.\nMohammed Shami has taken 160 wickets with an economy rate of 8.49.",
+    "retrieval_source": "exact",
+    "overall_rating": 1338.76
+  },
+  {
+    "player_name": "Mohammed Siraj",
+    "canonical_name": "Mohammed Siraj",
+    "role": "Bowler",
+    "chunk": "Player: Mohammed Siraj\nRole: Bowler\nMohammed Siraj is classified as a Bowler. The player has an overall rating of 1093.63 based on batting and bowling analytics.\nMohammed Siraj has scored 112 IPL runs with a strike rate of 85.5.\nMohammed Siraj has taken 130 wickets with an economy rate of 8.41.",
+    "retrieval_source": "exact",
+    "overall_rating": 1093.63
+  },
+  {
+    "player_name": "MP Stoinis",
+    "canonical_name": "Marcus Stoinis",
+    "role": "All-Rounder",
+    "chunk": "Player: MP Stoinis\nRole: All-Rounder\nMP Stoinis is classified as a All-Rounder. The player has an overall rating of 1303.77 based on batting and bowling analytics.\nMP Stoinis has scored 2242 IPL runs with a strike rate of 141.18.\nMP Stoinis has taken 48 wickets with an economy rate of 9.69.",
+    "retrieval_source": "exact",
+    "overall_rating": 1303.77
+  },
+  {
+    "player_name": "MR Marsh",
+    "canonical_name": "Mitchell Marsh",
+    "role": "All-Rounder",
+    "chunk": "Player: MR Marsh\nRole: All-Rounder\nMR Marsh is classified as a All-Rounder. The player has an overall rating of 1064.87 based on batting and bowling analytics.\nMR Marsh has scored 1855 IPL runs with a strike rate of 143.69.\nMR Marsh has taken 37 wickets with an economy rate of 8.12.",
+    "retrieval_source": "exact",
+    "overall_rating": 1064.87
+  },
+  {
+    "player_name": "MS Bisla",
+    "canonical_name": "Manvinder Bisla",
+    "role": "Batter",
+    "chunk": "Player: MS Bisla\nRole: Batter\nMS Bisla is classified as a Batter. The player has an overall rating of 351.68 based on batting and bowling analytics.\nMS Bisla has scored 798 IPL runs with a strike rate of 108.28.\nMS Bisla has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 351.68
+  },
+  {
+    "player_name": "MS Dhoni",
+    "canonical_name": "Mahendra Singh Dhoni",
+    "role": "Batter",
+    "chunk": "Player: MS Dhoni\nRole: Batter\nMS Dhoni is classified as a Batter. The player has an overall rating of 2215.39 based on batting and bowling analytics.\nMS Dhoni has scored 5439 IPL runs with a strike rate of 132.63.\nMS Dhoni has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 2215.39
+  },
+  {
+    "player_name": "MS Wade",
+    "canonical_name": "Matthew Wade",
+    "role": "Batter",
+    "chunk": "Player: MS Wade\nRole: Batter\nMS Wade is classified as a Batter. The player has an overall rating of 102.88 based on batting and bowling analytics.\nMS Wade has scored 183 IPL runs with a strike rate of 98.92.\nMS Wade has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 102.88
+  },
+  {
+    "player_name": "MV Boucher",
+    "canonical_name": "Mark Boucher",
+    "role": "Batter",
+    "chunk": "Player: MV Boucher\nRole: Batter\nMV Boucher is classified as a Batter. The player has an overall rating of 194.77 based on batting and bowling analytics.\nMV Boucher has scored 394 IPL runs with a strike rate of 123.9.\nMV Boucher has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 194.77
+  },
+  {
+    "player_name": "MW Short",
+    "canonical_name": "MW Short",
+    "role": "Batter",
+    "chunk": "Player: MW Short\nRole: Batter\nMW Short is classified as a Batter. The player has an overall rating of 88.45 based on batting and bowling analytics.\nMW Short has scored 177 IPL runs with a strike rate of 115.69.\nMW Short has taken 0 wickets with an economy rate of 8.53.",
+    "retrieval_source": "exact",
+    "overall_rating": 88.45
+  },
+  {
+    "player_name": "N Jagadeesan",
+    "canonical_name": "N Jagadeesan",
+    "role": "Batter",
+    "chunk": "Player: N Jagadeesan\nRole: Batter\nN Jagadeesan is classified as a Batter. The player has an overall rating of 96.16 based on batting and bowling analytics.\nN Jagadeesan has scored 162 IPL runs with a strike rate of 104.52.\nN Jagadeesan has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 96.16
+  },
+  {
+    "player_name": "N Pooran",
+    "canonical_name": "Nicholas Pooran",
+    "role": "Batter",
+    "chunk": "Player: N Pooran\nRole: Batter\nN Pooran is classified as a Batter. The player has an overall rating of 1056.7 based on batting and bowling analytics.\nN Pooran has scored 2525 IPL runs with a strike rate of 155.67.\nN Pooran has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 1056.7
+  },
+  {
+    "player_name": "N Rana",
+    "canonical_name": "Nitish Rana",
+    "role": "Batter",
+    "chunk": "Player: N Rana\nRole: Batter\nN Rana is classified as a Batter. The player has an overall rating of 1341.57 based on batting and bowling analytics.\nN Rana has scored 3078 IPL runs with a strike rate of 133.02.\nN Rana has taken 11 wickets with an economy rate of 8.77.",
+    "retrieval_source": "exact",
+    "overall_rating": 1341.57
+  },
+  {
+    "player_name": "N Saini",
+    "canonical_name": "Navdeep Saini",
+    "role": "Batter",
+    "chunk": "Player: N Saini\nRole: Batter\nN Saini is classified as a Batter. The player has an overall rating of 85.37 based on batting and bowling analytics.\nN Saini has scored 140 IPL runs with a strike rate of 97.9.\nN Saini has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 85.37
+  },
+  {
+    "player_name": "N Wadhera",
+    "canonical_name": "N Wadhera",
+    "role": "Batter",
+    "chunk": "Player: N Wadhera\nRole: Batter\nN Wadhera is classified as a Batter. The player has an overall rating of 338.42 based on batting and bowling analytics.\nN Wadhera has scored 784 IPL runs with a strike rate of 134.48.\nN Wadhera has taken 0 wickets with an economy rate of 7.76.",
+    "retrieval_source": "exact",
+    "overall_rating": 338.42
+  },
+  {
+    "player_name": "Naman Dhir",
+    "canonical_name": "Naman Dhir",
+    "role": "Batter",
+    "chunk": "Player: Naman Dhir\nRole: Batter\nNaman Dhir is classified as a Batter. The player has an overall rating of 320.51 based on batting and bowling analytics.\nNaman Dhir has scored 704 IPL runs with a strike rate of 160.36.\nNaman Dhir has taken 1 wickets with an economy rate of 8.6.",
+    "retrieval_source": "exact",
+    "overall_rating": 320.51
+  },
+  {
+    "player_name": "Nithish Kumar Reddy",
+    "canonical_name": "Nitish Kumar Reddy",
+    "role": "Batter",
+    "chunk": "Player: Nithish Kumar Reddy\nRole: Batter\nNithish Kumar Reddy is classified as a Batter. The player has an overall rating of 428.44 based on batting and bowling analytics.\nNithish Kumar Reddy has scored 720 IPL runs with a strike rate of 135.85.\nNithish Kumar Reddy has taken 15 wickets with an economy rate of 10.16.",
+    "retrieval_source": "exact",
+    "overall_rating": 428.44
+  },
+  {
+    "player_name": "NK Patel",
+    "canonical_name": "NK Patel",
+    "role": "Batter",
+    "chunk": "Player: NK Patel\nRole: Batter\nNK Patel is classified as a Batter. The player has an overall rating of 77.67 based on batting and bowling analytics.\nNK Patel has scored 121 IPL runs with a strike rate of 97.58.\nNK Patel has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 77.67
+  },
+  {
+    "player_name": "NLTC Perera",
+    "canonical_name": "Thisara Perera",
+    "role": "Bowler",
+    "chunk": "Player: NLTC Perera\nRole: Bowler\nNLTC Perera is classified as a Bowler. The player has an overall rating of 487.32 based on batting and bowling analytics.\nNLTC Perera has scored 424 IPL runs with a strike rate of 130.06.\nNLTC Perera has taken 37 wickets with an economy rate of 8.65.",
+    "retrieval_source": "exact",
+    "overall_rating": 487.32
+  },
+  {
+    "player_name": "NV Ojha",
+    "canonical_name": "Naman Ojha",
+    "role": "Batter",
+    "chunk": "Player: NV Ojha\nRole: Batter\nNV Ojha is classified as a Batter. The player has an overall rating of 655.88 based on batting and bowling analytics.\nNV Ojha has scored 1554 IPL runs with a strike rate of 114.26.\nNV Ojha has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 655.88
+  },
+  {
+    "player_name": "OA Shah",
+    "canonical_name": "Owais Shah",
+    "role": "Batter",
+    "chunk": "Player: OA Shah\nRole: Batter\nOA Shah is classified as a Batter. The player has an overall rating of 239.88 based on batting and bowling analytics.\nOA Shah has scored 506 IPL runs with a strike rate of 124.94.\nOA Shah has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 239.88
+  },
+  {
+    "player_name": "P Dogra",
+    "canonical_name": "P Dogra",
+    "role": "Batter",
+    "chunk": "Player: P Dogra\nRole: Batter\nP Dogra is classified as a Batter. The player has an overall rating of 77.82 based on batting and bowling analytics.\nP Dogra has scored 127 IPL runs with a strike rate of 90.07.\nP Dogra has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 77.82
+  },
+  {
+    "player_name": "P Kumar",
+    "canonical_name": "Praveen Kumar",
+    "role": "Bowler",
+    "chunk": "Player: P Kumar\nRole: Bowler\nP Kumar is classified as a Bowler. The player has an overall rating of 968.38 based on batting and bowling analytics.\nP Kumar has scored 340 IPL runs with a strike rate of 105.26.\nP Kumar has taken 102 wickets with an economy rate of 7.6.",
+    "retrieval_source": "exact",
+    "overall_rating": 968.38
+  },
+  {
+    "player_name": "P Negi",
+    "canonical_name": "Pawan Negi",
+    "role": "Bowler",
+    "chunk": "Player: P Negi\nRole: Bowler\nP Negi is classified as a Bowler. The player has an overall rating of 470.76 based on batting and bowling analytics.\nP Negi has scored 365 IPL runs with a strike rate of 121.26.\nP Negi has taken 38 wickets with an economy rate of 7.81.",
+    "retrieval_source": "exact",
+    "overall_rating": 470.76
+  },
+  {
+    "player_name": "P Nissanka",
+    "canonical_name": "Pathum Nissanka",
+    "role": "Batter",
+    "chunk": "Player: P Nissanka\nRole: Batter\nP Nissanka is classified as a Batter. The player has an overall rating of 157.53 based on batting and bowling analytics.\nP Nissanka has scored 278 IPL runs with a strike rate of 154.44.\nP Nissanka has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 157.53
+  },
+  {
+    "player_name": "P Simran Singh",
+    "canonical_name": "P Simran Singh",
+    "role": "Batter",
+    "chunk": "Player: P Simran Singh\nRole: Batter\nP Simran Singh is classified as a Batter. The player has an overall rating of 764.02 based on batting and bowling analytics.\nP Simran Singh has scored 1796 IPL runs with a strike rate of 152.07.\nP Simran Singh has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 764.02
+  },
+  {
+    "player_name": "PA Patel",
+    "canonical_name": "Parthiv Patel",
+    "role": "Batter",
+    "chunk": "Player: PA Patel\nRole: Batter\nPA Patel is classified as a Batter. The player has an overall rating of 1174.19 based on batting and bowling analytics.\nPA Patel has scored 2848 IPL runs with a strike rate of 116.63.\nPA Patel has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 1174.19
+  },
+  {
+    "player_name": "PA Reddy",
+    "canonical_name": "PA Reddy",
+    "role": "Batter",
+    "chunk": "Player: PA Reddy\nRole: Batter\nPA Reddy is classified as a Batter. The player has an overall rating of 95.06 based on batting and bowling analytics.\nPA Reddy has scored 164 IPL runs with a strike rate of 98.2.\nPA Reddy has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 95.06
+  },
+  {
+    "player_name": "PBB Rajapaksa",
+    "canonical_name": "Bhanuka Rajapaksa",
+    "role": "Batter",
+    "chunk": "Player: PBB Rajapaksa\nRole: Batter\nPBB Rajapaksa is classified as a Batter. The player has an overall rating of 152.14 based on batting and bowling analytics.\nPBB Rajapaksa has scored 277 IPL runs with a strike rate of 137.81.\nPBB Rajapaksa has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 152.14
+  },
+  {
+    "player_name": "PC Valthaty",
+    "canonical_name": "Paul Valthaty",
+    "role": "Batter",
+    "chunk": "Player: PC Valthaty\nRole: Batter\nPC Valthaty is classified as a Batter. The player has an overall rating of 276.83 based on batting and bowling analytics.\nPC Valthaty has scored 505 IPL runs with a strike rate of 116.9.\nPC Valthaty has taken 7 wickets with an economy rate of 8.12.",
+    "retrieval_source": "exact",
+    "overall_rating": 276.83
+  },
+  {
+    "player_name": "PD Collingwood",
+    "canonical_name": "Paul Collingwood",
+    "role": "Batter",
+    "chunk": "Player: PD Collingwood\nRole: Batter\nPD Collingwood is classified as a Batter. The player has an overall rating of 146.04 based on batting and bowling analytics.\nPD Collingwood has scored 203 IPL runs with a strike rate of 127.67.\nPD Collingwood has taken 5 wickets with an economy rate of 6.73.",
+    "retrieval_source": "exact",
+    "overall_rating": 146.04
+  },
+  {
+    "player_name": "PD Salt",
+    "canonical_name": "Phil Salt",
+    "role": "Batter",
+    "chunk": "Player: PD Salt\nRole: Batter\nPD Salt is classified as a Batter. The player has an overall rating of 553.79 based on batting and bowling analytics.\nPD Salt has scored 1258 IPL runs with a strike rate of 168.63.\nPD Salt has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 553.79
+  },
+  {
+    "player_name": "PJ Cummins",
+    "canonical_name": "Pat Cummins",
+    "role": "All-Rounder",
+    "chunk": "Player: PJ Cummins\nRole: All-Rounder\nPJ Cummins is classified as a All-Rounder. The player has an overall rating of 1003.45 based on batting and bowling analytics.\nPJ Cummins has scored 641 IPL runs with a strike rate of 147.7.\nPJ Cummins has taken 90 wickets with an economy rate of 8.63.",
+    "retrieval_source": "exact",
+    "overall_rating": 1003.45
+  },
+  {
+    "player_name": "PK Garg",
+    "canonical_name": "PK Garg",
+    "role": "Batter",
+    "chunk": "Player: PK Garg\nRole: Batter\nPK Garg is classified as a Batter. The player has an overall rating of 142.36 based on batting and bowling analytics.\nPK Garg has scored 273 IPL runs with a strike rate of 110.53.\nPK Garg has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 142.36
+  },
+  {
+    "player_name": "PP Chawla",
+    "canonical_name": "Piyush Chawla",
+    "role": "All-Rounder",
+    "chunk": "Player: PP Chawla\nRole: All-Rounder\nPP Chawla is classified as a All-Rounder. The player has an overall rating of 1873.92 based on batting and bowling analytics.\nPP Chawla has scored 624 IPL runs with a strike rate of 107.59.\nPP Chawla has taken 201 wickets with an economy rate of 7.98.",
+    "retrieval_source": "exact",
+    "overall_rating": 1873.92
+  },
+  {
+    "player_name": "PP Shaw",
+    "canonical_name": "Prithvi Shaw",
+    "role": "Batter",
+    "chunk": "Player: PP Shaw\nRole: Batter\nPP Shaw is classified as a Batter. The player has an overall rating of 799.77 based on batting and bowling analytics.\nPP Shaw has scored 1892 IPL runs with a strike rate of 143.22.\nPP Shaw has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 799.77
+  },
+  {
+    "player_name": "Priyansh Arya",
+    "canonical_name": "Priyansh Arya",
+    "role": "Batter",
+    "chunk": "Player: Priyansh Arya\nRole: Batter\nPriyansh Arya is classified as a Batter. The player has an overall rating of 419.25 based on batting and bowling analytics.\nPriyansh Arya has scored 909 IPL runs with a strike rate of 185.51.\nPriyansh Arya has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 419.25
+  },
+  {
+    "player_name": "Q de Kock",
+    "canonical_name": "Quinton de Kock",
+    "role": "Batter",
+    "chunk": "Player: Q de Kock\nRole: Batter\nQ de Kock is classified as a Batter. The player has an overall rating of 1417.07 based on batting and bowling analytics.\nQ de Kock has scored 3444 IPL runs with a strike rate of 131.55.\nQ de Kock has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 1417.07
+  },
+  {
+    "player_name": "R Ashwin",
+    "canonical_name": "Ravichandran Ashwin",
+    "role": "All-Rounder",
+    "chunk": "Player: R Ashwin\nRole: All-Rounder\nR Ashwin is classified as a All-Rounder. The player has an overall rating of 1993.43 based on batting and bowling analytics.\nR Ashwin has scored 833 IPL runs with a strike rate of 114.42.\nR Ashwin has taken 205 wickets with an economy rate of 7.05.",
+    "retrieval_source": "exact",
+    "overall_rating": 1993.43
+  },
+  {
+    "player_name": "R Bhatia",
+    "canonical_name": "Rajat Bhatia",
+    "role": "Bowler",
+    "chunk": "Player: R Bhatia\nRole: Bowler\nR Bhatia is classified as a Bowler. The player has an overall rating of 813.3 based on batting and bowling analytics.\nR Bhatia has scored 342 IPL runs with a strike rate of 117.93.\nR Bhatia has taken 82 wickets with an economy rate of 7.44.",
+    "retrieval_source": "exact",
+    "overall_rating": 813.3
+  },
+  {
+    "player_name": "R Dhawan",
+    "canonical_name": "R Dhawan",
+    "role": "Bowler",
+    "chunk": "Player: R Dhawan\nRole: Bowler\nR Dhawan is classified as a Bowler. The player has an overall rating of 317.55 based on batting and bowling analytics.\nR Dhawan has scored 210 IPL runs with a strike rate of 111.7.\nR Dhawan has taken 27 wickets with an economy rate of 7.98.",
+    "retrieval_source": "exact",
+    "overall_rating": 317.55
+  },
+  {
+    "player_name": "R Dravid",
+    "canonical_name": "Rahul Dravid",
+    "role": "Batter",
+    "chunk": "Player: R Dravid\nRole: Batter\nR Dravid is classified as a Batter. The player has an overall rating of 903.61 based on batting and bowling analytics.\nR Dravid has scored 2174 IPL runs with a strike rate of 113.35.\nR Dravid has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 903.61
+  },
+  {
+    "player_name": "R McLaren",
+    "canonical_name": "Ryan McLaren",
+    "role": "Batter",
+    "chunk": "Player: R McLaren\nRole: Batter\nR McLaren is classified as a Batter. The player has an overall rating of 184.4 based on batting and bowling analytics.\nR McLaren has scored 159 IPL runs with a strike rate of 89.33.\nR McLaren has taken 14 wickets with an economy rate of 9.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 184.4
+  },
+  {
+    "player_name": "R Parag",
+    "canonical_name": "Riyan Parag",
+    "role": "Batter",
+    "chunk": "Player: R Parag\nRole: Batter\nR Parag is classified as a Batter. The player has an overall rating of 841.8 based on batting and bowling analytics.\nR Parag has scored 1828 IPL runs with a strike rate of 137.13.\nR Parag has taken 11 wickets with an economy rate of 9.27.",
+    "retrieval_source": "exact",
+    "overall_rating": 841.8
+  },
+  {
+    "player_name": "R Powell",
+    "canonical_name": "Rovman Powell",
+    "role": "Batter",
+    "chunk": "Player: R Powell\nRole: Batter\nR Powell is classified as a Batter. The player has an overall rating of 239.07 based on batting and bowling analytics.\nR Powell has scored 526 IPL runs with a strike rate of 135.57.\nR Powell has taken 1 wickets with an economy rate of 10.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 239.07
+  },
+  {
+    "player_name": "R Ravindra",
+    "canonical_name": "Rachin Ravindra",
+    "role": "Batter",
+    "chunk": "Player: R Ravindra\nRole: Batter\nR Ravindra is classified as a Batter. The player has an overall rating of 199.78 based on batting and bowling analytics.\nR Ravindra has scored 413 IPL runs with a strike rate of 138.59.\nR Ravindra has taken 0 wickets with an economy rate of 3.5.",
+    "retrieval_source": "exact",
+    "overall_rating": 199.78
+  },
+  {
+    "player_name": "R Sathish",
+    "canonical_name": "R Sathish",
+    "role": "Batter",
+    "chunk": "Player: R Sathish\nRole: Batter\nR Sathish is classified as a Batter. The player has an overall rating of 170.9 based on batting and bowling analytics.\nR Sathish has scored 270 IPL runs with a strike rate of 114.41.\nR Sathish has taken 6 wickets with an economy rate of 9.71.",
+    "retrieval_source": "exact",
+    "overall_rating": 170.9
+  },
+  {
+    "player_name": "R Shepherd",
+    "canonical_name": "Romario Shepherd",
+    "role": "Batter",
+    "chunk": "Player: R Shepherd\nRole: Batter\nR Shepherd is classified as a Batter. The player has an overall rating of 286.6 based on batting and bowling analytics.\nR Shepherd has scored 268 IPL runs with a strike rate of 166.46.\nR Shepherd has taken 19 wickets with an economy rate of 11.27.",
+    "retrieval_source": "exact",
+    "overall_rating": 286.6
+  },
+  {
+    "player_name": "R Tewatia",
+    "canonical_name": "Rahul Tewatia",
+    "role": "All-Rounder",
+    "chunk": "Player: R Tewatia\nRole: All-Rounder\nR Tewatia is classified as a All-Rounder. The player has an overall rating of 795.38 based on batting and bowling analytics.\nR Tewatia has scored 1210 IPL runs with a strike rate of 129.55.\nR Tewatia has taken 36 wickets with an economy rate of 7.74.",
+    "retrieval_source": "exact",
+    "overall_rating": 795.38
+  },
+  {
+    "player_name": "R Vinay Kumar",
+    "canonical_name": "Vinay Kumar",
+    "role": "Bowler",
+    "chunk": "Player: R Vinay Kumar\nRole: Bowler\nR Vinay Kumar is classified as a Bowler. The player has an overall rating of 1155.48 based on batting and bowling analytics.\nR Vinay Kumar has scored 310 IPL runs with a strike rate of 107.27.\nR Vinay Kumar has taken 127 wickets with an economy rate of 8.35.",
+    "retrieval_source": "exact",
+    "overall_rating": 1155.48
+  },
+  {
+    "player_name": "RA Jadeja",
+    "canonical_name": "Ravindra Jadeja",
+    "role": "All-Rounder",
+    "chunk": "Player: RA Jadeja\nRole: All-Rounder\nRA Jadeja is classified as a All-Rounder. The player has an overall rating of 2898.26 based on batting and bowling analytics.\nRA Jadeja has scored 3450 IPL runs with a strike rate of 125.05.\nRA Jadeja has taken 187 wickets with an economy rate of 7.63.",
+    "retrieval_source": "exact",
+    "overall_rating": 2898.26
+  },
+  {
+    "player_name": "RA Tripathi",
+    "canonical_name": "Rahul Tripathi",
+    "role": "Batter",
+    "chunk": "Player: RA Tripathi\nRole: Batter\nRA Tripathi is classified as a Batter. The player has an overall rating of 932.66 based on batting and bowling analytics.\nRA Tripathi has scored 2291 IPL runs with a strike rate of 134.21.\nRA Tripathi has taken 0 wickets with an economy rate of 12.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 932.66
+  },
+  {
+    "player_name": "Rahmanullah Gurbaz",
+    "canonical_name": "Rahmanullah Gurbaz",
+    "role": "Batter",
+    "chunk": "Player: Rahmanullah Gurbaz\nRole: Batter\nRahmanullah Gurbaz is classified as a Batter. The player has an overall rating of 183.68 based on batting and bowling analytics.\nRahmanullah Gurbaz has scored 363 IPL runs with a strike rate of 128.27.\nRahmanullah Gurbaz has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 183.68
+  },
+  {
+    "player_name": "Ramandeep Singh",
+    "canonical_name": "Ramandeep Singh",
+    "role": "Batter",
+    "chunk": "Player: Ramandeep Singh\nRole: Batter\nRamandeep Singh is classified as a Batter. The player has an overall rating of 200.63 based on batting and bowling analytics.\nRamandeep Singh has scored 299 IPL runs with a strike rate of 141.04.\nRamandeep Singh has taken 7 wickets with an economy rate of 8.64.",
+    "retrieval_source": "exact",
+    "overall_rating": 200.63
+  },
+  {
+    "player_name": "Rashid Khan",
+    "canonical_name": "Rashid Khan",
+    "role": "All-Rounder",
+    "chunk": "Player: Rashid Khan\nRole: All-Rounder\nRashid Khan is classified as a All-Rounder. The player has an overall rating of 1757.81 based on batting and bowling analytics.\nRashid Khan has scored 620 IPL runs with a strike rate of 147.97.\nRashid Khan has taken 185 wickets with an economy rate of 7.29.",
+    "retrieval_source": "exact",
+    "overall_rating": 1757.81
+  },
+  {
+    "player_name": "RD Chahar",
+    "canonical_name": "Rahul Chahar",
+    "role": "Bowler",
+    "chunk": "Player: RD Chahar\nRole: Bowler\nRD Chahar is classified as a Bowler. The player has an overall rating of 674.65 based on batting and bowling analytics.\nRD Chahar has scored 129 IPL runs with a strike rate of 101.57.\nRD Chahar has taken 76 wickets with an economy rate of 7.71.",
+    "retrieval_source": "exact",
+    "overall_rating": 674.65
+  },
+  {
+    "player_name": "RD Gaikwad",
+    "canonical_name": "Ruturaj Gaikwad",
+    "role": "Batter",
+    "chunk": "Player: RD Gaikwad\nRole: Batter\nRD Gaikwad is classified as a Batter. The player has an overall rating of 1175.14 based on batting and bowling analytics.\nRD Gaikwad has scored 2839 IPL runs with a strike rate of 131.8.\nRD Gaikwad has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 1175.14
+  },
+  {
+    "player_name": "RD Rickelton",
+    "canonical_name": "Ryan Rickelton",
+    "role": "Batter",
+    "chunk": "Player: RD Rickelton\nRole: Batter\nRD Rickelton is classified as a Batter. The player has an overall rating of 378.46 based on batting and bowling analytics.\nRD Rickelton has scored 824 IPL runs with a strike rate of 162.85.\nRD Rickelton has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 378.46
+  },
+  {
+    "player_name": "RE van der Merwe",
+    "canonical_name": "Roelof van der Merwe",
+    "role": "Bowler",
+    "chunk": "Player: RE van der Merwe\nRole: Bowler\nRE van der Merwe is classified as a Bowler. The player has an overall rating of 283.15 based on batting and bowling analytics.\nRE van der Merwe has scored 159 IPL runs with a strike rate of 110.42.\nRE van der Merwe has taken 25 wickets with an economy rate of 6.79.",
+    "retrieval_source": "exact",
+    "overall_rating": 283.15
+  },
+  {
+    "player_name": "RG Sharma",
+    "canonical_name": "Rohit Sharma",
+    "role": "Batter",
+    "chunk": "Player: RG Sharma\nRole: Batter\nRG Sharma is classified as a Batter. The player has an overall rating of 3083.41 based on batting and bowling analytics.\nRG Sharma has scored 7331 IPL runs with a strike rate of 129.64.\nRG Sharma has taken 16 wickets with an economy rate of 7.94.",
+    "retrieval_source": "exact",
+    "overall_rating": 3083.41
+  },
+  {
+    "player_name": "RJ Harris",
+    "canonical_name": "Ryan Harris",
+    "role": "Bowler",
+    "chunk": "Player: RJ Harris\nRole: Bowler\nRJ Harris is classified as a Bowler. The player has an overall rating of 439.08 based on batting and bowling analytics.\nRJ Harris has scored 117 IPL runs with a strike rate of 104.46.\nRJ Harris has taken 47 wickets with an economy rate of 7.53.",
+    "retrieval_source": "exact",
+    "overall_rating": 439.08
+  },
+  {
+    "player_name": "RJ Quiney",
+    "canonical_name": "RJ Quiney",
+    "role": "Batter",
+    "chunk": "Player: RJ Quiney\nRole: Batter\nRJ Quiney is classified as a Batter. The player has an overall rating of 70.63 based on batting and bowling analytics.\nRJ Quiney has scored 103 IPL runs with a strike rate of 98.1.\nRJ Quiney has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 70.63
+  },
+  {
+    "player_name": "RK Singh",
+    "canonical_name": "RP Singh",
+    "role": "Batter",
+    "chunk": "Player: RK Singh\nRole: Batter\nRK Singh is classified as a Batter. The player has an overall rating of 600.97 based on batting and bowling analytics.\nRK Singh has scored 1398 IPL runs with a strike rate of 139.24.\nRK Singh has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 600.97
+  },
+  {
+    "player_name": "RM Patidar",
+    "canonical_name": "Rajat Patidar",
+    "role": "Batter",
+    "chunk": "Player: RM Patidar\nRole: Batter\nRM Patidar is classified as a Batter. The player has an overall rating of 625.02 based on batting and bowling analytics.\nRM Patidar has scored 1448 IPL runs with a strike rate of 152.74.\nRM Patidar has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 625.02
+  },
+  {
+    "player_name": "RN ten Doeschate",
+    "canonical_name": "Ryan ten Doeschate",
+    "role": "Batter",
+    "chunk": "Player: RN ten Doeschate\nRole: Batter\nRN ten Doeschate is classified as a Batter. The player has an overall rating of 181.89 based on batting and bowling analytics.\nRN ten Doeschate has scored 326 IPL runs with a strike rate of 136.97.\nRN ten Doeschate has taken 3 wickets with an economy rate of 6.8.",
+    "retrieval_source": "exact",
+    "overall_rating": 181.89
+  },
+  {
+    "player_name": "RR Pant",
+    "canonical_name": "Rishabh Pant",
+    "role": "Batter",
+    "chunk": "Player: RR Pant\nRole: Batter\nRR Pant is classified as a Batter. The player has an overall rating of 1583.74 based on batting and bowling analytics.\nRR Pant has scored 3853 IPL runs with a strike rate of 141.81.\nRR Pant has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 1583.74
+  },
+  {
+    "player_name": "RR Rossouw",
+    "canonical_name": "Rilee Rossouw",
+    "role": "Batter",
+    "chunk": "Player: RR Rossouw\nRole: Batter\nRR Rossouw is classified as a Batter. The player has an overall rating of 233.41 based on batting and bowling analytics.\nRR Rossouw has scored 473 IPL runs with a strike rate of 147.35.\nRR Rossouw has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 233.41
+  },
+  {
+    "player_name": "RS Bopara",
+    "canonical_name": "Ravi Bopara",
+    "role": "Batter",
+    "chunk": "Player: RS Bopara\nRole: Batter\nRS Bopara is classified as a Batter. The player has an overall rating of 333.48 based on batting and bowling analytics.\nRS Bopara has scored 531 IPL runs with a strike rate of 113.46.\nRS Bopara has taken 13 wickets with an economy rate of 8.48.",
+    "retrieval_source": "exact",
+    "overall_rating": 333.48
+  },
+  {
+    "player_name": "RV Uthappa",
+    "canonical_name": "Robin Uthappa",
+    "role": "Batter",
+    "chunk": "Player: RV Uthappa\nRole: Batter\nRV Uthappa is classified as a Batter. The player has an overall rating of 2019.45 based on batting and bowling analytics.\nRV Uthappa has scored 4954 IPL runs with a strike rate of 126.15.\nRV Uthappa has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 2019.45
+  },
+  {
+    "player_name": "S Anirudha",
+    "canonical_name": "S Anirudha",
+    "role": "Batter",
+    "chunk": "Player: S Anirudha\nRole: Batter\nS Anirudha is classified as a Batter. The player has an overall rating of 88.12 based on batting and bowling analytics.\nS Anirudha has scored 136 IPL runs with a strike rate of 112.4.\nS Anirudha has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 88.12
+  },
+  {
+    "player_name": "S Arora",
+    "canonical_name": "S Arora",
+    "role": "Batter",
+    "chunk": "Player: S Arora\nRole: Batter\nS Arora is classified as a Batter. The player has an overall rating of 93.21 based on batting and bowling analytics.\nS Arora has scored 121 IPL runs with a strike rate of 149.38.\nS Arora has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 93.21
+  },
+  {
+    "player_name": "S Badrinath",
+    "canonical_name": "Subramaniam Badrinath",
+    "role": "Batter",
+    "chunk": "Player: S Badrinath\nRole: Batter\nS Badrinath is classified as a Batter. The player has an overall rating of 611.12 based on batting and bowling analytics.\nS Badrinath has scored 1441 IPL runs with a strike rate of 115.74.\nS Badrinath has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 611.12
+  },
+  {
+    "player_name": "S Dhawan",
+    "canonical_name": "Shikhar Dhawan",
+    "role": "Batter",
+    "chunk": "Player: S Dhawan\nRole: Batter\nS Dhawan is classified as a Batter. The player has an overall rating of 2759.0 based on batting and bowling analytics.\nS Dhawan has scored 6769 IPL runs with a strike rate of 123.45.\nS Dhawan has taken 4 wickets with an economy rate of 8.82.",
+    "retrieval_source": "exact",
+    "overall_rating": 2759.0
+  },
+  {
+    "player_name": "S Dube",
+    "canonical_name": "Shivam Dube",
+    "role": "Batter",
+    "chunk": "Player: S Dube\nRole: Batter\nS Dube is classified as a Batter. The player has an overall rating of 927.41 based on batting and bowling analytics.\nS Dube has scored 2129 IPL runs with a strike rate of 136.91.\nS Dube has taken 7 wickets with an economy rate of 10.63.",
+    "retrieval_source": "exact",
+    "overall_rating": 927.41
+  },
+  {
+    "player_name": "S Gopal",
+    "canonical_name": "Shreyas Gopal",
+    "role": "Bowler",
+    "chunk": "Player: S Gopal\nRole: Bowler\nS Gopal is classified as a Bowler. The player has an overall rating of 510.91 based on batting and bowling analytics.\nS Gopal has scored 180 IPL runs with a strike rate of 104.05.\nS Gopal has taken 53 wickets with an economy rate of 8.15.",
+    "retrieval_source": "exact",
+    "overall_rating": 510.91
+  },
+  {
+    "player_name": "S Sohal",
+    "canonical_name": "S Sohal",
+    "role": "Batter",
+    "chunk": "Player: S Sohal\nRole: Batter\nS Sohal is classified as a Batter. The player has an overall rating of 182.7 based on batting and bowling analytics.\nS Sohal has scored 368 IPL runs with a strike rate of 118.33.\nS Sohal has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 182.7
+  },
+  {
+    "player_name": "S Vidyut",
+    "canonical_name": "S Vidyut",
+    "role": "Batter",
+    "chunk": "Player: S Vidyut\nRole: Batter\nS Vidyut is classified as a Batter. The player has an overall rating of 83.53 based on batting and bowling analytics.\nS Vidyut has scored 145 IPL runs with a strike rate of 126.09.\nS Vidyut has taken 1 wickets with an economy rate of 10.15.",
+    "retrieval_source": "exact",
+    "overall_rating": 83.53
+  },
+  {
+    "player_name": "SA Asnodkar",
+    "canonical_name": "SA Asnodkar",
+    "role": "Batter",
+    "chunk": "Player: SA Asnodkar\nRole: Batter\nSA Asnodkar is classified as a Batter. The player has an overall rating of 205.25 based on batting and bowling analytics.\nSA Asnodkar has scored 423 IPL runs with a strike rate of 120.17.\nSA Asnodkar has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 205.25
+  },
+  {
+    "player_name": "SA Yadav",
+    "canonical_name": "Suryakumar Yadav",
+    "role": "Batter",
+    "chunk": "Player: SA Yadav\nRole: Batter\nSA Yadav is classified as a Batter. The player has an overall rating of 1836.01 based on batting and bowling analytics.\nSA Yadav has scored 4521 IPL runs with a strike rate of 145.37.\nSA Yadav has taken 0 wickets with an economy rate of 8.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 1836.01
+  },
+  {
+    "player_name": "Sachin Baby",
+    "canonical_name": "Sachin Baby",
+    "role": "Batter",
+    "chunk": "Player: Sachin Baby\nRole: Batter\nSachin Baby is classified as a Batter. The player has an overall rating of 107.12 based on batting and bowling analytics.\nSachin Baby has scored 144 IPL runs with a strike rate of 117.07.\nSachin Baby has taken 3 wickets with an economy rate of 4.8.",
+    "retrieval_source": "exact",
+    "overall_rating": 107.12
+  },
+  {
+    "player_name": "Salman Butt",
+    "canonical_name": "Salman Butt",
+    "role": "Batter",
+    "chunk": "Player: Salman Butt\nRole: Batter\nSalman Butt is classified as a Batter. The player has an overall rating of 110.86 based on batting and bowling analytics.\nSalman Butt has scored 193 IPL runs with a strike rate of 112.21.\nSalman Butt has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 110.86
+  },
+  {
+    "player_name": "Sameer Rizvi",
+    "canonical_name": "Sameer Rizvi",
+    "role": "Batter",
+    "chunk": "Player: Sameer Rizvi\nRole: Batter\nSameer Rizvi is classified as a Batter. The player has an overall rating of 211.44 based on batting and bowling analytics.\nSameer Rizvi has scored 424 IPL runs with a strike rate of 139.47.\nSameer Rizvi has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 211.44
+  },
+  {
+    "player_name": "SB Dubey",
+    "canonical_name": "SB Dubey",
+    "role": "Batter",
+    "chunk": "Player: SB Dubey\nRole: Batter\nSB Dubey is classified as a Batter. The player has an overall rating of 131.42 based on batting and bowling analytics.\nSB Dubey has scored 215 IPL runs with a strike rate of 151.41.\nSB Dubey has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 131.42
+  },
+  {
+    "player_name": "SB Styris",
+    "canonical_name": "Scott Styris",
+    "role": "Batter",
+    "chunk": "Player: SB Styris\nRole: Batter\nSB Styris is classified as a Batter. The player has an overall rating of 138.71 based on batting and bowling analytics.\nSB Styris has scored 131 IPL runs with a strike rate of 97.76.\nSB Styris has taken 9 wickets with an economy rate of 7.51.",
+    "retrieval_source": "exact",
+    "overall_rating": 138.71
+  },
+  {
+    "player_name": "SC Ganguly",
+    "canonical_name": "Sourav Ganguly",
+    "role": "Batter",
+    "chunk": "Player: SC Ganguly\nRole: Batter\nSC Ganguly is classified as a Batter. The player has an overall rating of 650.26 based on batting and bowling analytics.\nSC Ganguly has scored 1349 IPL runs with a strike rate of 101.73.\nSC Ganguly has taken 12 wickets with an economy rate of 7.93.",
+    "retrieval_source": "exact",
+    "overall_rating": 650.26
+  },
+  {
+    "player_name": "SD Hope",
+    "canonical_name": "Shai Hope",
+    "role": "Batter",
+    "chunk": "Player: SD Hope\nRole: Batter\nSD Hope is classified as a Batter. The player has an overall rating of 117.12 based on batting and bowling analytics.\nSD Hope has scored 183 IPL runs with a strike rate of 146.4.\nSD Hope has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 117.12
+  },
+  {
+    "player_name": "SE Marsh",
+    "canonical_name": "Shaun Marsh",
+    "role": "Batter",
+    "chunk": "Player: SE Marsh\nRole: Batter\nSE Marsh is classified as a Batter. The player has an overall rating of 1034.63 based on batting and bowling analytics.\nSE Marsh has scored 2489 IPL runs with a strike rate of 130.11.\nSE Marsh has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 1034.63
+  },
+  {
+    "player_name": "SE Rutherford",
+    "canonical_name": "SE Rutherford",
+    "role": "Batter",
+    "chunk": "Player: SE Rutherford\nRole: Batter\nSE Rutherford is classified as a Batter. The player has an overall rating of 240.04 based on batting and bowling analytics.\nSE Rutherford has scored 520 IPL runs with a strike rate of 132.32.\nSE Rutherford has taken 1 wickets with an economy rate of 7.83.",
+    "retrieval_source": "exact",
+    "overall_rating": 240.04
+  },
+  {
+    "player_name": "Shahbaz Ahmed",
+    "canonical_name": "Shahbaz Ahmed",
+    "role": "All-Rounder",
+    "chunk": "Player: Shahbaz Ahmed\nRole: All-Rounder\nShahbaz Ahmed is classified as a All-Rounder. The player has an overall rating of 473.0 based on batting and bowling analytics.\nShahbaz Ahmed has scored 603 IPL runs with a strike rate of 116.86.\nShahbaz Ahmed has taken 27 wickets with an economy rate of 9.63.",
+    "retrieval_source": "exact",
+    "overall_rating": 473.0
+  },
+  {
+    "player_name": "Shakib Al Hasan",
+    "canonical_name": "Shakib Al Hasan",
+    "role": "All-Rounder",
+    "chunk": "Player: Shakib Al Hasan\nRole: All-Rounder\nShakib Al Hasan is classified as a All-Rounder. The player has an overall rating of 907.11 based on batting and bowling analytics.\nShakib Al Hasan has scored 795 IPL runs with a strike rate of 119.55.\nShakib Al Hasan has taken 71 wickets with an economy rate of 7.38.",
+    "retrieval_source": "exact",
+    "overall_rating": 907.11
+  },
+  {
+    "player_name": "Shashank Singh",
+    "canonical_name": "Shashank Singh",
+    "role": "Batter",
+    "chunk": "Player: Shashank Singh\nRole: Batter\nShashank Singh is classified as a Batter. The player has an overall rating of 422.01 based on batting and bowling analytics.\nShashank Singh has scored 905 IPL runs with a strike rate of 153.91.\nShashank Singh has taken 4 wickets with an economy rate of 9.08.",
+    "retrieval_source": "exact",
+    "overall_rating": 422.01
+  },
+  {
+    "player_name": "Shubman Gill",
+    "canonical_name": "Shubman Gill",
+    "role": "Batter",
+    "chunk": "Player: Shubman Gill\nRole: Batter\nShubman Gill is classified as a Batter. The player has an overall rating of 1833.98 based on batting and bowling analytics.\nShubman Gill has scored 4482 IPL runs with a strike rate of 137.27.\nShubman Gill has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 1833.98
+  },
+  {
+    "player_name": "Sikandar Raza",
+    "canonical_name": "Sikandar Raza",
+    "role": "Batter",
+    "chunk": "Player: Sikandar Raza\nRole: Batter\nSikandar Raza is classified as a Batter. The player has an overall rating of 115.08 based on batting and bowling analytics.\nSikandar Raza has scored 182 IPL runs with a strike rate of 127.27.\nSikandar Raza has taken 3 wickets with an economy rate of 9.95.",
+    "retrieval_source": "exact",
+    "overall_rating": 115.08
+  },
+  {
+    "player_name": "SK Raina",
+    "canonical_name": "Suresh Raina",
+    "role": "All-Rounder",
+    "chunk": "Player: SK Raina\nRole: All-Rounder\nSK Raina is classified as a All-Rounder. The player has an overall rating of 2479.46 based on batting and bowling analytics.\nSK Raina has scored 5536 IPL runs with a strike rate of 132.54.\nSK Raina has taken 30 wickets with an economy rate of 7.35.",
+    "retrieval_source": "exact",
+    "overall_rating": 2479.46
+  },
+  {
+    "player_name": "SK Warne",
+    "canonical_name": "Shane Warne",
+    "role": "Bowler",
+    "chunk": "Player: SK Warne\nRole: Bowler\nSK Warne is classified as a Bowler. The player has an overall rating of 571.94 based on batting and bowling analytics.\nSK Warne has scored 198 IPL runs with a strike rate of 90.41.\nSK Warne has taken 60 wickets with an economy rate of 7.19.",
+    "retrieval_source": "exact",
+    "overall_rating": 571.94
+  },
+  {
+    "player_name": "SM Curran",
+    "canonical_name": "Sam Curran",
+    "role": "All-Rounder",
+    "chunk": "Player: SM Curran\nRole: All-Rounder\nSM Curran is classified as a All-Rounder. The player has an overall rating of 923.22 based on batting and bowling analytics.\nSM Curran has scored 997 IPL runs with a strike rate of 131.01.\nSM Curran has taken 63 wickets with an economy rate of 9.44.",
+    "retrieval_source": "exact",
+    "overall_rating": 923.22
+  },
+  {
+    "player_name": "SM Katich",
+    "canonical_name": "Simon Katich",
+    "role": "Batter",
+    "chunk": "Player: SM Katich\nRole: Batter\nSM Katich is classified as a Batter. The player has an overall rating of 134.25 based on batting and bowling analytics.\nSM Katich has scored 241 IPL runs with a strike rate of 126.18.\nSM Katich has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 134.25
+  },
+  {
+    "player_name": "SM Pollock",
+    "canonical_name": "Shaun Pollock",
+    "role": "Batter",
+    "chunk": "Player: SM Pollock\nRole: Batter\nSM Pollock is classified as a Batter. The player has an overall rating of 187.66 based on batting and bowling analytics.\nSM Pollock has scored 147 IPL runs with a strike rate of 126.72.\nSM Pollock has taken 13 wickets with an economy rate of 6.58.",
+    "retrieval_source": "exact",
+    "overall_rating": 187.66
+  },
+  {
+    "player_name": "SN Khan",
+    "canonical_name": "SN Khan",
+    "role": "Batter",
+    "chunk": "Player: SN Khan\nRole: Batter\nSN Khan is classified as a Batter. The player has an overall rating of 302.65 based on batting and bowling analytics.\nSN Khan has scored 746 IPL runs with a strike rate of 134.17.\nSN Khan has taken 0 wickets with an economy rate of 18.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 302.65
+  },
+  {
+    "player_name": "SN Thakur",
+    "canonical_name": "Shardul Thakur",
+    "role": "Bowler",
+    "chunk": "Player: SN Thakur\nRole: Bowler\nSN Thakur is classified as a Bowler. The player has an overall rating of 1156.02 based on batting and bowling analytics.\nSN Thakur has scored 339 IPL runs with a strike rate of 128.41.\nSN Thakur has taken 125 wickets with an economy rate of 9.05.",
+    "retrieval_source": "exact",
+    "overall_rating": 1156.02
+  },
+  {
+    "player_name": "SO Hetmyer",
+    "canonical_name": "Shimron Hetmyer",
+    "role": "Batter",
+    "chunk": "Player: SO Hetmyer\nRole: Batter\nSO Hetmyer is classified as a Batter. The player has an overall rating of 668.72 based on batting and bowling analytics.\nSO Hetmyer has scored 1566 IPL runs with a strike rate of 141.08.\nSO Hetmyer has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 668.72
+  },
+  {
+    "player_name": "SP Fleming",
+    "canonical_name": "Stephen Fleming",
+    "role": "Batter",
+    "chunk": "Player: SP Fleming\nRole: Batter\nSP Fleming is classified as a Batter. The player has an overall rating of 112.79 based on batting and bowling analytics.\nSP Fleming has scored 196 IPL runs with a strike rate of 114.62.\nSP Fleming has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 112.79
+  },
+  {
+    "player_name": "SP Goswami",
+    "canonical_name": "SP Goswami",
+    "role": "Batter",
+    "chunk": "Player: SP Goswami\nRole: Batter\nSP Goswami is classified as a Batter. The player has an overall rating of 145.83 based on batting and bowling analytics.\nSP Goswami has scored 293 IPL runs with a strike rate of 95.44.\nSP Goswami has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 145.83
+  },
+  {
+    "player_name": "SP Narine",
+    "canonical_name": "Sunil Narine",
+    "role": "All-Rounder",
+    "chunk": "Player: SP Narine\nRole: All-Rounder\nSP Narine is classified as a All-Rounder. The player has an overall rating of 2584.73 based on batting and bowling analytics.\nSP Narine has scored 1820 IPL runs with a strike rate of 154.5.\nSP Narine has taken 228 wickets with an economy rate of 6.81.",
+    "retrieval_source": "exact",
+    "overall_rating": 2584.73
+  },
+  {
+    "player_name": "SPD Smith",
+    "canonical_name": "Steve Smith",
+    "role": "Batter",
+    "chunk": "Player: SPD Smith\nRole: Batter\nSPD Smith is classified as a Batter. The player has an overall rating of 1005.44 based on batting and bowling analytics.\nSPD Smith has scored 2495 IPL runs with a strike rate of 124.81.\nSPD Smith has taken 0 wickets with an economy rate of 15.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 1005.44
+  },
+  {
+    "player_name": "SR Tendulkar",
+    "canonical_name": "Sachin Tendulkar",
+    "role": "Batter",
+    "chunk": "Player: SR Tendulkar\nRole: Batter\nSR Tendulkar is classified as a Batter. The player has an overall rating of 948.72 based on batting and bowling analytics.\nSR Tendulkar has scored 2334 IPL runs with a strike rate of 114.19.\nSR Tendulkar has taken 0 wickets with an economy rate of 9.57.",
+    "retrieval_source": "exact",
+    "overall_rating": 948.72
+  },
+  {
+    "player_name": "SR Watson",
+    "canonical_name": "Shane Watson",
+    "role": "All-Rounder",
+    "chunk": "Player: SR Watson\nRole: All-Rounder\nSR Watson is classified as a All-Rounder. The player has an overall rating of 2432.85 based on batting and bowling analytics.\nSR Watson has scored 3880 IPL runs with a strike rate of 134.16.\nSR Watson has taken 107 wickets with an economy rate of 7.7.",
+    "retrieval_source": "exact",
+    "overall_rating": 2432.85
+  },
+  {
+    "player_name": "SS Iyer",
+    "canonical_name": "Shreyas Iyer",
+    "role": "Batter",
+    "chunk": "Player: SS Iyer\nRole: Batter\nSS Iyer is classified as a Batter. The player has an overall rating of 1678.04 based on batting and bowling analytics.\nSS Iyer has scored 4132 IPL runs with a strike rate of 130.8.\nSS Iyer has taken 0 wickets with an economy rate of 7.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 1678.04
+  },
+  {
+    "player_name": "SS Prabhudessai",
+    "canonical_name": "Shashank Singh",
+    "role": "Batter",
+    "chunk": "Player: SS Prabhudessai\nRole: Batter\nSS Prabhudessai is classified as a Batter. The player has an overall rating of 83.85 based on batting and bowling analytics.\nSS Prabhudessai has scored 126 IPL runs with a strike rate of 111.5.\nSS Prabhudessai has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 83.85
+  },
+  {
+    "player_name": "SS Tiwary",
+    "canonical_name": "Saurabh Tiwary",
+    "role": "Batter",
+    "chunk": "Player: SS Tiwary\nRole: Batter\nSS Tiwary is classified as a Batter. The player has an overall rating of 632.32 based on batting and bowling analytics.\nSS Tiwary has scored 1494 IPL runs with a strike rate of 115.72.\nSS Tiwary has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 632.32
+  },
+  {
+    "player_name": "ST Jayasuriya",
+    "canonical_name": "Sanath Jayasuriya",
+    "role": "Batter",
+    "chunk": "Player: ST Jayasuriya\nRole: Batter\nST Jayasuriya is classified as a Batter. The player has an overall rating of 459.63 based on batting and bowling analytics.\nST Jayasuriya has scored 768 IPL runs with a strike rate of 134.03.\nST Jayasuriya has taken 16 wickets with an economy rate of 7.89.",
+    "retrieval_source": "exact",
+    "overall_rating": 459.63
+  },
+  {
+    "player_name": "STR Binny",
+    "canonical_name": "Stuart Binny",
+    "role": "All-Rounder",
+    "chunk": "Player: STR Binny\nRole: All-Rounder\nSTR Binny is classified as a All-Rounder. The player has an overall rating of 598.73 based on batting and bowling analytics.\nSTR Binny has scored 880 IPL runs with a strike rate of 125.71.\nSTR Binny has taken 28 wickets with an economy rate of 7.49.",
+    "retrieval_source": "exact",
+    "overall_rating": 598.73
+  },
+  {
+    "player_name": "Suryansh Shedge",
+    "canonical_name": "Suryansh Shedge",
+    "role": "Batter",
+    "chunk": "Player: Suryansh Shedge\nRole: Batter\nSuryansh Shedge is classified as a Batter. The player has an overall rating of 85.39 based on batting and bowling analytics.\nSuryansh Shedge has scored 156 IPL runs with a strike rate of 160.82.\nSuryansh Shedge has taken 0 wickets with an economy rate of 12.63.",
+    "retrieval_source": "exact",
+    "overall_rating": 85.39
+  },
+  {
+    "player_name": "SV Samson",
+    "canonical_name": "Sanju Samson",
+    "role": "Batter",
+    "chunk": "Player: SV Samson\nRole: Batter\nSV Samson is classified as a Batter. The player has an overall rating of 2113.63 based on batting and bowling analytics.\nSV Samson has scored 5181 IPL runs with a strike rate of 137.43.\nSV Samson has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 2113.63
+  },
+  {
+    "player_name": "SW Billings",
+    "canonical_name": "Sam Billings",
+    "role": "Batter",
+    "chunk": "Player: SW Billings\nRole: Batter\nSW Billings is classified as a Batter. The player has an overall rating of 239.02 based on batting and bowling analytics.\nSW Billings has scored 503 IPL runs with a strike rate of 126.07.\nSW Billings has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 239.02
+  },
+  {
+    "player_name": "T Stubbs",
+    "canonical_name": "Tristan Stubbs",
+    "role": "Batter",
+    "chunk": "Player: T Stubbs\nRole: Batter\nT Stubbs is classified as a Batter. The player has an overall rating of 448.44 based on batting and bowling analytics.\nT Stubbs has scored 986 IPL runs with a strike rate of 148.05.\nT Stubbs has taken 4 wickets with an economy rate of 11.19.",
+    "retrieval_source": "exact",
+    "overall_rating": 448.44
+  },
+  {
+    "player_name": "TG Southee",
+    "canonical_name": "Tim Southee",
+    "role": "Bowler",
+    "chunk": "Player: TG Southee\nRole: Bowler\nTG Southee is classified as a Bowler. The player has an overall rating of 520.47 based on batting and bowling analytics.\nTG Southee has scored 120 IPL runs with a strike rate of 111.11.\nTG Southee has taken 57 wickets with an economy rate of 8.43.",
+    "retrieval_source": "exact",
+    "overall_rating": 520.47
+  },
+  {
+    "player_name": "TH David",
+    "canonical_name": "Tim David",
+    "role": "Batter",
+    "chunk": "Player: TH David\nRole: Batter\nTH David is classified as a Batter. The player has an overall rating of 457.11 based on batting and bowling analytics.\nTH David has scored 1108 IPL runs with a strike rate of 166.37.\nTH David has taken 0 wickets with an economy rate of 18.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 457.11
+  },
+  {
+    "player_name": "Tilak Varma",
+    "canonical_name": "Tilak Varma",
+    "role": "Batter",
+    "chunk": "Player: Tilak Varma\nRole: Batter\nTilak Varma is classified as a Batter. The player has an overall rating of 769.02 based on batting and bowling analytics.\nTilak Varma has scored 1855 IPL runs with a strike rate of 138.74.\nTilak Varma has taken 0 wickets with an economy rate of 7.3.",
+    "retrieval_source": "exact",
+    "overall_rating": 769.02
+  },
+  {
+    "player_name": "TK Curran",
+    "canonical_name": "Tom Curran",
+    "role": "Batter",
+    "chunk": "Player: TK Curran\nRole: Batter\nTK Curran is classified as a Batter. The player has an overall rating of 169.5 based on batting and bowling analytics.\nTK Curran has scored 127 IPL runs with a strike rate of 117.59.\nTK Curran has taken 13 wickets with an economy rate of 10.29.",
+    "retrieval_source": "exact",
+    "overall_rating": 169.5
+  },
+  {
+    "player_name": "TL Suman",
+    "canonical_name": "TL Suman",
+    "role": "Batter",
+    "chunk": "Player: TL Suman\nRole: Batter\nTL Suman is classified as a Batter. The player has an overall rating of 345.31 based on batting and bowling analytics.\nTL Suman has scored 676 IPL runs with a strike rate of 115.16.\nTL Suman has taken 7 wickets with an economy rate of 7.82.",
+    "retrieval_source": "exact",
+    "overall_rating": 345.31
+  },
+  {
+    "player_name": "TM Dilshan",
+    "canonical_name": "Tillakaratne Dilshan",
+    "role": "Batter",
+    "chunk": "Player: TM Dilshan\nRole: Batter\nTM Dilshan is classified as a Batter. The player has an overall rating of 518.18 based on batting and bowling analytics.\nTM Dilshan has scored 1153 IPL runs with a strike rate of 110.12.\nTM Dilshan has taken 5 wickets with an economy rate of 8.03.",
+    "retrieval_source": "exact",
+    "overall_rating": 518.18
+  },
+  {
+    "player_name": "TM Head",
+    "canonical_name": "Travis Head",
+    "role": "Batter",
+    "chunk": "Player: TM Head\nRole: Batter\nTM Head is classified as a Batter. The player has an overall rating of 654.42 based on batting and bowling analytics.\nTM Head has scored 1513 IPL runs with a strike rate of 161.99.\nTM Head has taken 3 wickets with an economy rate of 11.69.",
+    "retrieval_source": "exact",
+    "overall_rating": 654.42
+  },
+  {
+    "player_name": "UBT Chand",
+    "canonical_name": "Unmukt Chand",
+    "role": "Batter",
+    "chunk": "Player: UBT Chand\nRole: Batter\nUBT Chand is classified as a Batter. The player has an overall rating of 148.66 based on batting and bowling analytics.\nUBT Chand has scored 300 IPL runs with a strike rate of 95.54.\nUBT Chand has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 148.66
+  },
+  {
+    "player_name": "Urvil Patel",
+    "canonical_name": "Urvil Patel",
+    "role": "Batter",
+    "chunk": "Player: Urvil Patel\nRole: Batter\nUrvil Patel is classified as a Batter. The player has an overall rating of 136.74 based on batting and bowling analytics.\nUrvil Patel has scored 197 IPL runs with a strike rate of 193.14.\nUrvil Patel has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 136.74
+  },
+  {
+    "player_name": "UT Khawaja",
+    "canonical_name": "Usman Khawaja",
+    "role": "Batter",
+    "chunk": "Player: UT Khawaja\nRole: Batter\nUT Khawaja is classified as a Batter. The player has an overall rating of 87.09 based on batting and bowling analytics.\nUT Khawaja has scored 127 IPL runs with a strike rate of 120.95.\nUT Khawaja has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 87.09
+  },
+  {
+    "player_name": "UT Yadav",
+    "canonical_name": "Umesh Yadav",
+    "role": "Bowler",
+    "chunk": "Player: UT Yadav\nRole: Bowler\nUT Yadav is classified as a Bowler. The player has an overall rating of 1400.07 based on batting and bowling analytics.\nUT Yadav has scored 208 IPL runs with a strike rate of 98.58.\nUT Yadav has taken 163 wickets with an economy rate of 8.35.",
+    "retrieval_source": "exact",
+    "overall_rating": 1400.07
+  },
+  {
+    "player_name": "V Kohli",
+    "canonical_name": "Virat Kohli",
+    "role": "Batter",
+    "chunk": "Player: V Kohli\nRole: Batter\nV Kohli is classified as a Batter. The player has an overall rating of 3747.56 based on batting and bowling analytics.\nV Kohli has scored 9213 IPL runs with a strike rate of 130.72.\nV Kohli has taken 5 wickets with an economy rate of 8.43.",
+    "retrieval_source": "exact",
+    "overall_rating": 3747.56
+  },
+  {
+    "player_name": "V Nigam",
+    "canonical_name": "V Nigam",
+    "role": "Batter",
+    "chunk": "Player: V Nigam\nRole: Batter\nV Nigam is classified as a Batter. The player has an overall rating of 206.94 based on batting and bowling analytics.\nV Nigam has scored 157 IPL runs with a strike rate of 170.65.\nV Nigam has taken 14 wickets with an economy rate of 9.53.",
+    "retrieval_source": "exact",
+    "overall_rating": 206.94
+  },
+  {
+    "player_name": "V Sehwag",
+    "canonical_name": "Virender Sehwag",
+    "role": "Batter",
+    "chunk": "Player: V Sehwag\nRole: Batter\nV Sehwag is classified as a Batter. The player has an overall rating of 1163.33 based on batting and bowling analytics.\nV Sehwag has scored 2728 IPL runs with a strike rate of 148.83.\nV Sehwag has taken 6 wickets with an economy rate of 10.26.",
+    "retrieval_source": "exact",
+    "overall_rating": 1163.33
+  },
+  {
+    "player_name": "V Shankar",
+    "canonical_name": "Vijay Shankar",
+    "role": "Batter",
+    "chunk": "Player: V Shankar\nRole: Batter\nV Shankar is classified as a Batter. The player has an overall rating of 610.75 based on batting and bowling analytics.\nV Shankar has scored 1233 IPL runs with a strike rate of 125.18.\nV Shankar has taken 12 wickets with an economy rate of 8.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 610.75
+  },
+  {
+    "player_name": "V Suryavanshi",
+    "canonical_name": "Vaibhav Suryavanshi",
+    "role": "Batter",
+    "chunk": "Player: V Suryavanshi\nRole: Batter\nV Suryavanshi is classified as a Batter. The player has an overall rating of 396.98 based on batting and bowling analytics.\nV Suryavanshi has scored 831 IPL runs with a strike rate of 215.28.\nV Suryavanshi has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 396.98
+  },
+  {
+    "player_name": "VR Iyer",
+    "canonical_name": "Venkatesh Iyer",
+    "role": "Batter",
+    "chunk": "Player: VR Iyer\nRole: Batter\nVR Iyer is classified as a Batter. The player has an overall rating of 676.3 based on batting and bowling analytics.\nVR Iyer has scored 1582 IPL runs with a strike rate of 134.07.\nVR Iyer has taken 3 wickets with an economy rate of 10.36.",
+    "retrieval_source": "exact",
+    "overall_rating": 676.3
+  },
+  {
+    "player_name": "VVS Laxman",
+    "canonical_name": "VVS Laxman",
+    "role": "Batter",
+    "chunk": "Player: VVS Laxman\nRole: Batter\nVVS Laxman is classified as a Batter. The player has an overall rating of 144.02 based on batting and bowling analytics.\nVVS Laxman has scored 282 IPL runs with a strike rate of 104.06.\nVVS Laxman has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 144.02
+  },
+  {
+    "player_name": "W Jaffer",
+    "canonical_name": "Wasim Jaffer",
+    "role": "Batter",
+    "chunk": "Player: W Jaffer\nRole: Batter\nW Jaffer is classified as a Batter. The player has an overall rating of 82.23 based on batting and bowling analytics.\nW Jaffer has scored 130 IPL runs with a strike rate of 100.78.\nW Jaffer has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 82.23
+  },
+  {
+    "player_name": "Washington Sundar",
+    "canonical_name": "Washington Sundar",
+    "role": "All-Rounder",
+    "chunk": "Player: Washington Sundar\nRole: All-Rounder\nWashington Sundar is classified as a All-Rounder. The player has an overall rating of 684.76 based on batting and bowling analytics.\nWashington Sundar has scored 814 IPL runs with a strike rate of 128.59.\nWashington Sundar has taken 42 wickets with an economy rate of 7.71.",
+    "retrieval_source": "exact",
+    "overall_rating": 684.76
+  },
+  {
+    "player_name": "WG Jacks",
+    "canonical_name": "Will Jacks",
+    "role": "Batter",
+    "chunk": "Player: WG Jacks\nRole: Batter\nWG Jacks is classified as a Batter. The player has an overall rating of 326.87 based on batting and bowling analytics.\nWG Jacks has scored 569 IPL runs with a strike rate of 155.04.\nWG Jacks has taken 9 wickets with an economy rate of 9.62.",
+    "retrieval_source": "exact",
+    "overall_rating": 326.87
+  },
+  {
+    "player_name": "WP Saha",
+    "canonical_name": "Wriddhiman Saha",
+    "role": "Batter",
+    "chunk": "Player: WP Saha\nRole: Batter\nWP Saha is classified as a Batter. The player has an overall rating of 1210.77 based on batting and bowling analytics.\nWP Saha has scored 2934 IPL runs with a strike rate of 123.9.\nWP Saha has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 1210.77
+  },
+  {
+    "player_name": "Y Nagar",
+    "canonical_name": "Y Nagar",
+    "role": "Batter",
+    "chunk": "Player: Y Nagar\nRole: Batter\nY Nagar is classified as a Batter. The player has an overall rating of 156.71 based on batting and bowling analytics.\nY Nagar has scored 285 IPL runs with a strike rate of 105.17.\nY Nagar has taken 4 wickets with an economy rate of 10.42.",
+    "retrieval_source": "exact",
+    "overall_rating": 156.71
+  },
+  {
+    "player_name": "Y Venugopal Rao",
+    "canonical_name": "Y Venugopal Rao",
+    "role": "Batter",
+    "chunk": "Player: Y Venugopal Rao\nRole: Batter\nY Venugopal Rao is classified as a Batter. The player has an overall rating of 465.88 based on batting and bowling analytics.\nY Venugopal Rao has scored 985 IPL runs with a strike rate of 113.87.\nY Venugopal Rao has taken 7 wickets with an economy rate of 9.14.",
+    "retrieval_source": "exact",
+    "overall_rating": 465.88
+  },
+  {
+    "player_name": "YBK Jaiswal",
+    "canonical_name": "Yashasvi Jaiswal",
+    "role": "Batter",
+    "chunk": "Player: YBK Jaiswal\nRole: Batter\nYBK Jaiswal is classified as a Batter. The player has an overall rating of 987.1 based on batting and bowling analytics.\nYBK Jaiswal has scored 2536 IPL runs with a strike rate of 149.0.\nYBK Jaiswal has taken 0 wickets with an economy rate of 36.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 987.1
+  },
+  {
+    "player_name": "YK Pathan",
+    "canonical_name": "Yusuf Pathan",
+    "role": "All-Rounder",
+    "chunk": "Player: YK Pathan\nRole: All-Rounder\nYK Pathan is classified as a All-Rounder. The player has an overall rating of 1683.6 based on batting and bowling analytics.\nYK Pathan has scored 3222 IPL runs with a strike rate of 138.05.\nYK Pathan has taken 46 wickets with an economy rate of 7.31.",
+    "retrieval_source": "exact",
+    "overall_rating": 1683.6
+  },
+  {
+    "player_name": "Yuvraj Singh",
+    "canonical_name": "Yuvraj Singh",
+    "role": "All-Rounder",
+    "chunk": "Player: Yuvraj Singh\nRole: All-Rounder\nYuvraj Singh is classified as a All-Rounder. The player has an overall rating of 1436.19 based on batting and bowling analytics.\nYuvraj Singh has scored 2754 IPL runs with a strike rate of 124.78.\nYuvraj Singh has taken 39 wickets with an economy rate of 7.42.",
+    "retrieval_source": "exact",
+    "overall_rating": 1436.19
+  },
+  {
+    "player_name": "YV Takawale",
+    "canonical_name": "YV Takawale",
+    "role": "Batter",
+    "chunk": "Player: YV Takawale\nRole: Batter\nYV Takawale is classified as a Batter. The player has an overall rating of 108.28 based on batting and bowling analytics.\nYV Takawale has scored 192 IPL runs with a strike rate of 104.92.\nYV Takawale has taken 0 wickets with an economy rate of 0.0.",
+    "retrieval_source": "exact",
+    "overall_rating": 108.28
+  },
+  {
+    "player_name": "Z Khan",
+    "canonical_name": "Zaheer Khan",
+    "role": "Bowler",
+    "chunk": "Player: Z Khan\nRole: Bowler\nZ Khan is classified as a Bowler. The player has an overall rating of 1008.61 based on batting and bowling analytics.\nZ Khan has scored 117 IPL runs with a strike rate of 82.98.\nZ Khan has taken 119 wickets with an economy rate of 7.54.",
+    "retrieval_source": "exact",
+    "overall_rating": 1008.61
+  }
+]
