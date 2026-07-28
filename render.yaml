@@ -1,5 +1,5 @@
-# Phase 12.4 — Render deployment configuration
-# Place this in the root of your repository
+# Phase 12.2 (final) — Render deployment configuration
+# Uses SQLite (committed to repo) — no external database needed
 
 services:
   - type: web
@@ -9,16 +9,8 @@ services:
     startCommand: cd backend && uvicorn app.main:app --host 0.0.0.0 --port $PORT
     rootDir: .
     envVars:
-      - key: MYSQL_USER
-        sync: false
-      - key: MYSQL_PASSWORD
-        sync: false
-      - key: MYSQL_HOST
-        sync: false
-      - key: MYSQL_PORT
-        sync: false
-      - key: MYSQL_DATABASE
-        sync: false
+      - key: USE_SQLITE
+        value: "true"
       - key: GROQ_API_KEY
         sync: false
       - key: HF_TOKEN

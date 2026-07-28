@@ -1,34 +1,54 @@
 """
-Phase 11.3 fix — removed duplicate get_db() from session.py.
+Phase 12.2 (final) — SQLite-based session for deployment
 
-get_db() now lives exclusively in:
-    app/api/dependencies/database.py
+Uses a pre-built SQLite file (cricketiq.db) committed to git.
+This solves the free-tier persistence problem — since the file
+is part of the repository, it survives every redeploy on Render's
+free tier, unlike a runtime-generated database on ephemeral disk.
 
-session.py provides only:
-- engine       : SQLAlchemy engine
-- SessionLocal : session factory
-- Base         : declarative base for all models
+Local development can still use MySQL by setting USE_SQLITE=false
+in .env — this file supports both modes.
 """
 
+import os
+from pathlib import Path
+
 from sqlalchemy import create_engine
-from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import sessionmaker
+from sqlalchemy.orm import declarative_base, sessionmaker
 
 from app.core.config import settings
 
+# ---------------------------------------------------------------------------
+# Determine which database to use
+# ---------------------------------------------------------------------------
 
-DATABASE_URL = (
-    f"mysql+pymysql://{settings.MYSQL_USER}:{settings.MYSQL_PASSWORD}"
-    f"@{settings.MYSQL_HOST}:{settings.MYSQL_PORT}"
-    f"/{settings.MYSQL_DATABASE}"
-)
+USE_SQLITE = os.getenv("USE_SQLITE", "true").lower() == "true"
 
-engine = create_engine(
-    DATABASE_URL,
-    pool_pre_ping=True,
-    pool_recycle=3600,
-    echo=False
-)
+if USE_SQLITE:
+    # SQLite — used for deployment (Render free tier)
+    DB_PATH = Path(__file__).resolve().parent.parent.parent / "cricketiq.db"
+    DATABASE_URL = f"sqlite:///{DB_PATH}"
+
+    engine = create_engine(
+        DATABASE_URL,
+        connect_args={"check_same_thread": False},
+        echo=False
+    )
+
+else:
+    # MySQL — used for local development
+    DATABASE_URL = (
+        f"mysql+pymysql://{settings.MYSQL_USER}:{settings.MYSQL_PASSWORD}"
+        f"@{settings.MYSQL_HOST}:{settings.MYSQL_PORT}"
+        f"/{settings.MYSQL_DATABASE}"
+    )
+
+    engine = create_engine(
+        DATABASE_URL,
+        pool_pre_ping=True,
+        pool_recycle=3600,
+        echo=False
+    )
 
 SessionLocal = sessionmaker(
     autocommit=False,

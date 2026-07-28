@@ -67,3 +67,5 @@ backend/export_*.py
 # ── Jupyter ──────────────────────────────────────────────────────────────────
 .ipynb_checkpoints/
 *.ipynb
+# SQL export files - not needed for deployment
+*.sql
