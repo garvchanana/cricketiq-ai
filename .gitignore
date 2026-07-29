@@ -39,8 +39,6 @@ ENV/
 Thumbs.db
 
 # ── FAISS index — large binary files, rebuild on deploy ──────────────────────
-data/faiss_index/
-data/embeddings/
 data/processed/
 data/raw/
 

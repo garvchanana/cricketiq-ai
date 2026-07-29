@@ -26,7 +26,10 @@ USE_SQLITE = os.getenv("USE_SQLITE", "true").lower() == "true"
 
 if USE_SQLITE:
     # SQLite — used for deployment (Render free tier)
-    DB_PATH = Path(__file__).resolve().parent.parent.parent / "cricketiq.db"
+    # Path fix: database/session.py -> app -> backend -> PROJECT ROOT
+    # (4 parents needed, not 3, to reach the actual project root
+    # where cricketiq.db lives)
+    DB_PATH = Path(__file__).resolve().parent.parent.parent.parent / "cricketiq.db"
     DATABASE_URL = f"sqlite:///{DB_PATH}"
 
     engine = create_engine(
