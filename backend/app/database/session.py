@@ -26,10 +26,20 @@ USE_SQLITE = os.getenv("USE_SQLITE", "true").lower() == "true"
 
 if USE_SQLITE:
     # SQLite — used for deployment (Render free tier)
-    # Path fix: database/session.py -> app -> backend -> PROJECT ROOT
-    # (4 parents needed, not 3, to reach the actual project root
-    # where cricketiq.db lives)
-    DB_PATH = Path(__file__).resolve().parent.parent.parent.parent / "cricketiq.db"
+    #
+    # Path differs between local dev and Docker/Render:
+    #   Local:  backend/app/database/session.py -> 4 parents -> project root
+    #           (cricketiq.db lives in project root locally)
+    #   Docker: /app/app/database/session.py -> cricketiq.db copied to /app
+    #           via "COPY cricketiq.db ." in the Dockerfile (2 parents up
+    #           from this file's Docker location reaches /app)
+    #
+    # Try the Docker-flattened location first (2 parents), fall back
+    # to the local dev nested location (4 parents) if not found.
+    _docker_path = Path(__file__).resolve().parent.parent / "cricketiq.db"
+    _local_path  = Path(__file__).resolve().parent.parent.parent.parent / "cricketiq.db"
+
+    DB_PATH = _docker_path if _docker_path.exists() else _local_path
     DATABASE_URL = f"sqlite:///{DB_PATH}"
 
     engine = create_engine(

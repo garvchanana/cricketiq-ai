@@ -1,4 +1,4 @@
-# ── Phase 12.3 — Dockerfile for FastAPI backend ──────────────────────────────
+# Phase 12.3 (final fix) — Dockerfile for FastAPI backend
 # Multi-stage build for smaller production image
 
 FROM python:3.11-slim AS base
@@ -23,7 +23,14 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy application code
 COPY backend/ .
 
-# Create data directories
+# Phase 12.3 fix — cricketiq.db lives in project ROOT, not inside
+# backend/, so it was never copied by "COPY backend/ ." above.
+# Copy it explicitly into the same /app directory as the app code,
+# matching the path SessionLocal expects at runtime.
+COPY cricketiq.db .
+
+# Create data directories (faiss_index is already committed via git,
+# these mkdir calls are a safety net in case any are missing)
 RUN mkdir -p data/faiss_index data/embeddings data/raw data/processed
 
 # Expose port
