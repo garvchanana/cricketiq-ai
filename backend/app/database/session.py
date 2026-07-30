@@ -27,19 +27,25 @@ USE_SQLITE = os.getenv("USE_SQLITE", "true").lower() == "true"
 if USE_SQLITE:
     # SQLite — used for deployment (Render free tier)
     #
-    # Path differs between local dev and Docker/Render:
-    #   Local:  backend/app/database/session.py -> 4 parents -> project root
-    #           (cricketiq.db lives in project root locally)
-    #   Docker: /app/app/database/session.py -> cricketiq.db copied to /app
-    #           via "COPY cricketiq.db ." in the Dockerfile (2 parents up
-    #           from this file's Docker location reaches /app)
-    #
-    # Try the Docker-flattened location first (2 parents), fall back
-    # to the local dev nested location (4 parents) if not found.
-    _docker_path = Path(__file__).resolve().parent.parent / "cricketiq.db"
-    _local_path  = Path(__file__).resolve().parent.parent.parent.parent / "cricketiq.db"
+    # Phase 12.3 final fix: search upward from this file's location
+    # for cricketiq.db, checking every parent directory rather than
+    # guessing a fixed number of levels. This works correctly whether
+    # running locally (backend/app/database/session.py, db in project
+    # root, 4 levels up) or inside Docker (/app/app/database/session.py,
+    # db copied to /app, 2 levels up) without needing to hardcode either.
+    def _find_db_path() -> Path:
+        current = Path(__file__).resolve().parent
+        for _ in range(6):  # search up to 6 levels up, more than enough
+            candidate = current / "cricketiq.db"
+            if candidate.exists():
+                return candidate
+            current = current.parent
+        # Not found anywhere — fall back to Docker's expected location
+        # so a clear "file not found" error surfaces instead of
+        # silently creating an empty DB in some default fallback spot
+        return Path("/app/cricketiq.db")
 
-    DB_PATH = _docker_path if _docker_path.exists() else _local_path
+    DB_PATH = _find_db_path()
     DATABASE_URL = f"sqlite:///{DB_PATH}"
 
     engine = create_engine(
