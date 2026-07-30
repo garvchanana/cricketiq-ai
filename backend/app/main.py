@@ -24,7 +24,7 @@ from app.api.routes.feature_engineering  import router as feature_router
 from app.api.routes.rag_routes           import router as rag_router
 from app.api.routes.sql_agent_routes     import router as sql_agent_router
 from app.api.routes.hybrid_routes        import router as hybrid_router
-from app.api.routes.debug_routes import router as debug_router
+
 
 from app.rag.vectorstore.vector_indexing_service import VectorIndexingService
 
@@ -95,7 +95,6 @@ app.include_router(feature_router)
 app.include_router(rag_router)
 app.include_router(sql_agent_router)
 app.include_router(hybrid_router)
-app.include_router(debug_router)
 
 
 # ---------------------------------------------------------------------------
