@@ -1,32 +1,41 @@
+import sys
+import os
+
+# Phase 12.4 fix — Streamlit Cloud deployment path fix
+# Ensures "services", "utils", "pages" etc. are importable regardless
+# of Streamlit Cloud's working directory context, which can differ
+# from local "streamlit run app.py" (run from inside frontend/).
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
 import streamlit as st
- 
+
 # ---------------------------------------------------------------------------
 # Page configuration — must be first Streamlit call
 # ---------------------------------------------------------------------------
- 
+
 st.set_page_config(
     page_title       = "CricketIQ AI",
     page_icon        = "🏏",
     layout           = "wide",
     initial_sidebar_state = "expanded"
 )
- 
+
 # ---------------------------------------------------------------------------
 # Imports
 # ---------------------------------------------------------------------------
- 
+
 from services.api_client import health_check
- 
+
 # ---------------------------------------------------------------------------
 # Sidebar — navigation and status
 # ---------------------------------------------------------------------------
- 
+
 with st.sidebar:
     st.markdown("# 🏏")
     st.title("CricketIQ AI")
     st.caption("IPL Intelligence Platform")
     st.divider()
- 
+
     st.markdown("**Navigate**")
     st.markdown("""
     - 💬 **Chat** — Ask anything
@@ -36,9 +45,9 @@ with st.sidebar:
     - 🏆 **Rankings** — Leaderboard
     - 🏟️ **Venues** — Ground stats
     """)
- 
+
     st.divider()
- 
+
     # Backend status
     st.markdown("**System Status**")
     try:
@@ -50,11 +59,11 @@ with st.sidebar:
             st.caption(f"Phase: {backend.get('phase', 'unknown')}")
     except Exception:
         st.error("⚠️ Cannot reach backend")
- 
+
 # ---------------------------------------------------------------------------
 # Home page content
 # ---------------------------------------------------------------------------
- 
+
 st.title("🏏 CricketIQ AI")
 st.subheader("IPL Cricket Intelligence Platform")
 st.markdown(
@@ -62,15 +71,15 @@ st.markdown(
     "CricketIQ combines statistical analysis with "
     "player intelligence to give you deep IPL insights."
 )
- 
+
 st.divider()
- 
+
 # ---------------------------------------------------------------------------
 # Quick start — example questions
 # ---------------------------------------------------------------------------
- 
+
 col1, col2, col3 = st.columns(3)
- 
+
 with col1:
     st.markdown("### 📊 Analytics")
     st.markdown("""
@@ -79,7 +88,7 @@ with col1:
     - Best economy bowlers in death overs
     - Which venue has highest run rate?
     """)
- 
+
 with col2:
     st.markdown("### 👤 Player Intelligence")
     st.markdown("""
@@ -88,7 +97,7 @@ with col2:
     - Explain Virat Kohli batting style
     - What kind of player is Rohit Sharma?
     """)
- 
+
 with col3:
     st.markdown("### ⚖️ Comparisons")
     st.markdown("""
@@ -97,17 +106,17 @@ with col3:
     - Mumbai Indians vs CSK performance
     - Best powerplay vs death overs batters
     """)
- 
+
 st.divider()
- 
+
 # ---------------------------------------------------------------------------
 # Route explanation
 # ---------------------------------------------------------------------------
- 
+
 st.markdown("### How CricketIQ routes your question")
- 
+
 r1, r2, r3 = st.columns(3)
- 
+
 with r1:
     st.info(
         "🟢 **SQL Route**\n\n"
@@ -115,7 +124,7 @@ with r1:
         "Answered directly from the IPL database "
         "with exact numbers and charts."
     )
- 
+
 with r2:
     st.info(
         "🔵 **RAG Route**\n\n"
@@ -123,7 +132,7 @@ with r2:
         "Answered from player intelligence "
         "documents with narrative context."
     )
- 
+
 with r3:
     st.info(
         "🟣 **Hybrid Route**\n\n"
@@ -131,7 +140,7 @@ with r3:
         "Combines database stats with player "
         "intelligence for complete answers."
     )
- 
+
 st.divider()
 st.caption(
     "Built with FastAPI · MySQL · FAISS · Groq LLM · Streamlit | "
