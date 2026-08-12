@@ -1,0 +1,70 @@
+====================================================================
+1. EMPTY PYTHON FILES (excluding __init__.py, excluding venv)
+====================================================================
+
+
+====================================================================
+2. EMPTY FOLDERS (excluding venv, .git)
+====================================================================
+FullName                                                                         
+--------                                                                         
+D:\Python\Data Science Projects\cricketiq-ai\backend\app\workers\celery_tasks.py 
+D:\Python\Data Science Projects\cricketiq-ai\backend\app\workers\celery_worker.py
+D:\Python\Data Science Projects\cricketiq-ai\data\raw\ball_by_ball               
+D:\Python\Data Science Projects\cricketiq-ai\data\raw\innings                    
+D:\Python\Data Science Projects\cricketiq-ai\data\raw\matches                    
+D:\Python\Data Science Projects\cricketiq-ai\data\raw\players                    
+D:\Python\Data Science Projects\cricketiq-ai\data\raw\scorecards                 
+
+====================================================================
+3. DEBUG/TEST SCRIPTS STILL IN BACKEND ROOT
+====================================================================
+                                                                                 
+
+====================================================================
+4. STRAY .SQL / .TXT / BACKUP FILES IN PROJECT ROOT
+====================================================================
+
+====================================================================
+5. DUPLICATE/OLD SESSION FILES
+====================================================================
+D:\Python\Data Science Projects\cricketiq-ai\backend\app\database\session.py     
+
+====================================================================
+6. ENV BACKUP FILES (should stay LOCAL only, verify gitignored)
+====================================================================
+D:\Python\Data Science Projects\cricketiq-ai\backend\.env                        
+
+====================================================================
+7. GIT STATUS — everything currently tracked/untracked
+====================================================================
+ D backend/test_extractor.py
+ D backend/test_final_agent.py
+ D backend/test_hybrid.py
+ D backend/test_match_analyst.py
+ D backend/test_matchup_analyst.py
+ D backend/test_player_analyst.py
+ D backend/test_rewriter.py
+ D backend/test_rewriter2.py
+ D backend/test_router.py
+
+====================================================================
+8. DATA FOLDER CONTENTS (verify only faiss_index has real data)
+====================================================================
+D:\Python\Data Science Projects\cricketiq-ai\backend\data\faiss_index            
+D:\Python\Data Science Projects\cricketiq-ai\backend\data\faiss_index\player_i...
+D:\Python\Data Science Projects\cricketiq-ai\backend\data\faiss_index\player_m...
+
+====================================================================
+9. ROOT-LEVEL FILE INVENTORY
+====================================================================
+                                                                                 
+                                                                                 
+                                                                                 
+                                                                                 
+                                                                                 
+                                                                                 
+                                                                                 
+
+
+(venv) PS D:\Python\Data Science Projects\cricketiq-ai> 
