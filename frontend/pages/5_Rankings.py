@@ -8,30 +8,7 @@ from utils.formatters    import (
     rows_to_df,
     format_execution_time
 )
- 
-# Player registry for name canonicalization
-PLAYER_REGISTRY = {
-    "V Kohli":    "Virat Kohli",
-    "RG Sharma":  "Rohit Sharma",
-    "MS Dhoni":   "Mahendra Singh Dhoni",
-    "DA Warner":  "David Warner",
-    "SK Raina":   "Suresh Raina",
-    "S Dhawan":   "Shikhar Dhawan",
-    "KL Rahul":   "KL Rahul",
-    "AB de Villiers": "AB de Villiers",
-    "CH Gayle":   "Chris Gayle",
-    "JJ Bumrah":  "Jasprit Bumrah",
-    "RA Jadeja":  "Ravindra Jadeja",
-    "YS Chahal":  "Yuzvendra Chahal",
-    "B Kumar":    "Bhuvneshwar Kumar",
-    "SP Narine":  "Sunil Narine",
-    "AM Rahane":  "Ajinkya Rahane",
-    "SV Samson":  "Sanju Samson",
-    "F du Plessis": "Faf du Plessis",
-    "JC Buttler": "Jos Buttler",
-    "RV Uthappa": "Robin Uthappa",
-    "KD Karthik": "Dinesh Karthik",
-}
+from utils.player_registry import PLAYER_REGISTRY
  
 st.set_page_config(
     page_title = "Rankings — CricketIQ AI",

@@ -1,6 +1,7 @@
 import sys
 import os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from utils.player_registry import canonicalize_df
 import streamlit as st
 
 from services.api_client import ask, sql_execute
@@ -147,12 +148,12 @@ if search_clicked and player_input:
 
             if bat_rows:
                 st.caption("Batting")
-                df = format_df_columns(rows_to_df(bat_rows))
+                df = format_df_columns(canonicalize_df(rows_to_df(bat_rows)))
                 st.dataframe(df, use_container_width=True, hide_index=True)
 
             if bowl_rows:
                 st.caption("Bowling")
-                df = format_df_columns(rows_to_df(bowl_rows))
+                df = format_df_columns(canonicalize_df(rows_to_df(bowl_rows)))
                 st.dataframe(df, use_container_width=True, hide_index=True)
 
             if not bat_rows and not bowl_rows:
@@ -197,7 +198,7 @@ if search_clicked and player_input:
                              f"'%{player_input.split()[-1]}%' LIMIT 5"
                 )
                 if fallback.get("rows"):
-                    df = format_df_columns(rows_to_df(fallback["rows"]))
+                    df = format_df_columns(canonicalize_df(rows_to_df(fallback["rows"])))
                     st.dataframe(df, use_container_width=True, hide_index=True)
                 else:
                     st.info(
@@ -255,7 +256,7 @@ if search_clicked and player_input:
             st.markdown("#### ⚔️ As Batter — Bowlers Dominated")
             if batter_exec.get("rows"):
                 df = format_df_columns(
-                    rows_to_df(batter_exec["rows"])
+                    canonicalize_df(rows_to_df(batter_exec["rows"]))
                 )
                 st.dataframe(
                     df,
@@ -274,7 +275,7 @@ if search_clicked and player_input:
             st.markdown("#### 🎳 As Bowler — Batters Dismissed Most")
             if bowler_exec.get("rows"):
                 df = format_df_columns(
-                    rows_to_df(bowler_exec["rows"])
+                    canonicalize_df(rows_to_df(bowler_exec["rows"]))
                 )
                 st.dataframe(
                     df,
