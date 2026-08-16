@@ -874,6 +874,19 @@ PLAYER_REGISTRY = {
 
 
 
+
+# ---------------------------------------------------------------------------
+# Reverse lookup — canonical name -> DB shortcode
+# Used by sql_generator.py (Phase 11.3) and entity_retriever.py
+# to convert user-facing full names back to DB format for queries
+# ---------------------------------------------------------------------------
+
+CANONICAL_TO_ALIAS = {
+    canonical: raw
+    for raw, canonical in PLAYER_REGISTRY.items()
+    if canonical != raw  # only include entries where a real mapping exists
+}
+
 def canonicalize_name(raw_name: str) -> str:
     """
     Resolve a single DB shortcode name to its canonical full name.
