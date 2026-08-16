@@ -81,7 +81,7 @@ PLAYER_REGISTRY = {
     "AS Joseph":         "Alzarri Joseph",
     "AS Rajpoot":        "AS Rajpoot",
     "AS Raut":           "AS Raut",
-    "AS Roy":            "Ambati Rayudu",
+    "AS Roy":            "AS Roy",  # Phase D.6 fix — was incorrectly mapped to Ambati Rayudu
     "AS Yadav":          "AS Yadav",
     "AT Carey":          "Alex Carey",
     "AT Rayudu":         "Ambati Rayudu",
@@ -264,7 +264,7 @@ PLAYER_REGISTRY = {
     "GJ Bailey":         "George Bailey",
     "GJ Maxwell":        "Glenn Maxwell",
     "GR Napier":         "Graham Napier",
-    "GS Sandhu":         "Gurkeerat Singh",
+    "GS Sandhu":         "GS Sandhu",  # Phase D.6 fix — was incorrectly mapped to Gurkeerat Singh
     "Gagandeep Singh":   "Gagandeep Singh",
     "Gulbadin Naib":     "Gulbadin Naib",
     "Gurjapneet Singh":  "Gurjapneet Singh",
@@ -281,7 +281,7 @@ PLAYER_REGISTRY = {
     "HH Gibbs":          "Herschelle Gibbs",
     "HH Pandya":         "Hardik Pandya",
     "HM Amla":           "Hashim Amla",
-    "HR Shokeen":        "Harpreet Brar",
+    "HR Shokeen":        "HR Shokeen",  # Phase D.6 fix — was incorrectly mapped to Harpreet Brar
     "HV Patel":          "Harshal Patel",
     "Harbhajan Singh":   "Harbhajan Singh",
     "Harmeet Singh":     "Harmeet Singh",
@@ -674,7 +674,7 @@ PLAYER_REGISTRY = {
     "S Midhun":          "S Midhun",
     "S Nadeem":          "Shahbaz Nadeem",
     "S Narwal":          "S Narwal",
-    "S Rana":            "Shubman Gill",
+    "S Rana":            "S Rana",  # Phase D.6 fix — was incorrectly mapped to Shubman Gill
     "S Randiv":          "Suraj Randiv",
     "S Sandeep Warrier": "Sandeep Warrier",
     "S Sohal":           "S Sohal",
@@ -728,7 +728,7 @@ PLAYER_REGISTRY = {
     "SS Iyer":           "Shreyas Iyer",
     "SS Mishra":         "Amit Mishra",
     "SS Mundhe":         "SS Mundhe",
-    "SS Prabhudessai":   "Shashank Singh",
+    "SS Prabhudessai":   "SS Prabhudessai",  # Phase D.6 fix — was incorrectly mapped to Shashank Singh
     "SS Sarkar":         "Sudip Sarkar",
     "SS Shaikh":         "SS Shaikh",
     "SS Tiwary":         "Saurabh Tiwary",
@@ -811,7 +811,7 @@ PLAYER_REGISTRY = {
     "Urvil Patel":       "Urvil Patel",
 
     # ── V ──────────────────────────────────────────────────────────────────
-    "V Kaverappa":       "Vijaykumar Vyshak",
+    "V Kaverappa":       "V Kaverappa",  # Phase D.6 fix — was incorrectly mapped to Vijaykumar Vyshak
     "V Kohli":           "Virat Kohli",
     "V Nigam":           "V Nigam",
     "V Pratap Singh":    "V Pratap Singh",

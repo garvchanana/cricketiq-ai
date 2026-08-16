@@ -4,7 +4,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import streamlit as st
 
 from services.api_client import ask, sql_execute
-from utils.formatters    import (
+from utils.formatters import (
     format_route_badge,
     format_execution_time,
     rows_to_df,
@@ -12,6 +12,7 @@ from utils.formatters    import (
     has_error,
     get_error_message
 )
+from utils.player_registry import canonicalize_df
 
 st.set_page_config(
     page_title = "Analytics — CricketIQ AI",
@@ -93,7 +94,10 @@ if mode == "💬 Natural Language":
 
             rows = result.get("rows", [])
             if rows:
-                df = format_df_columns(rows_to_df(rows))
+                # Natural language route already canonicalizes server-side
+                # via ResultFormatter, but apply client-side too as a
+                # safety net in case any raw SQL leaks through
+                df = format_df_columns(canonicalize_df(rows_to_df(rows)))
                 st.dataframe(df, use_container_width=True, hide_index=True)
 
                 chart = result.get("chart_suggestion", "table")
@@ -121,7 +125,12 @@ if mode == "💬 Natural Language":
 
 else:
     st.markdown("### Write SQL directly")
-    st.caption("Only SELECT queries allowed. Max 200 rows returned.")
+    st.caption(
+        "Only SELECT queries allowed. Max 200 rows returned. "
+        "Note: player names shown here are canonicalized for display, "
+        "but you must use DB shortcode names (e.g. 'V Kohli') in your "
+        "WHERE clauses, since that's the raw stored format."
+    )
 
     sql_input = st.text_area(
         label  = "SQL Query",
@@ -143,7 +152,10 @@ else:
             if result.get("error"):
                 st.error(f"⚠️ {result['error']}")
             elif result.get("rows"):
-                df = format_df_columns(rows_to_df(result["rows"]))
+                # Phase D.6 fix — canonicalize raw shortcode names
+                # (sql_execute is the raw debug endpoint by design,
+                # so we canonicalize client-side for display only)
+                df = format_df_columns(canonicalize_df(rows_to_df(result["rows"])))
                 st.dataframe(df, use_container_width=True, hide_index=True)
                 st.caption(
                     f"Rows: {result['row_count']} | "
@@ -154,9 +166,13 @@ else:
         else:
             st.warning("Please enter a SQL query.")
 
-    # Schema reference
+    # Schema reference — Phase D.6 fix: added missing tables and
+    # clarified which tables are intentionally excluded from the
+    # SQL agent (RAG-only / raw ball-level tables)
     with st.expander("📋 Available Tables", expanded=False):
         st.markdown("""
+        **Tables accessible via SQL agent:**
+
         | Table | Key Columns |
         |---|---|
         | `player_batting_stats` | batsman, total_runs, strike_rate, batting_average, total_fours, total_sixes |
@@ -167,6 +183,12 @@ else:
         | `team_stats` | team_name, total_runs, run_rate, aggression_index, pressure_index |
         | `batter_bowler_matchups` | batsman, bowler, total_runs, dismissals, strike_rate, dominance_index |
         | `advanced_batting_stats` | batsman, boundary_percentage, dot_ball_percentage, aggression_index |
+        | `matches` | match_id, team1, team2, venue, winner (international data, not IPL-specific) |
+
+        **Not accessible via SQL agent** (used internally by RAG/other pipelines):
+        `ball_by_ball`, `players`, `player_intelligence`, `player_mappings`,
+        `match_momentum_stats` — these are excluded by design for performance
+        and safety reasons.
         """)
 
 with st.sidebar:
@@ -184,5 +206,18 @@ with st.sidebar:
     FROM player_bowling_stats
     ORDER BY wickets DESC
     LIMIT 10
+    ```
+
+    **CTE example:**
+    ```sql
+    WITH top_bowlers AS (
+        SELECT bowler, wickets, economy_rate
+        FROM player_bowling_stats
+        WHERE balls_bowled >= 120
+        ORDER BY wickets DESC
+        LIMIT 5
+    )
+    SELECT * FROM top_bowlers
+    ORDER BY economy_rate ASC
     ```
     """)

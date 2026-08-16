@@ -1,17 +1,15 @@
 """
-Phase 11.2 — Comprehensive IPL Player Registry
+Phase D.6 fix — Shared full player registry for frontend pages.
 
-Maps all 805 Cricsheet shortcode names found in the DB to their
-full canonical names. Built from the complete player list exported
-from player_batting_stats and player_bowling_stats tables.
+This is the SAME 805-name registry used by the backend
+(app/nlp/canonicalization/player_registry.py), exported here so
+Streamlit pages can canonicalize DB shortcode names (e.g. "V Kohli")
+to full canonical names (e.g. "Virat Kohli") in raw SQL result tables,
+without needing to import backend Python modules directly (which
+Streamlit Cloud cannot do across the frontend/backend boundary).
 
-Format: "DB shortcode": "Full canonical name"
-
-Resolution approach:
-- Cricsheet format is Initial(s) + Surname e.g. "JJ Bumrah" = Jasprit Bumrah
-- Well-known players resolved from cricket knowledge
-- Players with unique surnames resolved from initials
-- Ambiguous cases kept as-is (e.g. "A Singh" has many possible players)
+Used by: 2_Player_Search.py, 5_Rankings.py, and any other page that
+displays raw sql_execute() results containing player names.
 """
 
 PLAYER_REGISTRY = {
@@ -83,7 +81,7 @@ PLAYER_REGISTRY = {
     "AS Joseph":         "Alzarri Joseph",
     "AS Rajpoot":        "AS Rajpoot",
     "AS Raut":           "AS Raut",
-    "AS Roy":            "Ambati Rayudu",
+    "AS Roy":            "AS Roy",  # Phase D.6 fix — was incorrectly mapped to Ambati Rayudu
     "AS Yadav":          "AS Yadav",
     "AT Carey":          "Alex Carey",
     "AT Rayudu":         "Ambati Rayudu",
@@ -266,7 +264,7 @@ PLAYER_REGISTRY = {
     "GJ Bailey":         "George Bailey",
     "GJ Maxwell":        "Glenn Maxwell",
     "GR Napier":         "Graham Napier",
-    "GS Sandhu":         "Gurkeerat Singh",
+    "GS Sandhu":         "GS Sandhu",  # Phase D.6 fix — was incorrectly mapped to Gurkeerat Singh
     "Gagandeep Singh":   "Gagandeep Singh",
     "Gulbadin Naib":     "Gulbadin Naib",
     "Gurjapneet Singh":  "Gurjapneet Singh",
@@ -283,7 +281,7 @@ PLAYER_REGISTRY = {
     "HH Gibbs":          "Herschelle Gibbs",
     "HH Pandya":         "Hardik Pandya",
     "HM Amla":           "Hashim Amla",
-    "HR Shokeen":        "Harpreet Brar",
+    "HR Shokeen":        "HR Shokeen",  # Phase D.6 fix — was incorrectly mapped to Harpreet Brar
     "HV Patel":          "Harshal Patel",
     "Harbhajan Singh":   "Harbhajan Singh",
     "Harmeet Singh":     "Harmeet Singh",
@@ -676,7 +674,7 @@ PLAYER_REGISTRY = {
     "S Midhun":          "S Midhun",
     "S Nadeem":          "Shahbaz Nadeem",
     "S Narwal":          "S Narwal",
-    "S Rana":            "Shubman Gill",
+    "S Rana":            "S Rana",  # Phase D.6 fix — was incorrectly mapped to Shubman Gill
     "S Randiv":          "Suraj Randiv",
     "S Sandeep Warrier": "Sandeep Warrier",
     "S Sohal":           "S Sohal",
@@ -730,7 +728,7 @@ PLAYER_REGISTRY = {
     "SS Iyer":           "Shreyas Iyer",
     "SS Mishra":         "Amit Mishra",
     "SS Mundhe":         "SS Mundhe",
-    "SS Prabhudessai":   "Shashank Singh",
+    "SS Prabhudessai":   "SS Prabhudessai",  # Phase D.6 fix — was incorrectly mapped to Shashank Singh
     "SS Sarkar":         "Sudip Sarkar",
     "SS Shaikh":         "SS Shaikh",
     "SS Tiwary":         "Saurabh Tiwary",
@@ -813,7 +811,7 @@ PLAYER_REGISTRY = {
     "Urvil Patel":       "Urvil Patel",
 
     # ── V ──────────────────────────────────────────────────────────────────
-    "V Kaverappa":       "Vijaykumar Vyshak",
+    "V Kaverappa":       "V Kaverappa",  # Phase D.6 fix — was incorrectly mapped to Vijaykumar Vyshak
     "V Kohli":           "Virat Kohli",
     "V Nigam":           "V Nigam",
     "V Pratap Singh":    "V Pratap Singh",
@@ -875,14 +873,38 @@ PLAYER_REGISTRY = {
 }
 
 
-# ---------------------------------------------------------------------------
-# Reverse lookup — canonical name → DB shortcode
-# Used by PlayerAnalyst, MatchupAnalyst, Compare page
-# to convert user-facing full names back to DB format for queries
-# ---------------------------------------------------------------------------
 
-CANONICAL_TO_ALIAS = {
-    canonical: raw
-    for raw, canonical in PLAYER_REGISTRY.items()
-    if canonical != raw  # only include entries where a real mapping exists
-}
+def canonicalize_name(raw_name: str) -> str:
+    """
+    Resolve a single DB shortcode name to its canonical full name.
+    Falls back to the original value if not found in the registry.
+    """
+    return PLAYER_REGISTRY.get(raw_name, raw_name)
+
+
+def canonicalize_df(df, columns=None):
+    """
+    Replace DB shortcode player names with canonical full names
+    in the given DataFrame columns. Falls back to the original
+    value if not found in the registry (safe no-op for unknown names).
+
+    Parameters
+    ----------
+    df      : pandas DataFrame
+    columns : list of column names to canonicalize.
+              Defaults to ["batsman", "bowler", "player_name"] if
+              not specified.
+    """
+    if df is None or df.empty:
+        return df
+
+    if columns is None:
+        columns = ["batsman", "bowler", "player_name"]
+
+    df = df.copy()
+
+    for col in columns:
+        if col in df.columns:
+            df[col] = df[col].apply(lambda n: PLAYER_REGISTRY.get(n, n))
+
+    return df
