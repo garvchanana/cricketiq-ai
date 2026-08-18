@@ -182,13 +182,26 @@ class ResultFormatter:
         subject_field = cls.SUBJECT_FIELD.get(intent)
         metric_field  = cls.METRIC_FIELD.get(intent)
 
-        # --- Comparison intent: rich metric-by-metric comparison ------------
-        # Phase D.7 fix — replaced the generic "X leads" narrative with
-        # a genuine comparison across every relevant metric present.
-        if intent == "player_comparison":
+        # --- Comparison detection: rich metric-by-metric comparison ---------
+        # Phase D.7 final fix — the intent classifier does not reliably
+        # tag every comparison-shaped question as "player_comparison"
+        # (e.g. "How is X different from Y" was classified as
+        # "general_analytics" instead). Detect comparisons structurally
+        # instead: exactly 2 rows, both containing a player name field,
+        # regardless of what intent string was assigned.
+        is_comparison_shape = (
+            len(rows) == 2
+            and any(f in rows[0] for f in cls.PLAYER_FIELDS)
+            and any(f in rows[1] for f in cls.PLAYER_FIELDS)
+        )
+
+        if intent == "player_comparison" or is_comparison_shape:
 
             if len(rows) == 2:
-                subj = subject_field or "batsman"
+                subj = subject_field or next(
+                    (f for f in cls.PLAYER_FIELDS if f in rows[0]),
+                    "batsman"
+                )
                 name1 = rows[0].get(subj, "Player 1")
                 name2 = rows[1].get(subj, "Player 2")
 
@@ -203,13 +216,14 @@ class ResultFormatter:
 
             # Fallback — 3+ players or no comparable metrics found,
             # keep the original per-player listing behaviour
+            subj = subject_field or "batsman"
             parts = []
             for row in rows:
-                name   = row.get(subject_field or "batsman", "Unknown")
+                name   = row.get(subj, "Unknown")
                 values = ", ".join(
                     f"{k.replace('_', ' ')}: {v}"
                     for k, v in row.items()
-                    if k != subject_field
+                    if k != subj
                 )
                 parts.append(f"{name} — {values}")
 
