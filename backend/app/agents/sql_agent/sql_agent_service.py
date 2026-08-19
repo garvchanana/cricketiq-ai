@@ -158,7 +158,8 @@ class SQLAgentService:
         formatted = ResultFormatter.format(
             rows=execution["rows"],
             intent=intent,
-            db=db
+            db=db,
+            sql=sql
         )
  
         # ── Step 6: Return complete response ─────────────────────────────────
@@ -173,6 +174,7 @@ class SQLAgentService:
             "row_count":         execution["row_count"],
             "execution_time_ms": execution["execution_time_ms"],
             "chart_suggestion":  formatted["chart_suggestion"],
+            "display_sql":       formatted.get("display_sql", sql),
             "truncated":         execution.get("truncated", False),
             "error":             None
         }

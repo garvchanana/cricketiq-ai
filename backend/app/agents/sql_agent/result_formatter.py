@@ -282,11 +282,50 @@ class ResultFormatter:
     # ---------------------------------------------------------------------------
 
     @classmethod
+    def canonicalize_sql_display(cls, sql: str, db=None) -> str:
+        """
+        Phase D.7 final polish — build a display-only version of the
+        executed SQL with DB shortcode player names replaced by their
+        canonical full names. Purely cosmetic: the ACTUAL query already
+        executed using the real DB shortcode (e.g. 'RG Sharma') since
+        that's the only format the database recognises — this method
+        only changes what the user SEES in the "View SQL" box, never
+        what gets executed against the database.
+        """
+        if not sql:
+            return sql
+
+        from app.nlp.canonicalization.player_registry import PLAYER_REGISTRY
+
+        display_sql = sql
+
+        # Longest-match-first to avoid partial substring replacements
+        for raw_name, canonical_name in sorted(
+            PLAYER_REGISTRY.items(),
+            key=lambda x: len(x[0]),
+            reverse=True
+        ):
+            if raw_name == canonical_name:
+                continue  # no-op mapping, nothing to replace
+
+            # Only replace if the raw shortcode appears as a quoted
+            # SQL string literal, to avoid accidentally matching
+            # column names or other identifiers
+            quoted_raw = f"'{raw_name}'"
+            if quoted_raw in display_sql:
+                display_sql = display_sql.replace(
+                    quoted_raw, f"'{canonical_name}'"
+                )
+
+        return display_sql
+
+    @classmethod
     def format(
         cls,
         rows: list,
         intent: str,
-        db=None
+        db=None,
+        sql: str = None
     ) -> dict:
         """
         Convert raw SQL result rows into a cricket-friendly response.
@@ -306,10 +345,14 @@ class ResultFormatter:
             label=label
         )
 
+        # Step 4 — Phase D.7 final polish: cosmetic canonical SQL display
+        display_sql = cls.canonicalize_sql_display(sql, db=db) if sql else None
+
         return {
             "answer":           narrative,
             "rows":             clean_rows,
             "row_count":        len(clean_rows),
             "chart_suggestion": chart_type,
-            "intent":           intent
+            "intent":           intent,
+            "display_sql":      display_sql,
         }

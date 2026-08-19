@@ -114,7 +114,7 @@ if mode == "💬 Natural Language":
 
             if result.get("sql"):
                 with st.expander("🔍 View SQL", expanded=False):
-                    st.code(result["sql"], language="sql")
+                    st.code(result.get("display_sql", result.get("sql")), language="sql")
 
     elif ask_clicked:
         st.warning("Please enter a question.")

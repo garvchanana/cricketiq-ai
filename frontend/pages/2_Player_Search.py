@@ -310,7 +310,7 @@ if search_clicked and player_input:
 
         if result.get("sql"):
             with st.expander("🔍 View SQL", expanded=False):
-                st.code(result["sql"], language="sql")
+                st.code(result.get("display_sql", result.get("sql")), language="sql")
 
 elif search_clicked and not player_input:
     st.warning("Please enter a player name to search.")

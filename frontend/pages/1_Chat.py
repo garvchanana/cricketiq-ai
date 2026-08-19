@@ -214,7 +214,7 @@ if question:
             # SQL expander if available
             if result.get("sql"):
                 with st.expander("🔍 View SQL Query", expanded=False):
-                    st.code(result["sql"], language="sql")
+                    st.code(result.get("display_sql", result.get("sql")), language="sql")
  
             # Routing reasoning expander
             if result.get("reasoning"):
