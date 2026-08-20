@@ -353,7 +353,7 @@ if compare_clicked and player_one and player_two:
     # SQL expander
     if ai_result.get("sql"):
         with st.expander("🔍 View SQL", expanded=False):
-            st.code(ai_result["sql"], language="sql")
+            st.code(ai_result.get("display_sql", ai_result.get("sql")), language="sql")
 
 elif compare_clicked and (not player_one or not player_two):
     st.warning("Please enter both player names to compare.")
