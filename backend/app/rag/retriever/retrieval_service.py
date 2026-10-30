@@ -10,6 +10,8 @@ method) but this file was never updated to match, causing a production
 AttributeError crash on every RAG-routed question.
 """
 
+import logging
+
 from app.nlp.embeddings.embedding_service import EmbeddingService
 from app.rag.vectorstore.vector_indexing_service import VectorIndexingService
 from app.rag.retriever.reliability_filter import ReliabilityFilter
@@ -20,6 +22,9 @@ from app.rag.retriever.semantic_reranker import SemanticReranker
 from app.rag.retriever.confidence_scorer import ConfidenceScorer
 from app.nlp.canonicalization.canonicalizer import Canonicalizer
 from app.rag.retriever.entity_retriever import EntityRetriever
+
+
+logger = logging.getLogger(__name__)
 
 
 class RetrievalService:
@@ -104,21 +109,32 @@ class RetrievalService:
                     db=db
                 )
 
-        rewritten_query = QueryRewriter.rewrite(query)
-
-        query_embedding = EmbeddingService.generate_embedding(
-            rewritten_query["rewritten"]
-        )
-
         semantic_top_k = (
             top_k if exact_result is None else top_k + 3
         )
 
-        # ── Phase 12.3 fix — corrected FAISSStore access pattern ──────────
-        results = VectorIndexingService.get_store().search(
-            query_embedding=query_embedding,
-            top_k=semantic_top_k
-        )
+        # Semantic search is a supplement to the exact database match, and it
+        # depends on an external embedding API. If that call fails (quota,
+        # network, provider change) the request used to crash with a 500.
+        # Now the failure is logged with its full traceback and the answer is
+        # built from the exact match alone, so named-player questions still work.
+        try:
+            rewritten_query = QueryRewriter.rewrite(query)
+
+            query_embedding = EmbeddingService.generate_embedding(
+                rewritten_query["rewritten"]
+            )
+
+            results = VectorIndexingService.get_store().search(
+                query_embedding=query_embedding,
+                top_k=semantic_top_k
+            )
+        except Exception:
+            logger.exception(
+                "Semantic retrieval failed for query %r - continuing with "
+                "exact-match results only", query
+            )
+            results = []
 
         for result in results:
 

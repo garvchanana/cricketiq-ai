@@ -69,6 +69,10 @@ Convert the user's question into a single safe read-only MySQL SELECT query.
 5. Prefer summary tables over raw ball_by_ball for ranking/aggregate questions.
 6. Column name for a batter is "batsman", for a bowler is "bowler".
 7. Use ORDER BY DESC for runs/wickets, ASC for economy/average rankings.
+8. Text comparisons are CASE SENSITIVE. Use these exact values only:
+   player_rankings.role     -> 'Batter', 'Bowler', 'All-Rounder'
+   match_phase_stats.phase  -> 'Powerplay', 'Middle Overs', 'Death Overs'
+   venue_stats.venue_type   -> 'Batting Friendly', 'Bowling Friendly', 'Balanced'
 
 === CRITICAL TABLE RULES — never break these ===
 A. player_bowling_stats has NO "phase" column. NEVER write
@@ -194,6 +198,64 @@ SQL:"""
     # Public generate method
     # ---------------------------------------------------------------------------
 
+    # ---------------------------------------------------------------------------
+    # Categorical literal normalizer
+    #
+    # Production runs on SQLite, where "=" on text is case sensitive, while
+    # local MySQL is not. A model-written 'All-rounder' therefore matched
+    # rows locally but returned nothing in production (stored value is
+    # 'All-Rounder'). Rather than hope the model copies the casing exactly,
+    # known categorical values are rewritten to their stored form.
+    # ---------------------------------------------------------------------------
+
+    _CATEGORICAL_VALUES = {
+        "role": {
+            "batter": "Batter", "batsman": "Batter", "batsmen": "Batter",
+            "bowler": "Bowler",
+            "allrounder": "All-Rounder", "allround": "All-Rounder",
+        },
+        "phase": {
+            "powerplay": "Powerplay",
+            "middleovers": "Middle Overs", "middle": "Middle Overs",
+            "deathovers": "Death Overs", "death": "Death Overs",
+        },
+        "venue_type": {
+            "battingfriendly": "Batting Friendly",
+            "bowlingfriendly": "Bowling Friendly",
+            "balanced": "Balanced",
+        },
+    }
+
+    _CATEGORICAL_PATTERN = re.compile(
+        r"(?P<col>\b(?:\w+\.)?(?P<name>role|phase|venue_type)\b)"
+        r"(?P<op>\s*(?:=|!=|<>)\s*|\s+(?:NOT\s+)?IN\s*)"
+        r"(?P<val>\([^)]*\)|'[^']*')",
+        re.IGNORECASE,
+    )
+
+    @classmethod
+    def _normalize_categorical_literals(cls, sql: str) -> str:
+
+        if not sql:
+            return sql
+
+        def fix_literal(match, column):
+            raw = match.group(1)
+            key = re.sub(r"[^a-z]", "", raw.lower())
+            fixed = cls._CATEGORICAL_VALUES[column].get(key, raw)
+            return f"'{fixed}'"
+
+        def rewrite(match):
+            column = match.group("name").lower()
+            value  = re.sub(
+                r"'([^']*)'",
+                lambda m: fix_literal(m, column),
+                match.group("val"),
+            )
+            return f"{match.group('col')}{match.group('op')}{value}"
+
+        return cls._CATEGORICAL_PATTERN.sub(rewrite, sql)
+
     @classmethod
     def _resolve_player_names(cls, question: str) -> str:
         """
@@ -251,6 +313,7 @@ SQL:"""
             )
 
             sql = cls._extract_sql(raw_response)
+            sql = cls._normalize_categorical_literals(sql)
 
             if not sql:
                 return {

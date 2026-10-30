@@ -60,7 +60,14 @@ class FullRAGChain:
             conversation_history=None
         )
 
-        answer = ResponseGenerator.generate_response(prompt)
+        try:
+            answer = ResponseGenerator.generate_response(prompt)
+        except Exception:
+            logger.exception("LLM answer generation failed for query %r", query)
+            answer = (
+                "I could not generate an answer right now. "
+                "Please try again in a moment."
+            )
 
         return {
             "query":         display_query,
@@ -149,7 +156,14 @@ class FullRAGChain:
             conversation_history=None
         )
 
-        answer = ResponseGenerator.generate_response(prompt)
+        try:
+            answer = ResponseGenerator.generate_response(prompt)
+        except Exception:
+            logger.exception("LLM answer generation failed for query %r", query)
+            answer = (
+                "I could not generate an answer right now. "
+                "Please try again in a moment."
+            )
 
         return {
             "query":          display_query,

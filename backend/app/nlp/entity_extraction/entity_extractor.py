@@ -1,6 +1,7 @@
 import re
 
 from app.nlp.canonicalization.canonicalizer import Canonicalizer
+from app.nlp.canonicalization.player_registry import PLAYER_REGISTRY
 
 
 class EntityExtractor:
@@ -316,8 +317,77 @@ class EntityExtractor:
     # Player extraction
     # ---------------------------------------------------------------------------
 
+    # ---------------------------------------------------------------------------
+    # Registry based player detection
+    #
+    # The capitalisation patterns above cannot see names containing lowercase
+    # particles ("AB de Villiers", "Faf du Plessis", "Quinton de Kock"), so a
+    # comparison such as "Is AB de Villiers better than Chris Gayle" looked like
+    # a single-player question and was routed to the profile pipeline instead
+    # of the comparison pipeline. Known players are now also found by looking
+    # the question up against every name in the player registry.
+    # ---------------------------------------------------------------------------
+
+    _registry_pattern = None
+    _registry_lookup  = None
+
+    @classmethod
+    def _build_registry_matcher(cls):
+
+        if cls._registry_pattern is not None:
+            return
+
+        lookup = {}
+        for raw_name, canonical in PLAYER_REGISTRY.items():
+            for name in (raw_name, canonical):
+                # Single words are too ambiguous to match on their own
+                if len(name.split()) >= 2:
+                    lookup[name.lower()] = canonical
+
+        # Longest first so "Mahendra Singh Dhoni" wins over shorter overlaps
+        names = sorted(lookup, key=len, reverse=True)
+
+        cls._registry_lookup  = lookup
+        cls._registry_pattern = re.compile(
+            r"(?<!\w)(?:" + "|".join(re.escape(n) for n in names) + r")(?!\w)",
+            re.IGNORECASE,
+        )
+
+    @classmethod
+    def _extract_registry_players(cls, question: str) -> list:
+
+        if not question:
+            return []
+
+        cls._build_registry_matcher()
+
+        found = []
+        for match in cls._registry_pattern.finditer(question):
+            canonical = cls._registry_lookup[match.group(0).lower()]
+            if canonical not in found:
+                found.append(canonical)
+
+        return found
+
     @classmethod
     def _extract_players(
+        cls,
+        question: str,
+        db=None
+    ) -> list:
+
+        # Registry matches first (in question order), then any additional
+        # capitalised names the patterns found that are not in the registry.
+        players = list(cls._extract_registry_players(question))
+
+        for name in cls._extract_players_by_pattern(question=question, db=db):
+            if name not in players:
+                players.append(name)
+
+        return players
+
+    @classmethod
+    def _extract_players_by_pattern(
         cls,
         question: str,
         db=None
