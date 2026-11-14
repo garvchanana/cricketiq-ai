@@ -1,3 +1,5 @@
+import re
+
 from sqlalchemy.orm import Session
 from sqlalchemy import func
 
@@ -14,6 +16,41 @@ from app.nlp.canonicalization.player_registry import (
 
 
 class EntityRetriever:
+
+    # ---------------------------------------------------------------------------
+    # Whole-word player name matcher
+    #
+    # Names used to be found with plain substring checks, so "Virat Kohli"
+    # also matched the shortcode "T Kohli" (it contains "t Kohli"), and
+    # "Mahendra Singh Dhoni" matched "A Singh". Names are now matched as whole
+    # words, longest name first, and reported in the order they appear in the
+    # question.
+    # ---------------------------------------------------------------------------
+
+    _name_pattern = None
+    _name_lookup  = None
+
+    @classmethod
+    def _build_name_matcher(cls):
+
+        if cls._name_pattern is not None:
+            return
+
+        lookup = {}
+
+        for alias, canonical_name in PLAYER_REGISTRY.items():
+            lookup[alias.lower()]          = canonical_name
+            lookup[canonical_name.lower()] = canonical_name
+
+        names = sorted(lookup, key=len, reverse=True)
+
+        cls._name_lookup  = lookup
+        cls._name_pattern = re.compile(
+            r"(?<!\w)(?:"
+            + "|".join(re.escape(name) for name in names)
+            + r")(?!\w)",
+            re.IGNORECASE
+        )
 
     @staticmethod
     def find_exact_player(
@@ -35,8 +72,9 @@ class EntityRetriever:
             .first()
         )
 
-    @staticmethod
+    @classmethod
     def _candidate_names(
+        cls,
         query: str,
         db: Session = None
     ):
@@ -45,34 +83,33 @@ class EntityRetriever:
             query or ""
         ).strip()
 
-        lower_query = query.lower()
-
         candidates = []
 
         def add_candidate(name):
-            if (
-                name
-                and name not in candidates
-            ):
-                candidates.append(name)
+            # The intelligence table stores canonical full names
+            # ("Shreyas Iyer"), while the registry holds database shortcodes
+            # ("SS Iyer"). Every candidate is therefore added together with
+            # its canonical form, otherwise the lookup can never match
+            # players whose shortcode differs from their name.
+            if not name:
+                return
+
+            for variant in (name, PLAYER_REGISTRY.get(name, name)):
+                if variant and variant not in candidates:
+                    candidates.append(variant)
 
         add_candidate(query)
 
-        for alias, canonical_name in PLAYER_REGISTRY.items():
+        cls._build_name_matcher()
 
-            if alias.lower() in lower_query:
+        for match in cls._name_pattern.finditer(query):
 
-                add_candidate(alias)
+            typed     = match.group(0)
+            canonical = cls._name_lookup[typed.lower()]
 
-            if canonical_name.lower() in lower_query:
-
-                add_candidate(alias)
-
-        for canonical_name, alias in CANONICAL_TO_ALIAS.items():
-
-            if canonical_name.lower() in lower_query:
-
-                add_candidate(alias)
+            add_candidate(canonical)
+            add_candidate(CANONICAL_TO_ALIAS.get(canonical))
+            add_candidate(typed)
 
         if db is not None:
 
@@ -85,22 +122,19 @@ class EntityRetriever:
 
             for mapping in mappings:
 
-                raw_name = mapping.raw_name
-                canonical_name = mapping.canonical_name
-
-                if (
-                    raw_name
-                    and raw_name.lower() in lower_query
+                for name in (
+                    mapping.raw_name,
+                    mapping.canonical_name
                 ):
 
-                    add_candidate(raw_name)
+                    if name and re.search(
+                        r"(?<!\w)" + re.escape(name) + r"(?!\w)",
+                        query,
+                        re.IGNORECASE
+                    ):
 
-                if (
-                    canonical_name
-                    and canonical_name.lower() in lower_query
-                ):
-
-                    add_candidate(raw_name)
+                        add_candidate(mapping.canonical_name)
+                        add_candidate(mapping.raw_name)
 
         return candidates
 
