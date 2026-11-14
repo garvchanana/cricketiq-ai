@@ -20,6 +20,14 @@ COPY backend/requirements.txt .
 # Install Python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
+# Embedding model: download it now, at build time, into the image, so that a
+# fresh container never has to fetch it at runtime. This sits before
+# "COPY backend/ ." so code-only changes reuse the cached layer instead of
+# downloading the model again. EMBEDDING_CACHE_DIR is read by
+# app/nlp/embeddings/embedding_service.py.
+ENV EMBEDDING_CACHE_DIR=/app/models
+RUN python -c "from fastembed import TextEmbedding; TextEmbedding(model_name='sentence-transformers/all-MiniLM-L6-v2', cache_dir='/app/models')"
+
 # Copy application code
 COPY backend/ .
 

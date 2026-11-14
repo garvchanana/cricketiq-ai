@@ -1,69 +1,73 @@
 """
-Phase 12.3 (final corrected fix) — HuggingFace Inference Providers
-embedding service
+Query/chunk embeddings for semantic retrieval.
 
-The old api-inference.huggingface.co endpoint is deprecated.
-HuggingFace now routes all inference through router.huggingface.co
-using the "Inference Providers" system.
+Runs the same model the vector index was built with
+(sentence-transformers/all-MiniLM-L6-v2, 384 dimensions) inside the server
+using ONNX Runtime, instead of calling the Hugging Face Inference API.
 
-Uses huggingface_hub's InferenceClient (official library) rather
-than raw requests — handles the new routing automatically and is
-the officially supported approach going forward.
+Why: the hosted API is metered. Once the free monthly credit is spent it
+returns 402 Payment Required and every semantic lookup fails. Running the
+model locally has no quota. Measured against the stored index, the vectors
+match to four decimal places (cosine 1.0000), so the index needs no rebuild.
 
-Dimensions stay at 384 (all-MiniLM-L6-v2) — no FAISS rebuild needed.
+The model is loaded on first use and then reused. In Docker it is
+downloaded at build time into EMBEDDING_CACHE_DIR so nothing is fetched at
+runtime; locally it uses fastembed's default cache folder.
 """
 
-from huggingface_hub import InferenceClient
+import os
+import threading
 
-from app.core.config import settings
-
-MODEL = "sentence-transformers/all-MiniLM-L6-v2"
+MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
+EMBEDDING_DIM = 384
 
 
 class EmbeddingService:
 
-    _client = None
+    _model = None
+    _lock = threading.Lock()
 
     @classmethod
-    def _get_client(cls) -> InferenceClient:
-        if cls._client is None:
-            cls._client = InferenceClient(
-                provider="hf-inference",
-                api_key=getattr(settings, "HF_TOKEN", "") or None
-            )
-        return cls._client
+    def _get_model(cls):
+
+        if cls._model is None:
+            with cls._lock:
+                if cls._model is None:
+                    # Imported here so that importing this module stays cheap
+                    from fastembed import TextEmbedding
+
+                    cls._model = TextEmbedding(
+                        model_name=MODEL_NAME,
+                        cache_dir=os.environ.get("EMBEDDING_CACHE_DIR") or None,
+                        # One ONNX thread: the free host has a fraction of a
+                        # CPU, and extra threads only add memory and overhead.
+                        threads=int(os.environ.get("EMBEDDING_THREADS", "1")),
+                    )
+
+        return cls._model
 
     @classmethod
     def generate_embedding(cls, text: str) -> list:
         """
-        Generate an embedding vector via HuggingFace's Inference
-        Providers API (router.huggingface.co under the hood).
+        Embed one piece of text.
 
-        Same signature as the original sentence-transformers version —
-        drop-in replacement, no changes needed in calling code.
-
-        Parameters
-        ----------
-        text : str — text to embed
-
-        Returns
-        -------
-        list[float] — 384-dimensional embedding vector
+        Returns a list of 384 floats. Same signature and return type as the
+        previous implementation, so no calling code changes.
         """
 
-        client = cls._get_client()
+        model = cls._get_model()
 
-        result = client.feature_extraction(
-            text,
-            model=MODEL
-        )
+        vector = next(iter(model.embed([text])))
 
-        # result is a numpy array — convert to plain list of floats
-        # Handle both 1D (single vector) and 2D (token-level) outputs
-        arr = result
+        return vector.tolist()
 
-        # If 2D (per-token embeddings), mean-pool to sentence embedding
-        if hasattr(arr, "ndim") and arr.ndim == 2:
-            arr = arr.mean(axis=0)
+    @classmethod
+    def generate_embeddings_batch(cls, texts: list) -> list:
+        """Embed several texts in one call, preserving input order."""
 
-        return arr.tolist() if hasattr(arr, "tolist") else list(arr)
+        if not texts:
+            return []
+
+        model = cls._get_model()
+
+        return [vector.tolist() for vector in model.embed(texts)]
