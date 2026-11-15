@@ -41,7 +41,7 @@ Question
 **Stack:**
 - **Backend**: FastAPI + SQLAlchemy + SQLite (production) / MySQL (local dev)
 - **LLM**: Groq (`openai/gpt-oss-120b` for hybrid reasoning, `openai/gpt-oss-20b` for RAG)
-- **Vector Store**: FAISS + HuggingFace Inference API (`all-MiniLM-L6-v2`, 384-dim)
+- **Vector Store**: FAISS with all-MiniLM-L6-v2 embeddings (384-dim), run inside the server through ONNX Runtime (fastembed)
 - **Frontend**: Streamlit
 - **Data**: IPL ball-by-ball from Cricsheet, full tournament history including IPL 2009 (South Africa) and IPL 2014/2020 (UAE) seasons
 
@@ -49,7 +49,7 @@ Question
 
 ## 📊 Dataset
 
-- **1,235 IPL matches** (2008-2024, all 19 historical franchises)
+- **1,235 IPL matches** (2008-2026, all 19 historical franchises)
 - **293,764 ball-by-ball records**
 - **805 unique players**, fully canonicalized (DB shortcodes to full names)
 - **733 batters, 577 bowlers** with detailed career statistics
@@ -64,7 +64,6 @@ Question
 - Python 3.11+
 - MySQL 8.0+ (for local development; production uses a pre-built SQLite file)
 - Groq API key (free at console.groq.com)
-- HuggingFace token (free at huggingface.co/settings/tokens), used for embeddings via Inference API
 
 ### Setup
 
@@ -103,7 +102,6 @@ MYSQL_HOST=localhost
 MYSQL_PORT=3306
 MYSQL_DATABASE=cricketiq_ai
 GROQ_API_KEY=gsk_your_key
-HF_TOKEN=hf_your_token
 LOG_LEVEL=INFO
 USE_SQLITE=false
 ```
@@ -187,7 +185,8 @@ A few things worth knowing about how this was built:
 - **Player name canonicalization** — an 805-entry registry maps every Cricsheet DB shortcode (e.g. "V Kohli") to its full canonical name ("Virat Kohli"), used consistently across RAG, SQL narrative generation, and frontend display, while raw debug endpoints intentionally preserve DB format for transparency.
 - **Hybrid routing** — an intent router classifies every question as SQL, RAG, or HYBRID based on extracted entities and question structure, not just keyword matching.
 - **Production-safe SQL generation** — every LLM-generated query passes through a validator that blocks destructive statements, enforces read-only access, and restricts table access to a safe schema subset.
-- **Memory-optimized deployment** — embeddings are generated via the HuggingFace Inference API rather than a locally-loaded PyTorch model, keeping the deployed backend under 100MB RAM to fit Render's free tier.
+- **Embeddings without a metered API** - semantic search first used the Hugging Face Inference API to fit a 512MB host. When its free monthly credits ran out in production (HTTP 402), semantic retrieval failed. The same MiniLM model now runs inside the server through ONNX Runtime. Its vectors match the stored index to four decimal places, so nothing was re-indexed, and the model is downloaded during the Docker build so nothing is fetched at runtime.
+- **Resilient retrieval** - named-player questions are answered from an exact database match first. Semantic search supplements it, and if it fails the error is logged with its full traceback and skipped instead of failing the request.
 - **Deployment-persistent FAISS index** — the vector index is built once, saved to disk, and loaded on subsequent startups rather than rebuilt on every deploy.
 
 ---
